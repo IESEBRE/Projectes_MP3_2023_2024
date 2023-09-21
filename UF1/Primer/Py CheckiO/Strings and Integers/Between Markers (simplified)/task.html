@@ -1,0 +1,40 @@
+<h2>Between Markers (simplified)</h2>
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/ad7147b2d0ae4584ac3774f254595944/convert/grey/title.png"/>
+<p>
+    You are given a string and two markers (the initial one and final). You have to find a substring enclosed between these two markers. But there are a few important conditions.
+</p>
+<ul>
+<li>The initial and final markers are always different.</li>
+<li>The initial and final markers are always 1 char size.</li>
+<li>The initial and final markers always exist in a string and go one after another.</li>
+</ul>
+<p style="text-align: center;">
+<img alt="example" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/ad7147b2d0ae4584ac3774f254595944/between-markers.png" style="max-height: 200px" title="example"/>
+</p>
+<p>
+<strong>Input:</strong> Three arguments. All of them are strings <span translate="no">(str)</span>. The second and third arguments are the initial and final markers.
+</p>
+<p>
+<strong>Output:</strong> A string <span translate="no">(str)</span>. 
+</p>
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert between_markers(&quot;What is &gt;apple&lt;&quot;, &quot;&gt;&quot;, &quot;&lt;&quot;) == &quot;apple&quot;
+assert between_markers(&quot;What is [apple]&quot;, &quot;[&quot;, &quot;]&quot;) == &quot;apple&quot;
+assert between_markers(&quot;What is &gt;&lt;&quot;, &quot;&gt;&quot;, &quot;&lt;&quot;) == &quot;&quot;
+assert between_markers(&quot;[an apple]&quot;, &quot;[&quot;, &quot;]&quot;) == &quot;an apple&quot;
+</pre>
+</div>
+<p class="for_info_only">
+<strong>How it is used:</strong>
+<i>For text parsing.</i>
+</p>
+<p>
+<strong>Precondition:</strong>
+<i>There can't be more than one final and one initial markers.</i>
+</p>
+
+
+<p><a href="https://py.checkio.org/en/mission/between-markers-simplified">See the task on CheckiO</a></p>

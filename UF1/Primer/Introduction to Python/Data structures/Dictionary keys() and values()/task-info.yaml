@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: dict_key_value.py
+    visible: true
+    placeholders:
+      - offset: 200
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 200
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: hk7mkcb5uKlVwJWVR8P8OCPR5zCdme/M16J7ymkqFcU=
+    encrypted_text: y2g19yEMz2vRIDRUQu/aJ1XXAlqhbKuNuu96rPiYLXjlrofVGZaZCVj8jrTBeecPIfsxyt21PqLsXKiG53iCzNMp+TDJQmTzEB2OR9SYGtLQTVzWhi+zw53v3lGJ3VZ0LyreNl9ZaMmkvUXkPmFEyZQ88EfgvDRBjUQcB//Nql+VtiUgJ/KvefdvdpQprwBMwYr4quNtU5T69ZpNt0/EBbA1MhOzp1I+1Pb2pCoiXuqWzY+zsFKYDlDgPyD0iJ+w1m3zFA6e5hvqVggbHJgiIA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6dI23JntmDZ0xtRpCzn9+4UzKBoYkEK1yqSXglal5/Yom2TasEv9XOerD2pNGGga4h6sn573Xdlg6HajJ5TPmLRGrPFoIHf/B6i//DP7jmL4fw78Sr2ijisPH7XLsbesrrSt5vC5aUt4IDyw1lREFSXPY30q6l3JBevu2YwFhB8HLRvXXkv31wB4DQ4bBe48tFHXAkfXpV2zOWBc6xVm3liAnanqzfR0GPlyu0YehQ6Dj91bkfiEHfRUx7qh8cKj5hIrpIA1eyrqI/UbsyTMtyr5SoSz4ZbHYEp+MuzXPwrBLFnVjSGJ5zP/gS9DJA3SotW1tKinLbyDY/f5SOmrlwO38Zzc/BXBPo8ZjQUodEM2rNE0Jmhzw+emcv2CKDKd7R6y98MuGYKoH0t/7yU2Tgf6dOkIBtZ1Cpv4rYmfOaNOoaKc039u5KH4Z3CM0OYJlHtM5U7/shfY68IM6HYwS70bAc3p+bp8SdrtITAkqnFQT2f+QWeBzmYovLmW+1rnX2dlEvu5O32bg2zGOqxYcoh6vZyhrfNnFO1d+lr86dkTwgRheYTu/r9o5W6HdkP5MCyQmfiCwt6csD0jrjnrIyy5SY8jRAFoiquKksRG0IQAQ8nxpNhskoa6AFzYmCDUUJHqkcUSFAwB3hdEP9g/aDdeCFu2EGPeUftcIEOIk0X0=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Dictionary+keys+and+values
+status: Unchecked
+record: -1

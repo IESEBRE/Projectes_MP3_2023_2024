@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: init_method.py
+    visible: true
+    placeholders:
+      - offset: 158
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 158
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: fRnzOmL6+X/hft3WaQJC9kfhbxizNYI63Ijp2a6xS0s=
+    encrypted_text: 4j2WDlYxxvvD6/GnMbaquIn6l5q3S43GBV/PVAGdg1FLrhAorH96xsIpxMoXecVpDTl5hhOf+wlvVzmhpBJ12i8Ch8Dj+ftQbxU07/JfDe6M2Exd72EmwoFNbazeV/mUU8byTxF30TaNhLPuIDC/Ix6RaINxH29OdTF2PnudCn3CqkRTs5urctNPNFpJc1FXnPf69jsiKBh9lNwVUMFIdqRuFxkDO7WkbrGzWhlfQJJCj76EmbJ0Z7wHfMGAC6Q/M0r4rwcCfF/Z6bu5pMebs6lPVOQucekZkP22tHtLyzrujbFFUHwXymw86ZpRiP2r8YCW2PWEQ/2smRdprjr6l8iXgmzsf9aEIk+MDdXnnNhZ1+mY8DuNAIVyJQLwyLZ2oozCjsuVO5HAmPOe+VsekTDl5L/h9zZWu0GRAA12yrTu57A8jXy4BtYIRVBws+2ZHpL5z3dI3bZEKq4H9l2pgp4ijOZLBdGvg0NxrQ1kY6uyZVbflHi6dxxbr6/posUY
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRlHc1J/iAU/CLWktyPk08hViBKVTrBvDmYc2QunUhQwQc10qZFg1VFu4bUBRxI/IQASuUakZFEqkHAa07j/IdpZZxR4jdYA0IbWmB12pkrf2YI3o+9xIaCYAEZ8t91fAQN7ol945OHm8cgQU2rh3hO6i/kHkTbjEPk5ph17Z8uSHGJp581vJbKNBlRiuXtZRe/bWXIxdR4j/fuGazaERgNj9f5eSRbyuplm2yWY0Y3VGzM8Uup6vm/G2ldDuQUxiqyZWIlzbx6EGez+Wc3e9BcYX8GIRw9zKb78F3v04AtmWednbP0x7QjmqrfVDWmGjaPbJcSP/KNe8dPZk7OatC9r4pn258TOf/m5XoQelxMbYcJdcKNk+eGmksQyjc+weZGfIjqt0v3idnRemsD1ysu4sAsYA9N01ju+2KPt0jsBjmFNWnd0eC925pKL+/QbAKYwlvpq8sHNotl//BuGqB6Ymk7SHtBvyjTjLpgDoZhKieLU5xsJQpki+2ycFu+EJB94yROMwaiNeG/rhHcCvABCLrbKeno5ilI7EUfkMq/X3nBS13G2A5lTZwbIyyOl75amFR/UsOGtD6DVSIWGLRNKhDSwjczNjt1Cn8rD/St6tdsO06Oqthu9a1OKIVZcywEbaDJSEbssyKpFsUNA08Pu6CATOqGu3Wt3gC3lzZlVwID75wJsa765llNfj2/QlfxbmCmd6II/muLJKIFeFCxTQlw6EHSnnkR5PuJpwqMxELsLw2b5Qi5sf1OAztZCo9d8x6rpTqI/3NefadibRyrGq9Yikl0pyxhf8qVhpp9hVFDpn49jpRDaOgg48NIY1HCS7W9yHWX5wwqdeOp1WYnYu0E9uwJ3JyKu/VXh2n58pnZ9P2pNC2Ym1QRk03WrAG2jTWPOECpwlnSBT/3c+e+kngUiIpnG1nejEWNB2bZ1NDpzRaoWMO2YfkN6moKYj0OnbAHjj4Ea+sNfkUZhbg5xI/FL2qv35hLebrH3D0X0L4Xz641yMepiiHiYYt4xkA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+Special+init+method
+status: Unchecked
+record: -1

@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: join_method.py
+    visible: true
+    placeholders:
+      - offset: 88
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 88
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: CboVkhzBcXh7h7EwKSgWKxbDLaQaRtR6vjuu9cfgX50=
+    encrypted_text: mlRDI+zN2lvi7yekcCau4PXy3qAXLeGn0w20/SsFjAtzoD9/OgXMxafvpr9dsLtZISkH4Hd/CgefFCX0n3zWnLTlGRcrysTSgdk30tqLjdyTna69bng+L99YSJJPAirGU3AyK0zgi4APjuL4HfTiHcdf3cUHZFMlftiaIjAnlJY=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6da4F9NmiT8PSPYvfLpxgKrdp3Z59oRUYUPOzscK9vp3R4B+HNrz+nIHQGW1LSboqCPmvGU1GYW69JwAVXA6dt8EA1tFa0c72UBRttIji5EKy9ZUbwq5uT3RdfQviYOC6RCLhPZv26+iAKPBFM3hgcB5wIGTR/+CRykO503lrjLD+bmq349p1KXsXTHljFnf9h+YffjElW/SV0kAOiYMLJz6XqlEMBsl0T4xOKpqBImOkXQo2HeibOXdb3lurmxtAMSi9KHhY6dKZDcULgczxRwFTRMLohI2LmGxKoNYtfKLyWQZCRd6wJBop5Ug88Z9zjmBr8enfBz/6LAprtbrS/g5a2Ll7otdeoUzeazgnFV104K0Z8vPThlDxL55g9Ef0npJGVlckU3bKXsrnePvxaMArgnXfqgAvA/iKqA2Fc2K0OpQFJKZe1VFhPgLZdJxQgBK1FOS6F4iSpZBjcQvkzQxgNRVdWDpEiE/NFZ7W+Ga10ib1ZZD2lncg4RO3T4fhxJ8Ry4sROv8gm79XcJBXQsKXeCzgq0ulTzoWXkYoXTYvzK17BLWr1wv9g1Y3QaZQnZKriUR+BUS73eJufGIvkzyTp4rKZf6wrVnU3y/qFRMqXyfMz1sV2cazAn1WYdn5LUfULGV7GyL4GKLY7xGCAw==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Join+Method
+status: Unchecked
+record: -1

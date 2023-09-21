@@ -1,0 +1,84 @@
+type: edu
+files:
+  - name: arithmetic_operators.py
+    visible: true
+    placeholders:
+      - offset: 54
+        length: 26
+        placeholder_text: '# divide the number by two'
+        initial_state:
+          length: 26
+          offset: 54
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: lGQxpA1+z52GAwFJDQSO/A==
+      - offset: 103
+        length: 56
+        placeholder_text: '# get the remainder of the division of the number by two'
+        initial_state:
+          length: 56
+          offset: 103
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +e4pv0YAe10VViDxo4Fm6w==
+      - offset: 185
+        length: 35
+        placeholder_text: '# multiply the division result by 2'
+        initial_state:
+          length: 35
+          offset: 185
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: t43UqH5laWQWGEg+EbiH0s1XBCP9lvVooppvpg50Qgk=
+      - offset: 240
+        length: 57
+        placeholder_text: '# add the division remainder to the multiplication result'
+        initial_state:
+          length: 57
+          offset: 240
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: AWxCOVsmJb5hC+guvuNyoB3C4oNTysI9JnY5OXx84Z8h2ek9AdLzrOSTabWbOsx9
+      - offset: 320
+        length: 60
+        placeholder_text: '# subtract the multiplication result from the initial number'
+        initial_state:
+          length: 60
+          offset: 320
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: H3IzrWV+lN8B/ro7s1CmTHWp25Tm6ZTQmdCqzAOGrSQ=
+      - offset: 397
+        length: 41
+        placeholder_text: '# perform a floor division of number by 2'
+        initial_state:
+          length: 41
+          offset: 397
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: e4XrUkwPs44lzYPqLX6Djg==
+      - offset: 455
+        length: 51
+        placeholder_text: '# raise the multiplication result to the power of 3'
+        initial_state:
+          length: 51
+          offset: 455
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: AWxCOVsmJb5hC+guvuNyoAKsWZtufe9HFqDxWqFaIhI=
+    encrypted_text: hfbkELl8Xo1LId/aahgBqBoB6nAH3udqvuXjgK/DTg4Dga+JiEhlKs5MgAo38Or+iD4+pDHkXDl/qmk+q0a1nJIKIhRlw7XyXOxDsUdZOTazgbGxArPfGGj3iJawHVCOGN5EOcjbxtGIHfZgnvbB8ozBWHMmY5HF2xt1KgLaMsGViTmmqK8qVekVL3JEOHJdIo3mu54hcUlxRd7sL14BAIDa2P8efnH032UCnmCzZFTp+fq2GG9wrLLKFUlBgBXvndL6xek0Vz5+f1rNDEoT4+VHYir6skIkm4vlKK0PavAemGUqdNTd293tdCkr41dxOe+ZncSm3ty1hrXXuEYTBnGiSlVJme2NHTHkN641Z7ZmfKIreokPoPVaJMzBXAK5/etIK0VZZUIDY+tteHhQVNndVYjEmV1NLUXCsLnyR2aqmZ81wnCe6lcv/0g9ddwvSdVbyuME/mEXFgKj7sSWeZEOII+a5ldl2GVMyPtFma2T4ORUrY42cFaOKOSZojFCQ5MxdIXriGzYrfOmObFsMXtqzf265SNO84Jw2Edjoxm2OXK1Fca6EH6JuBFrCeasMUTd1abyK+W5qijzpY3g1jedQGANGebrLbI0v/N7RyYywsNLHGcT6dcZ03fZTLuXblTqIYoPcZHdxJ3ZfxdcuzXLKUQ8TCaY7yPr5pJJ5DK+bMogaxqCDlgfvBhFFKKoP9spgJVmkJ/6C9y8ZZvxBYncgwXU4v1GHxYXWd8LyAg=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: d30iRzdAO9KfRXY4tECupBfq0nEjG4w/V8RZXRrrzzXQY6PaySdrDpZvb+qZ2gK8611QpmWAlg77t/cGMgcqrxkGAqtHyxfzw7+isluZTXGo7HuRb4+qSSwZ/0JTMLzmNRnPzOvUObYzR+R13hiNlZ87ENUzcNx/Bt9PtShecFNtppSA4PljCdLHHSrKZz5MHsQi3vg5xZKuWM2iVUXyvcC6vXmS+ffjUTYqCm7R0T6ENTyCGLeO3ws30jADSiDMNPddvwVbI1wjmirT6D3ILV1uMCsBbJ0kxRT8HKN/atofXOmPEaW+bXca12NLrsupILgB3zlHDswuzHCUCRQNzYW8uNrEgZ2mab89M6gklU5YYa68xDlvPQrUQdaXTzVUSFYvD3JHRbG2780RhZ9UjnY2fwRPrKqQS9nwqLF2J7iJvlk+DppaVnBO3Zlrfod7XKqp9g4dkD0mRjo635sm7t+EyLdV08WWtgTkN6aYlmIKrWRapXO5ivy2Z5zhCmMss2RYgGmUMxQcFokJ80JF3h3aATueOi/77GpNOXT2vRKUZlBhOM8pG45ZFn5svXJtujXlOZDbOXXwCLZSxEZt1Kd7bpk58eP2dtQRVUxQvNl0z9xBRZ1bSDRsGhHFw5FcFW/19dmcA7zWbcQq/MTLSSvdNQJVtekCN25nOhYhxeA0aetpCXRsaerl9lXvtHp802L/SfQ9EX3xmj7d/v9HnYKtWIFyZ8KBA5BTEesBmHJkbNC2MY6Deqx9WzZ85BighdVFPV/fck86OD/fQFkMe0Cm4btDvbl9wI7q0C1q9sBK8jpAiFUv4or5BFov09LCjXK5+8IM7DE82mqxf5QopV0f1Gfc5ihX+nV2Df5DsAXLiiCNGVL/apMqeBU7I0T0b/DUee0M5nuqWmWPduV5Jv3SUrDhjiOmtFVz+YJD/qOMiFWuRpPELG/QruW2AiLENwR88DA/vex/Bs1Pr0MeJNesbCmUvYnlHmXyKcSvfCksZdU5VBe3YirMF5oZo0oA1NmakceeAjdDqAj+SMxXbT5W5S6jzjXU5vU1faIBJ4GQ5++eG04FAQ8gMNkWlv8k8MscEUd7IBouKuq5hu9NFLtGSsGZ3d+AKvwdEe6Nwpj5xTeWThno+W+8O/fMuVi+gJyJPPaqX6HcOaO+0U/OLXpCyo2b+mlAxvu3/LXW5BjttPEsp1mRdyWmquE0uhbm/jcO0KR226q/ZAD85jAb15DBdF51S4KHJRifr92sKggmEkIYMunOJi1SuHMeLReeBnUFuH/yfGynOzOhosiegkmjYRCbLZKQOvAZl02O/c3KRSYCoZF9EgiBL4qEU45VJ16yeXwMjDXbhdV2ZN6kvGUVKgwUq5n6PsxFKX9RJDPLUp00CIpuxJQWzd6PdCpRFK1XCXPQ3YtS4pTQDYuqpwY3WoeOoZSq96OHpfKQgXIN7APrsnLAyFBnBbc764Dsp6tIN76F+nWtpqOypgh2r7+TfME5ZKer3DnyoHlWyRrtiteS7CnD3mXOyGcsVMOvjAFXuCNrherFCGQfS1+s/6f7HNrVXM85U2B9eMuKpj40za3WrD4D3iAsfMiwRjRqRkUp6IOwu0dnJPNYQIexekJyjaz5s2EOmoIIzRUPqwOcLP5vCN8oc+q75x5AwkgPp1EAHM6wbs+M/Z7beAYdP6aAylB8ZHaziJwj4xUu66lSLM+lbMI6f5GJAV7xGw4KdwrVs6+7zFuZ5IO0KOnfhyvKy4yoVkpSu3YUzfStueC1vBGqZLJpIjZ3bC+LRC3fTx5Mpnj1+QyvAX4kepRPewzoe1JvY9kyiHY5YEooO1BSi/gZxHzcHCfZJzRELYNKUdcYBeF0+G35to4TNjCnB7YcLWS1X2QNGU6OD97TH408MEMYJ1cUp2MbQA2dB4Bz7I8t1/jAvP52GWvFMkMxQiTFuPQbY3TQff7qt25uXR/kzkw4gxk7O0KLmDhUbMWrxxFfwLidPPyVfNcevg5raaxNOHD0Fmz/Z3jOYGTeuIE2Sx6EaDERubor9zCDFyH+vMdtmYDhH+DXWqkxiy87KtdfJoBOfSI40UoYMFie5BTKkKjrvViUA7PIQ2h6OPap9INZYwQuXq6A+biFQr8DofrBZBygPovRJAn44IAfUcK9FFL5Zm/wg6KXw1eRBnJEfoLoz92Z6w87le99XOm56LkS4BrXlNRdokqlP7H+Sn4JfBpEGu5uQDdf1YB272bziveNXZ+yrLXi+OL6LQHjvGG9gtA6FttS9brhNMOi2BXOHc5beHAbtzh/iMn9ENU+PqFy3KlyjI2u8IZ/4A5FL+Xr7xW3hOXnfnBERdEi5lEbMPYaCu6rFUjQzlyuwqLdgUaLcUM7HGCOPj8zrg/tSMjL3DqhS+hYFkTBl+3b5tQ+x77vesi7vee9XyOQRdG/bDwOpgbQX9vTijcR7d1bJMV0mWFNcgBqTHosvHUm1Z6d3kI4uR4XggVvVk9lR9peLUK8A1EbPQjhyKG1cbbGZCc7CYnZJikyxKwhNVwizj5HMGjv6HTcnUFQN/Kn4oFpgGY9VJ6aKaDPiSamPuSYtk1gyhS52tt9Npu7Qv0ceXJQ/gfyOSlVHyhr4oobTlOmtoUBk75rxiGNgmAmp1c+mu0KYl9Yd0uwKYxJLkP16B52hXRkknKMvow61+pxm7B7yK9pWhwLnzAxNhUePZM50LpFye13e5fRg2uRg0QoUo1NPq9OjyUbj87dYDYbu0TbYNPDUEJ6bZ5r1FgEnqbDRlrYcXtoJTljOdJOLl2sOzQ0ziP1e8jsa+Ce2E0+DUSOULbQpzZ8okfJIAg6eOB0rvEKiFFalmyrklLWyyRuz2FxxdQQ1LcevbE/UNBwwHvSoTlSMzrpsNuA6wUBB6hP7J/VMZyYcx7c6mwmFxrnPjglOBMKGwZu7mNMAyxmh3BYXEKIdY68yfsN6677r4X2/J5wM8G8wS40jTOgomBwprqum9YdM1S8Gv1Jkb1dE6FmNVXuhJX1XfrIGN40CplyRcHc8+obCKxGV7wlZnNc3RIzsLm+kM/WcSYU0FcS5BSt0PNzz2kaVFNI4qeEO88PPiKS95XuBn7U13GVZtQz639J79CJDT3mnUdxFarwVtbA5JDwCT+NttvRxltupA/8Yn+sOg1LDevajNlpdBGFCaHy9RCGZH87NBPzRALXbhetXNNxOKFSOdTZ7UmxjrRN1HIbed30JJ8dg3TH2p0R/kvvTmK8yaCqWzrWjW5U90LAaR6z0pFpNViFsfqJYkvqR1wJgg5kIWvDlmp2pdqFvAEuRr0h1khklSujp83NynEIrgqDgqCUP6I0h973ULoQwWjEgyyFYDvxkK58O/KRvLGcREzUZx5miDAy+dP7xX2djcXJLRpwZpP3SgXMbudS6XCKK7MnaK8SftLE88k48uYpbVmtB/0UD8zQv3E95Zhql6HinuupgTcv8Qa07ub3UO5bkLoQriwAw+M7eHJtnLM/tLsRiJHbdawGgdv8L5N6UYJtHnktAZvzAt6ndRDh+djSaadXHtG7KSjjiC6jokN7hqwjh4LMWhgEoIrmPAGqbFd56aAyroalhCMJOJTH3aFVX6hBgdC+R8KiJXfkw3FKNd8cais9tzEeCQ1yo8g8zMqGpwglBtYCJFe5QRwpyENWLLMCrUjqOE7GrcZF+SePV3sKWkw4OJX/pOpshUjdZQL/hNO8OE5Yv0vxCmmSteJ7USML0R+El4AUW1GAHylovN0ouVSp6Q+Rwtu1BVfuwVoqB4VlGRGiFrtmEvi/ALSrcVcUl4FJYZxxDLwNl3d6G5Vg6dM0Q7qVbsfHdJkacHtH+sS0+rBkXkgElWTP+9JfsSGY7cmtKXJ2GllsWsY/v6XxhLMogUaXZNdH3GeNWoU9CgmXU45e5vjQkKp0E+DDS8ITtSvN2v+1j7MwxaLREfU6l4VtfdEsutwep5PLa6cFoWoCLq+nzE2wJka2STnG8sCDLC4FF3m7kNxFwNNzj4cWZ7zKfjCxxkT11xK7yn4u68jomFQBIaYJAMIemk5l8EauCoNeiC0CO4u+dgi8vOQjML+LDCch+BTwnl+CSipu6Q/fgoHpjQZEdnhHFkqKCU/YzDJqv5suWb8pFPED0bbg7WYBnODs9DtAOT/3HlrEwbf+lTFr9iteOQeLjihgN/j4pXwnyFh+Q2hl2AU/7ju+NJDKa1vmamBSxZEYvMEXEuXjeomzAp9mTR3zB4BA7xHyyC8r+0zV5PUz/ubxQX1IBkWhLUFdqQEaqT1YBnn2+Buw3SyvntS/KOPseTPrFxe+qvVTDTbREfS0L86HESI+UAF7B2wqCJZIFAccCQI9B7LoA6hWuesyzevnILpscbtSMLlLJG/SlyqJhvj30JPbSZu3+x7YEMl8faQPP7M/+/rvC/FgEhZUVqWWys7Z/3ZaLw2zoaP7MxmCcxoZbMzpHdNfyq73xrbNnW2AhHBeJJxbLyS2j3YrdDXq0ulKAHty5ujc3VGje8DRavbCXV/jgnUF1H7eE+KF9Kg5mdHg9Vp0976J/zV82JjMsrOZRI+eCyaOXJ1Ay2rEs0J5H+Zke3CUDskneuNpnyU4fwQGMErCLUX8Bw/K/XUqiJEsVnaHNRvS9ZezjrmuCYOtCH8Y1xx5EA3cNWTG5jzZzdV+mOzaWK865Ld3vpcHcne86iiOyHb80QSxRr/JadeLl8TQaz1u2DuGXT9McTZ0HfMkD3t6GGLF58e5DUbdu0Qa35TSxV1M4cSiipFi72+7qrpdHplMsHep+S1VeekkcKJfF9Q7JAIdBL0lwL1zLgH+tIgLwo3Ibun4PkKFC6Nl5tUzHeOLonoIxtulQck5SRmiow7rh+3+mOtpxqXbz3+DZJE/wuEyAWEYGuDlI/lqkmtTI59klGOl92Hn6cGeLNctNy9k4vnU8uVGOcgV58igz7o5ZOl+48H1Fb0NGwLUDGPKYtssAXh/b+umd+F9/DFhXkRhR+G7p4jtc7aR2NWwZf8XwTmFUSfta/+MK2nitQa3DC2FjB+Kn+qv2HA/QtemuViKNja/WRqYA231CqO19lP3ARcUFWoBp/c2ACH9FO+Ds8daYyAJjr3GF2aYiSKNQCN3tlChp9jV5IMTu0WtGDgLr6uFE58whU8aeiENj/lv6Op8FgPvJdI+swg1QJDXPgAVY5Y30/irKEQ+E3bZWVMTFXEF+iKUUSIaeM14eHBDkDAd+3dnrFJOr0Q/mEZEVP0MxH/8ymykt3WlZEduEWXF9Cn/eT5CL/eWYa8+8yJJFYc/4sgfV0wPcLNh5c9Qt+aHMmdkxIBtSRZYKlCbo9rq0FsmHasOx0O7o89sxSc/cbbCQB1uVXwD1VPIyrV8NTIGlpEWVLx6ymSh2FGFP838EQb7Ad3PhXXUYA/iwImEXG3r/q2QTWzaofQat26HrmA57nEQKt7DPJYR9vh4GyS8xvtojRsOgb84Ru1K/MNFFp0g1k3gQSPJ+LENHQTBvJC2g4Lj7Botx/elLToyPlt11TuWp8p2HjiiMWwlmKtWZemIKbp1aooFX1PmBQ7dz4KGlNk8n6Hl8SYPM2+eUI632BIJPLZlUr7UIPAbMKZW14ZZ3LMUYmY/MGQ6glrQ1+q7eGdqhrLainKNsBa1HOYCJcYKD6LBNPiStQFHemJWNMjcy0Nk5VHmitjSEGYwPG7+6v1fpDARLg+nPiUrakL5Ey5VwlGZde10yDRYYiBEf6cMQHHYH4jACnkJCIwMUB0en5eWy0PHDtZlk0TBwFlJGVH8SD2v00X5TAYRcy4hDYfQ1T+py1I8ZfVCRl+XyuUr9rI2v51ChFG+enJHpaDjugrVoWzrDEJ3St0A52Jz0LBiplhgre28yfLa/aya/syv7PgP3ujXvXPejBB4YvbCOgI4VQ9xM8nUlnXUzA0Dgf2z680YQlqwuZOI+9GJxgLJ5+0e0LRONyN5k9LVkuRPXSrCDVT4WGOsoFJ670RpfprDrpwEK+EyqlMIWBzb80rNGBLQezHXEAu/ZTphP7NWt1ZJu5xLqsKr11mlow2qj5xKxLroV6QPkthAjJXzcW2LFnQFwmE0iio4d7bIccnyFwbDl71MqXm63H+fdMa/sO9O2m2VgheAbvKa9z4t8/jGpcOn4nwiWv000n64vYSZ/JwozVIlb0PX4ZT9oL2PXEvWHVX+caqFUFPS+371OAt77Yd9acSWk8wyL1hzYWFv+XqmFS2EygiQ9dxxpjQnNVW7T8RLVWbmaigGSMTF0pMjKliNdvF/2Ti7TH63qWR8xVF7i2MLW826Ybt7q4dfDNyWum3XCZObicFcGyw74W7+vzkaN5mdSRmJsj4WJNjzH0GnLaKPKque2E/bvlBrTiaBS9+TvxqMmaucaJY4Q23iDFFikYJniUpWIZj7OhdIHpLPGMwHAActVn+PXsXW1rgQ9yDKn/gqPLKBXjMTQ4ERuMzMaSclLRdnhXG4hNvxGJ157dO0q3AWPdYcVdZ8ZOv8UTI/832jVts3wt6pYelVIy0UW1uVZcz5f1b/D1qGDQlZmEOB7z0EhNE=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Arithmetic+Operators
+status: Unchecked
+record: -1

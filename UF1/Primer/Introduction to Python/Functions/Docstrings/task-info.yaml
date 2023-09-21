@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: docstrings.py
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 28
+        placeholder_text: "# TODO: add a docstring here"
+        initial_state:
+          length: 28
+          offset: 32
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: t5ig5LBHcd3PD8BB2fPRe0vG0faFzvg5fVcoM5j0e/7dgSOVV3UO8xWy9mbvx+AYIg+Rao/YJrFpclLmj5Y4fw==
+    encrypted_text: yLm3DUodRzr5QlvZcPHKaTcBowuy5OnclweoVa/wr8Er9DOMDREn+8+d3991qM0SQRsc3MXfu/lvIAJQzeAsYFphn3U+6y7karQbK2E/GS3fP7fmDysemltaUP5wKXyDP6SVUJRzVDme2cPXWV5yIIGCCrszYjODSCHdrofDfRiX7yeN4TFzDp7lCmesZunLZKHETQHkb1xiVhV8M5aW56P3aOARWNXoBBg8tsyBHKgTtqHBTBK144YmFwvl9CeaOXuRSQGZXNKEWOW+lBhWVA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdT/PGl1RbuYK6UjJPtsycd9F3cjvT1vzXOyL7jg3VD56t4dA1qQlHv20tbVjBEJA4BIdqUInsxhAnzcUuz0H24G7MHozGkms1kX2RMJctlmwhcS6YpRgkZYBVtvZXXqahwpkUo/zWnnqmU2KHnV0sF5YVCRdMN2aSDqKZU5OteHGHYo1yo+aD1kQJdFZe8JCdQp4FQMBimwpD5JPhGmET5KEeWf3wSUOERM+elgoWB14hgiPG8CRoxgNjAs75TOLibQwWycFBNrj18Zvq6SxB9QTce1RucyNLVnDd7tLsxgANYyR46dKO94h0irK5cyht5UFgNTI0ppCAmgIxesiriVXrozTA+AUpcrDJ/e7gFA1ZqL0BaGBbmryuo0emxqlQhF/cpOgTyQT9I1Y7RaO8lqFhAilhKGTjgRqPYzfFV5J/+/NdVKwegDagjZyKaEa7mMz1Y3f6Sve1mDWFkGQcdc+IEo2wjFgtumeG+l13ovoK4zFMNyhhUwhrdif/EBB3G4mhFgWcKZTXRmto4adlV5lde8rQNwgAJOSWJSM1GPw2xTZP73QXhq93nMzB/5GdRvTld0CMyQYPDI1dlehfxoyufMp0pxPgw3uorej4AyZKRDmBsC+DXtbyH62jsoQGbb7JsmMjwE3KV6XPfPdOtC9jhdjs++Ao0YFRI9WNb8+sECkl91lwj/U+PIz0yOtPA6DvVM4VmLG+OpjdQP6VdvN9xPvt8xNEWjl8OJ9GwMzvmV0uFjpR6JjPOHNoYu32uEGEd6ip3wwei5fxn5Z2Vn0Vyq/INjKJYyHgB4Ga3IbIk070/oo15QYhDX1VLephMyiYQTXJMvPpazcP+8dkPJ/MRpvua8MND1aVwVnEOhtZfR3OsMYUA4fwSLXORKRXQ==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Functions+/+Docstrings
+status: Unchecked
+record: -1

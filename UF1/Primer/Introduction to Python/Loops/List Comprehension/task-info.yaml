@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: list_comprehension.py
+    visible: true
+    placeholders:
+      - offset: 194
+        length: 44
+        placeholder_text: '''Use list comprehension to build a new list'''
+        initial_state:
+          length: 44
+          offset: 194
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Enurdi8KeCpnVRpF37yBmV4QwWBxwsdL6PJudebBPe2WeA5RxW3TFxdHsCMuu4cR
+    encrypted_text: t69VPoqDCYHM8hpL6sJvoSsuv/WbZ5eB0IIseWQl05kiaeogMOm7oyiASZkMERdhhYo/XZE9xJ0Ex16WEt2vhX9WkPlo+q73cMmBnWtDGRzjky+0tE3NA9vXhZDEnfGtzc59r1MoWKCU3IsLA7OmYi6W9/Ku5KT8jqGcCmLIInT5XEJtrj3XMMnMYaxzDtCKyqlsIoG5KvSU8kT4aEDe4zS3fLnU6opwOpD2D3qDG7o8snIoSVr0wh8ZtpVWk/SNQHr1T3wEljapclPAnxOaQeqMl5GYi9tplY2pihgnXvk3qOy9gMWMyReG9QW3OMPP9LNxzkMmkm30aVL7jBJIIziOf4yQpohTRE1U6Ixb7Cs=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRpasotSMMcDfw9uJ4mEjGSVQV05ivD+GZ63MLrlQYc8sTgsW2n3dF0RTROLY/IMgMkaTjO7S+yea9/SuEp81SKUordpgaIDzkQymMwvYPn79U5JWckUl0Owq7OyY12k/apyB9PMoI2G+GAgydgBFkPVWpI9ey636Wtiein9qVGKnvtoEZAF9HjRzkMZaeMU1kZ2W41Zl13ehF7bZnSvAP5VsD1wCyG7kK3qRhsNCXWii1oMlsotIk9KqNFA7hnQGm4BqGqXzbhfahTfVRYUOntz2iIaROwhm6cY8MGijAbb44qcJZ0+hsX8ZDgbwiaUnG3rtafc8zVE2HfSUMCESIA0VKrlgaFCowBr7EqyrRw1yXNXH4S5wJv25m1BNFCfB+ST0Az+X0xfqP1fL1fxiilJIpYMRihXp+naOZ58lm2pa9KkB+rmavlFU9fJkAM/swvIn59uOJuui0litSQWzoMiXnDfDOPN9uN+Q3ZgdYId/ZcwEUavUp1p5kZrMZ9Az+U0Tt+MhxXY1WMyDasm264=
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+List+Comprehension
+status: Unchecked
+record: -1

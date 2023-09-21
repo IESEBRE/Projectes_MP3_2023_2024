@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: string_indexing.py
+    visible: true
+    placeholders:
+      - offset: 101
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 101
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Uc0Guk5XEIejdtPx5dZnvA==
+    encrypted_text: dBconN1efF941wppzTZUVjU2wV+vWkSXrxw+HG39S8RpbhOoQOz2Y2rgBgmhueTPCC1GPi7TGd93qyIuN/+NDo98KPOTgSfW9mBpA4mDnOK9PyLTkFAi4Tm00nJmTbNNO6wMYqg+pkhUwm8nxlGgiC3ZOwF6KxJhdJ1HxEidHjU=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdVXGQimnXAbxmYrXY9A8hBiTK8AJUYAjnc75iv8HAW4Onh2wZwx35wEF5jdDfyTzdIRzwp0bA0DlLmdREmgcIbt55UR5Xs37OeQdSAbEShj+jYCu1TEQmirC46jBlqrbG122gH2+663BV/XGpt5vnSfzQGjGqHuvKam88MBGS/Z0aIhhRBH7uViwnpk43+SaoeQC6SHxbL+BPOREngT0T41e+LTD6Zh1JB/oVbaXSNjdN9vL1eIE9t/kDR4SKDJwthZ41n8BrIBMvh0XlDgmW2roCcDIM03bEHFf25FIL4hlCR18/6bNHesR5OUsLY8KrW80HFbrgmG+rKo2l0mUHdqsMINO7a8EqkoOkubhRcsLmaWFLM84+tjyraqEXE8MgtwtIGsK8BQAiItfEx1+t0uLuXKgBV1yUDK+lDhoZwlZ09wDuDsdXI7bd+QDKo1FixYFBHhSZePWAzOeBO8Hi8GgiiRqiC7hyGPy3Kc3XGIX
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Indexing
+status: Unchecked
+record: -1

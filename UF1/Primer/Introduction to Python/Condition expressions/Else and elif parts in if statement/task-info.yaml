@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: else_elif.py
+    visible: true
+    placeholders:
+      - offset: 352
+        length: 40
+        placeholder_text: "# TODO: check if name is equal to \"John\""
+        initial_state:
+          length: 40
+          offset: 352
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: YXWeHMShtP6NRYqEh0LNO8VV38RIZiZihC2BpcnS3Kk=
+      - offset: 409
+        length: 20
+        placeholder_text: "# TODO: otherwise..."
+        initial_state:
+          length: 20
+          offset: 409
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: /fMLg4I+Zcr3UpgWVHe2HA==
+    encrypted_text: JUOGfGmNTRmVrK3D4g90EVIc3tsbLBo9Hq7kwkA8g7Jg1QYolK9X12e8JVv58IHoCfUQwHItfBUDOuK9WFpx8trkE1qAVEDWo2nN5UgPFKWvclETj85gCjfFRKQNwehbfNRUOlwRFPYOYf8+tB6JPXO3FRpVY4Jx50KyY92eM0L32X1cd365e+1A9Cq0TxvYqufPd13+5hCoadRuzN4xhU1NqXO5PV/qYalYGgKxYkWp4CwmhG6RTQRl/SXwWvwe5SU2IQ8Mz8oYaifcarf4nuBS9r+0+w9s9skQb5ktnGWRelHyL5LCDN8NiKRbeVDBXbl/xTfAVV4boIPCA2NZ8yTC5i09AquXgeexGV9aOlsCkFGBcvDNMb9MFVWsVqHCWsMjNsZ9plXboHkiJYfpo8fmxCh0Js4I1eAA6J52DQAQMEb20RWIpcrV/a1EPGkKiZ+/dNmsYzeIQxQudXvIEJxeXFCh81eQjJqrxANe/sKPrkBZZcIHl2v5owRg0QZKJlOfaLI2HhX3MUv8hc1NOU9lCLOsDbvUwxgIzZb0HU17exh4yxhrRSLvVNGbcFqNa/kFH1UhvFa062XJWlZVjA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHI15S68IkYJ9ExTUYaeMEzzJeCVdljtSzOpLfGWwR0a6iuTAO1eXSJPIhUcrWB/mVIL33wMEzXeNa1UJn4szGJfFL7sD7pZLadLL5AhSjd7KyVph8Zn9+FlDcLRm1+0425eSXpKWopNCjORC0R/3qhu3Q0/wSTY9qJBCIWIGpU7xWLLlESp2MYPCYxxVPSaZrIirCY8S//abDG03UPsxDUkNgLt+YS0YtYCSZrgT4Z1abyTSJ0e0F/2flwD0rcDjG2shqDYKyd38rTTds1N95vP6i1/sKlAEhgHRhNDw+GHIcAhQxfIsba/V/NQKstYFyQhog2EFeqDKVXa6+oTZ2s+3W7FH4HF+ioebDZvSigxlOFqPpe92UaYxE+lCU248x/qqkyuGOfjCmgqMt2lLZ7LkzFuDiQPTCIK02OWFiFwQvb6LgH5hro2ydB8tHp8THA3vmkK291IYUAn1tGpHEk7UJspTYvSx0YycpiTlYjtQNQYu6/lC8CkyACbMhrcU8fVWDnNhnNPc23J/H/xcHBRlXZ++w4TpeYk7qtyZsHmubrZpyn8Itkq3SVykxMFSNCRiPlijgjcMo+sqrRCLreCgbwlbn//LyWCWjhHURF7gk4XMjRLQ9DlgQmDzL8BEcFpSjYjJkrhH3kJkgB3kxcSTuXG3w7oBapByjHwi6wtbZepxNPk8Aji6Z5ukJqDb9jAAjn4pJ/gT+PALxKG4/UMwRm8I+0l1cU5krHp0nlVcetghSTEA57cVhGSGdFbvk16iV1p61gNMX6/LoKRTgbZULmFkjkL9MRa5+NItD9jtWzT5E7lemuwGgPDCWVopxkh7jhIgjNmH60zybr4op7jj37I0LVUXKp+NBp4+oB9zyOfzM6kY5SyJa+qTx7RYhUKwyu6YhIKSEePLKHdANQtHWa9fS7W6+EEHujFQG5d12t8etJ+GOMlEtCESiyuRMsQXfk5QjqugzGx1/QQQCf+Ry8dAJdUfRQnYzD5wL/lMNSbGeyLIuzUjGvAXKYfNf3DOdd8j2me00UksW/edJYLbb74QM7oJTZFtDeudCutflbsgjFKkwXe9FFH37GlDXbKVBazJWy1TKsY1WcKiaxJdJ9yt5jMgvqMaD0osvqi1SbtpdrnwutAU48IRiHvpqhqxFHUm71ctV6QFQHtAKJQ=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Condition+Expressions+/+Else+and+Elif
+status: Unchecked
+record: -1

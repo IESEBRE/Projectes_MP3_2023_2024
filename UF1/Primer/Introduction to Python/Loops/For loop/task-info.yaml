@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: for_loop.py
+    visible: true
+    placeholders:
+      - offset: 238
+        length: 41
+        placeholder_text: '# Loop over primes to print each of them.'
+        initial_state:
+          length: 41
+          offset: 238
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: rhTvtX8pfdP6Ctyh0V1ggmZI258JlklDk88aBD6qY34=
+    encrypted_text: dY51pS1w9v61h5Gko+wW8WYWK0roEyeNJyiSJqkB795w+fayuj4SQTp5iwT3Pqb326YKQJ2Yptqkn0+0nCiduvh0/MK75auh/KAwUtaNp0hZELClRU9vxeBuqFTMBRuUcmE2I5Uob8PYVujzJZNttqA/TPvnqcBEKCioHSitZZcEl5AQmvuiPWgoQydOK+KMvf47nan62A15TwiMVLcWXvIvRzaQNXJ6G0HJwf4SxKm/hHqpvud+Sq71MUmY7UyGJeqU7TGFibZSe0JJXbwY4UxR4d3Ax3/b/Xv4Cfht7gISw1uC2bnvvIRrhpErTjG62MbURPOeUuNvUELA6J/bMQD7dRogLbRN7JP3bYZN1X4VdqKc07eSIoYURPibRSadmC5LjFWtHasjxXjwNTRVZQ==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHFuLnI9jIszkNus2IuvtTYVwsyfnlwBUAJ1QKGpES7QQ9Y8+C0wxY1VoLBu/7O88EhWI1oRgC0GZ6b3guwPvcvSFQN4sY3kKoTFSyUVv7QEi7MwkYB8hBI90qxO/6gvodmxYgP3HPDbLdEGRRuG8bLR8F3GHrccdoQ/LbpZi0VJtX85n6I4IMVIijzGWamGOtVIKNoJzZCKggJcnxa1dWBemGmuX2RGDrd8Crb3hmXlIwfzF2yGGHsxYGDnPlskWd8KbvEdP9ThOR+p4m8Js/9lkIU95UBwc5mMI7bCLcQurtMwwfeASp2GAwoT8AWKJ9R+XFat7NpI5dM6EMXi4i3GvkdewkeOGFHlVz0lvWdeBAgoYs3VD2q0FCBWyUaeSp7ONrO4j6MmrSD2nBwVUY4GUZlFFMMdc/MIb/P5PTeIm0njfxtSMPYNCTrkhPHRFFRafdskIGdnXVZgDwVudC45GWP8U1YliMPRJxZDrvUr23RVhfR32VnTgX6A9JTMhfTGXQYKDtb7ACr6PB1PNYbCskAWXmXHRWXnISkpn8H9I1JSzTY9nMnPd78WrWknME3Le5lrl6Tpf/At2nc+eeivFc/QbOsI9DP8X2aHSGzSi6kwZsfGkzaKDhOm+NgB8pv5pOfo0nvg2uy6/gfDdBBZ4skHCYrjyjIhLKISnm3iHd8fXVGIT5Am8cdRoQoFWMql1vruKq2DWnPxkbPoL/oyMglJ766ImR2GYs/PrhY5gJeTmXOanpUZ7405onrDq70AvthE5rg7Hrc8ppSIyksHtnUvVNwl67fWYtg5bk6l0FftHDgvNtb/EpAwVHhcCWt9gw7apptTDvcFWBVOIEDfMXk9+JyURVFUtCADgAD7VyNcSlJSEJYpTmpaq0bglFR7isF08G5nEjYWrH6UsfDlnR8y7w9mJtOekHL7urtO6MgZcTU1ri37NaPHR6YpICuB0Bof5TATHoCbeEEdZO2zy4KBfww8G8bHSe+pktFO38RUpS7yZNGv+X5lI+P2Gi0fMXEpET9F1BYDI6Op3Yu1xFWL2J8Gv6dZoqmdkLKIRD2hp1EqrH1tCWl0b6IDH4YS+2umN/CL8Zt4w2blIOj+ZExO30QDNv4aac8ajEBP2KuLTgrt8Kq40Ka6u2j2kuXk81gFKBLhNW9nyHIckDt7/kpoWFBOL3e8sFbQHfWkCrKSQCRd1xWCtgeQMCFEDp6M+vvTLitArURit9N3dcIntZi5qs+1E3UT1M5VURUuSgAU9gguQeTmM4h8W+4sZomCQahIYkpwnNIYNwR145bSmUJcNuhe0k0LOwJo3Zln1lt+izDId1M+TTX4aV+16YViw605V0/xz2nn51rJX2x4PZyIZPw6xuRRh4LSntUC/5ROIVIN2X12PyZiyJjKxk4q83ZCsor/+aO+T15z/1hT2psC9AHphLlJOiREhMP8ZlCOQT59ZaCiszxP1pBb332trXDplW39nGeCdguSyCK8p7ci2M7zgerfCS7SsoiDWOH6x41ohQwmbcHJbiQsOhPlpZyrmFe0fuOM7pTVQMf7eRyQDbgqnkCNNGcACC0i+mnnnycTCSTYjXOzFYyGttSuGxtYPaTgZzSBkuyQU8+uAmHrnjhc/o8QPeDIfPMThIl7xvmPUjya6SW7GscmO21F77RoEr+0lZ2+DAEknB4wTyJO7LWlBzejNk2vnF+vP
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+For+Loop
+status: Unchecked
+record: -1

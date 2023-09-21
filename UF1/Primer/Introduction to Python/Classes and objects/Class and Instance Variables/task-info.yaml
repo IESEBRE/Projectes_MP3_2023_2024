@@ -1,0 +1,48 @@
+type: edu
+files:
+  - name: class_instance_variables.py
+    visible: true
+    placeholders:
+      - offset: 983
+        length: 63
+        placeholder_text: '# Add a class variable `kind` and assign it the required value.'
+        initial_state:
+          length: 63
+          offset: 983
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: wUUa6BWXkVQLR/h+s72fpA==
+      - offset: 1138
+        length: 4
+        placeholder_text: pass
+        initial_state:
+          length: 4
+          offset: 1138
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: sHIJfayUfEXKS0NJ7j2RdZxDp3B/y7zS2wNWzbbvFYg=
+      - offset: 1151
+        length: 37
+        placeholder_text: '# Add an instance variable `species`.'
+        initial_state:
+          length: 37
+          offset: 1151
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: KQomOCDL3FN/e84QgPIlfKIuA+Z1AphWxo6r0fashGA=
+    encrypted_text: pPICGiSfNulpK3XbwPbMCznfiG6E9Xt9CD1FV6LieYiOL85FO8X+9i3jrjoyboHlX0rHaPYafK2yp7N00QrySF6S/UfWy6k+c3msQuIw3OxC4jwtUZyDXrzZsipjRT2W5kFAeQ7OHUD1Xk4M2P5Y6+UtvQDAzUbhVMqMSdqgFQEp3Um8z5ryUWkyA50fCFSvUY1crNhYvQQWZLL9PsVAi96g6FJvEw7XAchiAKbjozi7Ca3BF4Ef8Yj99kgGq5wdYA/eHqY8KfA/thsKZ4Cv4qP87y9TvBNhPvtueLYWHt+IQa8fq6pZtxUA1EHgPzVoJiGuchlX4up3VXzNrSFaGgXs0RxQl7+6UexMkjHyLs6PNPWRdBSAPGdoNRI5Kg0mQmKNlkQCiZjPzE6+GzqB6G/vVeHnCYDtfrm12Zc2uBPcY0NQzSEe2bENOODZH4gimdZBfuD9nRvM3jxdAcvbBdup+08uhBCfbOB7TfQtXxlCl9EawL2Lrwwt3U3dc8LGVZwwPTU9s6q5r/aRKHS5YI+r0T46ThfqhXzBuOLM5B6xcdYVmHdGoP7JxPghsJEPELnqm8jQ8/jXHMSOUm5TqHzwOV3Tpntoba6bmWJ5CcPApAGZ3B0bCkWZMVbQOx+ht1kRspN+3pdsVnp9rcQYDnSJqYa2N+V570rCcGGDRG69EVNMOyIXLvfF7s4xnm6ToqTBc9OQlVA7R6bZUfcf1a9waTxoJI5GiXLvjvv7tZu/IzTQR3wo1y1htFkVdm3UegZLFKLog4OArddNqJ1zlJKo80oWHQA8e36FjzLFPCdbuu/uBOptTsNjhl70hlplsfZ0YKYac9JcFO18DzSmeCaqPXx/synMxXfKAJwCSvxjp0aLmGhB9xt5h2jQZJm0/njxYB5Vo/Ix+XHjIAPF9zIe4VDHstk/w3ggg1q6UP7JDz1Oh1qtmwyzpP2H17y5jV2cDJvgSUspma4ZxV48/eyv3bIiEygkcyKGfx8PH/2m7VNJiIdLe4n2d2xg//krP0GSWsuZzNRsrFZRGVceclTlctnIY+SZbXwcM1bKsMiUmnm8UUu8CAD+FKvW3JdV2RBRjzxcsMWiwpTrDSGgXjyAT44KlAo4No1fNzXqQvoY9lXqBy8JcdeYECKEwyQG7PlOiUWwZgHFfQ1TCJQBkds5FvPUWu0zBUAvZ9caYy1kCfUgeNGg0wqI4KiOxRgtd/tSGCyj5O57Xes/XstQ1mkqPMfjfaWKEnxwCRDQFCjDngJrKSw/HdeQ8WVhwbSjFHXpma8+QwV211zsBTHCKLgpmt7NqpW6nb8X7VmD0AINK2WUH748Y08k4I/XXNvDoHq2J7Br5aNn35tGJyb3xECqVmDGSIHBBJyLFxvRjPQ3P9e7Vn/8yzBww+tODvbOFrNoQ6KNreAXjpQLdMRttEqhsAs1h75KxbLLmYurg2H8JEMGg603E5+JEl+w1ZPKCZV3s1aUkTMk2dXwNScDelwk9VQ22699+pHP5Q66YoH52NW21w/Um6Y4Sgb5N6Qm8SYdhUQokUhOg2i29frxP6Mm7iB0uvWB/La2tU6JHv0oTKEKp27VvYjZlySIDAMQt2yb74oSxzwVDGA0xZ51mc/Uop4Se8Ni7yk6pWgUL77/0jdugYC28hVJdcfXzdiPIwtWIMXtUKOhgm6eE4lBMK9oOIJl4yuGtk5tx3jA3T1K75CUcwbUcis4yahFavl/yqb7IES+PUqIy5pj521tR1Ja+HlMA0bDxA9FBMUezNWtOqqQCtVAYveVYT9nczCYA7tZCJzKSVY1qQitmtKDGIvdQncmdQsUE2KUo7SkMM/60gt6M/IdTbvz0z/yIlp3WGkeYuVcqViFNFne5AfqBM4+aMtgC14iw6gMigEsdF8=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRlHc1J/iAU/CLWktyPk08gnpZM6jnwgaObXSN4n4xV4XpGkJfFYLgwwSD4Z19nqLNMy4789W6RF5TT07HB79d7RvXFb1g+tLFhYjdOaNbHmeAcHj0uzyRL7MeggCF5wqhActtXxf6u0zHW+G/pzsQNwaP7iQqNl07dbMUWcp2aIFfOGPSOS49TnJ3jn+TxXrvvLATh8saOi2DFa4rANsYgqLzjoNB234pvFruFN8yvYfUn4dXwXKDaZsaEtjSsbGy0DcVJ07QV632PFxYBMIoScRRWvLAvoMr9iX5uWTLnEqT5vh0CN3xNimASnxVfSaG2385v1bK8+n4InhZJaHEkyFWzTzwbW8M62ZBC5l+9sZiXOHixXi5kM6jeyJVWw6niEK1GfJ/Nyr7JY3TTyZ7QWI8vJ1z0Ss8Z4Oe2BbfxBWX+YjYBJh4fw2iL4/Y6C5ZROY00kpAjKJUgsPanQlNH/TXMOeUVrcuyvCi/1fCpCtuklk8sj/ocUF9HCUcoTrkFhXLnZZ5p+2jfSOblFQbErWZ9pd/oaBQEUSxFCtyPI0ynPpT3wOiry5a47UjA+3vn7Xd37sH7Tmwd+LwAZCE62U8TzXnktW2V4qPexKkq8rUFgKY7M9SD1X4CpihZGgWh6RDFonBTZhGIM5lP7GpMt0B4O7jrJr1OHi4RmJCoUGkQ8eJrmbb82HALG/xZz2IbmLB+K+aH6+bPiLI+RwCsZCVf71jDw+6ar1khFE0jXHevDH8usw5Rny8lHDW5lsieSdQKpNpL/FlTgmJGCO8L71jk2t4lK2DAAyPqSSdqDEBvqPoVLc1j/2i/JS229OUmcDSdZRKa1muZfWzWixrlVqF78A4lUZmND17hDxw4Y33WdaS/lJrmt68kbLx9nq8YUuXl3dMl5owVbx/pk6ewsIC8lMZ9Ukri6cjC1O/Mlw66fwXFvyZ8ax9cbyF6slD4Ca4YjMbppZCTnkDGy0WtmQsVKLNMkUU5OwwAT6mEykwVwfcvQH1yb3n1vLhCFMfgPql6dqjOGNPtNEB6GSm5ud8KWJKenn4NCoN4Cni4xNBpBORwBx7kjQmt70HfqLuhn3GWVT211hCT0WPGIha0k+a2QiRvFEtvFrKwXX4VP8C/XiRnmslzrGniv0vEKYeIV7tbUEL0oQvxecz61PzhYBz0WzL2ZJvGtta/wo2gO5B64o4QBaLNoyq3pucDw23ij6Sh92isGJiF3r2EhT6TeZ7oPRk1Ze59jreOlE34kxezuozszKXNMmGdU268ydXSL7jIL9qfByX1sipRMaTgAfpc1xE6wCazTbFxjze/WCZocp8SqcwOmpp6Yz3yp17J749b6LCIemogtFI6qqgoCV6AWrM3hj39J70RvQLk3kyMZinlSh1E/U72TT/msVmG7fHgfT2RRqnr7So2SLZLtHIvzBQ8yj20vv8E283OfqKFISqGsEDpmlLrZwQd9YQ==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+Class+and+Instance+Variables
+status: Unchecked
+record: -1

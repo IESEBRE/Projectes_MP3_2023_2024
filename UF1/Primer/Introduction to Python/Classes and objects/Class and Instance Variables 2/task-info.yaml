@@ -1,0 +1,55 @@
+type: edu
+files:
+  - name: class_instance2.py
+    visible: true
+    placeholders:
+      - offset: 16
+        length: 84
+        placeholder_text: "# TODO: add a mutable class variable (all_cities list) to store\
+      \ all added city names"
+        initial_state:
+          length: 84
+          offset: 16
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: ua/M2+iWZm7WCvwVYQp1VQ==
+      - offset: 254
+        length: 88
+        placeholder_text: "# TODO: call add_city method to add the city name to the list\
+      \ upon object initialization"
+        initial_state:
+          length: 88
+          offset: 254
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: lKQycAlH5Ryo8+FH/IOIxw==
+      - offset: 376
+        length: 119
+        placeholder_text: |-
+          pass
+                  # TODO: implement a method that will append a city name to the all_cities list. Delete the pass statement!
+        initial_state:
+          length: 119
+          offset: 376
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: nukI0rEjTOPML4K9e+6aReZVWZTIrsYu6gdN3UOx0i1CqFy4iAglx4wtXftfknuW
+    encrypted_text: k9bmAf0IDqANoY+6iAjEXDZ27MJi85yJdzGT4iO7p8w31rBz/lRZPAsm0dVJwDr1I8QneSDbXceNkbAYhyfveWihylyC/Z9Ase9mqVBPK4V+klqZXc1qT0hrS/OWG9dimQY/Hz39Sn2+baw7MHpb+fbS/Fc0xP0QDWjz4lB8fLwnnFWRc7ktagRX/NsM2SV9TIAPbmVL5dfw6+Bu5luBMUGmN80ffILen9TVfd5eR/kL2GLuc9ivlsWkXDnjMWYcoghMomVK6JnVONCb5rjatqR7FDui3aAFHRVTyJcHLdPNImnT0P8wH0wj8gIoSpJpptIXN3NJ0NK+qBrD0j0O/umgRxg0Ih03DCACOREntcuwzahtZAO4fpDwY1ioydpMS3XIh+cDkUaJ5sFmk9jt97MIUoaHRfio7OWqK/lnoqI6zah0YXuKDPhj6EMLl3FR02J2oRCAk7PFMfmYvInkUM6OK9UDBVhKg+oz4n3isH204bC7yDzMM+I2iP0sG3m1+g9cvFL4DXhMc9N+151GTnY4x3zQJvpCwq9Lux/htX0BnW6n5Iqm1vmFdcth/elJxlneh9r5WHhXL2e1P5a6ZDIR5M9wLLHeY8MQKsJ/hSG9DYM7Q/jSAuPM1v9G6DKhbvF3GDcwvmYstVDzc49mujTu26D8K2kUQG8XP6LGQV875Z+zPFtGtWZt/yyX3IQgfVvHHhmVDRPU/ReqmxBGZVYt1k1izTGj2ExpOfbAhynDKVqe39ukKRZ/25HLBkQ+Fs3nEVloVPozNo5TOinhXF6aGMWArXYt8xrFE3AGv6QHKUNWVsIPzj+RaWDxlohJ4ISuYrLnUfWM1W7pg0raul3AKLu+nlz8adOOgMWfD6O01Oce0VBpL4UmX4zbBa6iJs2Pa9xp1M8p3OY9hE8B8W/SNKvbiFwFzYe8beduryziGZL6ZHqUnfp5zxCeoKMDXY7tdtj19C2406dmWfUO6ydm/EYrzwBASuG567vEz9U=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdQAgIFGoVh/TuU/1187X6roulqIuOhy8ECH40xiPcdvR2OUkZwwHonDIPaIma1s0TU+K0AK8fPHILJx318rcjl75mxt3yIW9QkYxZu8SZdACmijM12vPO2EW7k/MYsskP28QubQjoGANriOxzWZ247EcAdMmgaqxVIF6RBBiaWB0V9z3xQJGgYEg68NoHXgG0dXYBh20zZ9jlRZdVwPt2FDlHlwRuGp988ICmHcCm+6oCc+5Cr+mkBasiZZz6iM4lCG9x8ecwXEXaEo/usEUNssfhqxrB9KewK6CDo7lCJ+KFh+r1GI6UWIV0pMaQxVuPEW2agtVJPXkYPrcak2/KEr7WEiHx1nlcZwKH9uCkUmsLxkhWdxeelgefDLLqwwMDr3r2ufZjIli+JK2Av/tHge7R/m/d1qjbDMVv+ysY3TzPNQGqpw/l80Y7sjMxwdsbNnZu6t8/9U5S+AeXVwgZ3ArP3dM17mHsEhc5r5fLlop4MhUuXRL4ahp9rjhXy5pKomZCy1I02tLdEUHegO48ksqGuxzgTAJqkPhAO4mGvOeQJcnC8vYfUxo3bX5a1AtyR6Et4Bw7JT9W8jXC50Rydz/6WvuEhsr4B/snfZqrJfHWVyZf30oln64HmM3JnomA5O4ClisKhGNl50NzV3ulyFqEXx04CUTgxi47ichJVgZAyLRZJgyV6BlZ5warMn1IcgpW2+SWqZhTGoRD5Bwf+ii22QFExWbVKPCr6D3ZsWU67+dnWOSqoD5WGQSXmjwSMhYhfVs8ff/Uq169QvxRVnZ5WC3yX50qlCp/RqQN6OV
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

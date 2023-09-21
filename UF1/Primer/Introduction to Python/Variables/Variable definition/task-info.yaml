@@ -1,0 +1,44 @@
+type: edu
+files:
+  - name: variable_definition.py
+    visible: true
+    placeholders:
+      - offset: 231
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 231
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2fleudFYN6AcL8cKIBefEg==
+      - offset: 339
+        length: 20
+        placeholder_text: '# Assign a new value'
+        initial_state:
+          length: 20
+          offset: 339
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: MLcncFemOCq1pOmRWXqSfg==
+      - offset: 493
+        length: 31
+        placeholder_text: '# Assign 2 to both a and b here'
+        initial_state:
+          length: 31
+          offset: 493
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: TdhlonDmCffsG2FM8D8vaw==
+    encrypted_text: TVXBUmKnUmX68RtSluE2+caq2HyHFGJXAJZ953uFTWDx0o/9U21gZPhqYyRs1Ks0Waspnin8BaNKzCRlDAHHPOx+vIR2PCdp9zT7UhlE+3uWK+qMBQ3kwbY1FhseHSe9o2yHjvt/yagzb+0U+eyrP/Z4tenhNrEcJPvwFDgOq+GZbyCcF+0q5Kyy/Pkw331RZJT/KsYPSM3gFV0IJ1io2GgtNr3SV9L5DH2ml5mxt6SuBpd4gBbpx/eCnKU+Oyd2P59j2vTiWAMxzBfuizFKLQTe+8f4ZaV5Qapsx9TUSjdHi6jNSoOIKArkgKtuIb5pu7H8xB/YdVaPon4YKWsyuWnXUrjPXeLTX5hm41EvhlciGgRJieFkgT05ZB+k9qzFI/JnssMTkkhw/qNCdz0oKnx5MZLj5E4JTbemUOE58xpvdVi4MRvdFc9rWlLURt3jRuHhX04H4+YikVDc4XyAT6GSirizCDW0DYCPDjNDCwy2vqy8UNgd7a36V1x/5yaxWvKmVR52zN/N6sZ8d7LjGs+N3H6gvIvcp3ss15qSxky2G6YxQQlIwn2/6cdeeKVIFOeoKBl1BQz0qNsiM7o9N1lVAcm3Olng/NxrbWvmYtTwqHMi1qa1EivJW9YfE+DcSoMRurz+LbiLqkWIfwP6P2ii6dLbijY8latiTl8n092UXqlOEbQx/yhKvAsTG1ZWVb34t1rSYAbTs38/CnTO2T80SQKXuivANniDohcDaJYQANUW6uLmgfBA+Z0t/BVs
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Variable+Definition
+status: Unchecked
+record: -1

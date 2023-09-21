@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: tuples.py
+    visible: true
+    placeholders:
+      - offset: 161
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 161
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IAk8UB2JaIUIXRXtJ1Qdog==
+      - offset: 179
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 179
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2WTPq+2yTy3RpoySooYDsQ==
+    encrypted_text: u7LI2oWQk7N2ey3Gy/E7UUeddNVLTtiwhAnjIERbPopKZUTBjWRj1sByLYQspfwsMLpG3IfFjCkACgYTE17rjOq1PhYNqUX35X0mX3tjxIi/sLbw5cd2DttElgt2iXL00cyltIcQeiQWvRVyanglzzuLwIoyb6AA3i+jJ2bdSUikDCrYvWNxhQ80gUyGrUNXO07XeiD8AfTWXsT/7c43IbWgM+1V8VlBbhIeidFuG+QvRoZ/cP4SJONvvxf1Cw1k4hK/PRnFAeenui1jzXMcvA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6TrTpILU4tydfxbSUJVCV9+AN4yId5MVBhanJrmhnn+sEV69nnpUyZUdGOkmvM/g7JR1e1H9Tinv4XAyuM6YB3/8Dvhr5Qh/wMHc05RPJdZ6VThieOuMDT7Qf1NfA+idiXqfAEg8ZSsbNtSgksWnh+h2MaQ6Fnm2V8CxVbdxnOjrkWrD4t9Cbc+XWU0IGdEAhXf0QAxxYuQxedCaIGA+SBqXvQObe08a31YewSBKktcK7Zg9FClF34H4/GwjgB7q3GC/03u4rmo7Cwu4AppsjHsrAfFh8mhQlppIk/e6RWMe3xCXq/hgmMiuJYR+OqRhLSFg6ATstooV9FJqWeATUbe+c8Vi88xqXhrQjSS5oHCerOAwgsvzlldpvTbsP16LGW8IoEaZB4ztvCbaf/XQ2/p/UvKZd1UWJvm8z08wY+BH0k4YbA0qIeKQD0m8TH/b2H8BDRbxtbaOPjOW2PyPek2lchLJvw2zSwADll+BUJheDVaRYUk6Ql3743TdYzCPJSIjI6IiiPjb304O4ypFgPA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Tuples
+status: Unchecked
+record: -1

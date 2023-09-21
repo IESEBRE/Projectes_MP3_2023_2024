@@ -1,0 +1,58 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 65
+        length: 38
+        placeholder_text: '# Call func() from the imported module'
+        initial_state:
+          length: 38
+          offset: 65
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: kIrCcjkicVvy4nL54Zkghk145IGEuBrv8xmPrCH/jMI=
+      - offset: 127
+        length: 74
+        placeholder_text: print('This should be printed ONLY when dict_keys.py is called
+          directly.')
+        initial_state:
+          length: 74
+          offset: 127
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: eferBCJRUpIZ4ayufvWxuSzxvyxK+MoYXDHuKgRndPwfSFXYG8XfTQ3z89hPXXSG4ZEm6Xb4EAJM27GtakJ1RyozLCTKg4acSl4cpS9k/0X9YRB4KygqfBagbGeBeJMwyNCHAGZYjd5JnjwSRpNyCQ==
+    encrypted_text: ZZAe7Q81OUDVqZsAwu6CCUpv6pJwlEJyfTrHQbqpKuGBG9OYNmh3Y6yYy+Gl7HRcYCM9bkRmr3cdaNdM4OsYaftR+4QqBwAdAHTG7h2cQvMaBGBsFUTB4lyB+sSiYEeUAzJYBJxR52AVe6MhyXJZD9XvCAYKSyNBqXvxvKxM8EffumRmQsPK4dCpynli3vXJled3FY6+psboYCZ0JcahA9oeDKt0wpBTqgDGquL5H+Cd87CXOv6trvHJdNSMMEUm9RCDWmpm3V9Mszb02wav9A==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAVYl5bM/f8o0mWGdQbyYFK2Bw/6KnSXe3boX4U09y4hnKuNn5gnWp7vGYw7ZsXXXH9O4YjTbUawrh2DG4e2GClJh2iDJ684Dk5NQN55yUZfMA/j0zatzmUMkXP7130DQ9Kw5FD47+BYq0SlicqknLCmxWGXox7CJHbbKOuFwSGmI3KcRQDC9IW9XFaTFCOa/eauD8wD7p5Mgpkelgu5kM1TcAW3Vs6VLkYtL/jgqBsn+Jul3HWsDTRbJpBv92NtJQfDPe9WMtqXh6HOUcP5+ugsMenvGWIu59wDcV2stleMQjVX7ZfKZOjLBxYhyjLL41eErUpYoC8HH4A1MPa+lVfSBwazxNhK2tun+3zAbbbDLTrawz1E/CURD4dKiiWPV35dILQL00WF38xjLgc9TQRcQ2+wlTlhHuKVDXhn+D2/jdrKgAgyujvhQ8jpgcBdJXYC3k7KiLyjyB2gCgPYP9ezC8XI9YoQ0Z+J01TZ1RzD7e2B0TlGoITEtquayZ7wPPv05Jn5Z6wRUC+jOF2+/cdVCfdAYQWFanLzzgKkTQ29idS1btVLTF1I1WOfl7q3E/L0za9t2fd3I6CJRtVBzSBbHPGmysfsqE43403FT4MKS4a5qP88MSpn1W7IerStmc0v5PJh6GcLj92+JzfgscL0oBG4fPZmQ2ySBJOPoS9bJMMKbhJYjteVpvbiysIHS9HbnPOjzRX7SbGKOvOhf0PtTr9lqPC8L4ODaNx5gKEnnsNKuWOmg+jMuc/WwaUrOA3GyYuaxO2wT8jjsHOu9LZpimEEf8ArjOXMoHykS9c/+X6XJJHCKPpn766JhgsvxsieC0t+Vrgx3JZJR5m55l2K+Bes7zt5TULTjX80d9jPkXRemsd4Z6+ak3vE9grzCRGSxMM70bN0h+wlXm5vMS8kkjvvRDxaCSKs2hrtA6vqfQc7yuAvVjDVkCdujlfxX6U47xiRrLbXEVGWXwXbhqm2j/ozbKddjzVt8NqmBkU5qiztVD+h/b8VvNBdXd/skPYlNVvdGF+vbMGdkWNNTOrwn90Y5c1mvLGhMfSjFnLsruqD5OKSB2EgXlRudkbG0CKjb81ktS1rp7Iwfbgh2ZIQBrP4ekwt7AIrqTyYS0NWcOwa34QzxEdwKv8J31yqp93IN+Wjj7K21TRVlCeBnmmHcdLINAEyZt7CjLM/OYyA8HwCMjIcsOJpJemcSf+qJKGvxnAlknZYBoag0kcdP1vqOQR5P9hiOYOaq1aw1qkV/G1yf6J8kFbotwfbwhUtRVsz2R6Iqa0AfIJ7MynViJg8wzXFTZqwwNFYZ7H86C6MR60EmLTGDSPcWYdIMdlBWxwzDxO1X2cImGmiJxNwes4QQ85ig5jObrSCsOqf0OqbrF8yGAgcwCHxxH48xN90hVqqZVY7AdFzLrWKcFfTNjLR+XSgGGBHFRDZrOM0q2qRXsYUj4pSOVb9tUySD07mcmHTNFEa88pGitiPywWo998jR1MWzzrPKGSZdhYgrwr+1+pd6wF5NiJc7PB5vYUcFAtIwXEFj7SyYiwmB/duvwe24d9iR1EBoAtV2kYE069k2Iaaa/2Yp1YO6odlgxRrrlersi9whemtAa2NtHSrSS4T
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: some_module.py
+    visible: true
+    placeholders:
+      - offset: 174
+        length: 35
+        placeholder_text: print('This should not be printed')
+        initial_state:
+          length: 35
+          offset: 174
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: eferBCJRUpIZ4ayufvWxuSzxvyxK+MoYXDHuKgRndPwfSFXYG8XfTQ3z89hPXXSGRhTbUNUG35ABRGQlmW7IurfLnYBvEwRV5ijGOLOFcdQ=
+    encrypted_text: g/eN64d904gjY2lcInQATg+p+gz6F1s+/UlFWVh7lM8Es7lhsgQNJ/Ymt4+NT5jckN+NZsopcUKCnE/Ie0AQQvgP8RNwBDLcxaBvZTpFSKePD6q0d//XOMavSkKR2fyu68AsExjqQEUCPFNzBYx4sQguUy3Omo4imyyMy6nJ+gfUK9L7W/4hmU8FOcxTZAsJDyr0PvuMdXCig4HeJWS+D5x/eVt48ljAfd801aenDNVgjnztI0BCav3EFssedUkZNuWeZZQaiGKlI0swSk4WmFW3u6Hl68MsXAo4m/bxAUs=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Modules+and+Packages+/+Executing+modules+as+scripts
+status: Unchecked
+record: -1

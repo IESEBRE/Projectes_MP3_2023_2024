@@ -1,0 +1,44 @@
+type: edu
+files:
+  - name: boolean_operators.py
+    visible: true
+    placeholders:
+      - offset: 34
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 34
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 7fwRgGhI1XP/fa9HQT0KaQ==
+      - offset: 100
+        length: 41
+        placeholder_text: '# a boolean value for truthful statements'
+        initial_state:
+          length: 41
+          offset: 100
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: pOFxq+VTymWmt5O+IDuWdQ==
+      - offset: 197
+        length: 48
+        placeholder_text: '# a boolean value for not so truthful statements'
+        initial_state:
+          length: 48
+          offset: 197
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 5mQdfUytsGrA4YsWOYVtcA==
+    encrypted_text: rwkLQHficzFtlCEYAIgJC6iE5yzExEMF7jK6026cwJKVE4i6yJsnJGqLom5V7BIJyxcYOEPkVZy0qVIlbY+hSzyTMTcwb3m6ofREzV6h2T57Sj1tlEUW9Xk3lBc3sFH1gpFlMo8ExGCyI7uI8vgGKCKvBZDkcuz9xvAcHiWZQOq+RL4hjugvaG24cB1zqA30HdiBoGJmfgGTYB+v8u+iaU17EsUncUuen4oMkmrQ9KEspbZHqaSPULBssgDrqQIEbBzgrmtdNZpDVeRsnHr4rPOV2JC5ginPLF7cCXajwODyDy/kOxhBOH0X75mePbrYgamRQDB/Z+9f3M9llfuIyVg2gOPRqdcKdObv/XVAcHy6lSBediXJLqXAQdpSs6yD
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Boolean+Operators
+status: Unchecked
+record: -1

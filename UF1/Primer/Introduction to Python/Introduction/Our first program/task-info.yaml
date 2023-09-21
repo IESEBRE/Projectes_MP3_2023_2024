@@ -1,0 +1,23 @@
+type: theory
+files:
+  - name: hello_world.py
+    visible: true
+    placeholders:
+      - offset: 32
+        length: 7
+        placeholder_text: Type your name here
+        initial_state:
+          length: 19
+          offset: 32
+        initialized_from_dependency: false
+        selected: true
+        status: Solved
+        encrypted_possible_answer: gNkWNun6UxgzwijWA9gTrw==
+    encrypted_text: U2bKysx2iVhJVoO0IPvpnie+j+9tS66IdICGYvLPT0F8O4B5bhBk7hu7GElwKxeur2x2fZMyL+2bQKTjLFEKcA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Our+First+Program
+status: Solved
+feedback:
+  time: "Sat, 16 Sep 2023 09:13:34 UTC"
+record: -1
+post_submission_on_open: true

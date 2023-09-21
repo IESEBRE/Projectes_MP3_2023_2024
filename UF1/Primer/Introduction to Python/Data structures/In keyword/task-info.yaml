@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: in_keyword.py
+    visible: true
+    placeholders:
+      - offset: 236
+        length: 5
+        placeholder_text: '''???'''
+        initial_state:
+          length: 5
+          offset: 236
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: b/HiOb8sHH/wKluMBgEJIJYQmjfxL0orymYbXlMpaoY=
+      - offset: 249
+        length: 5
+        placeholder_text: '''???'''
+        initial_state:
+          length: 5
+          offset: 249
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tnuJqjYBc6ZZy9FHC1NzlWcq46t6h3qZ6o6OHgfPqF4=
+    encrypted_text: 3l3G4jrTwDblviCgPJH5zZ37EzdczlHQICcNpj7uzKtgrWH/tLQ5WOOC1qayHYNAGrchjaSAKX+RzS4z6jghxY7XKmAw2duQTPV8p0qNTyQ8K7TWlWB6anLpBHfoWHOBcoyT3v5fUgft/PlHSUW84Th1FCLcyn2QBp/uK5fKe7sVr1uSIgzoMLsY56mypI4Du5iR5YPhALnd7Z8lsnPj4YjeMeMzmdE/zZS7txO9M7v1TJS6rwe0jU2CjwK/+s9A93M5pJHRJBl0bLL1jUNu+hlrvTCWscx0HieBpAfuWDq0+K6yjLQv5L5i3lVPCSlrBEEpWTOAoehCaaYFVxXZ4s2EaJKkyjmgKVx9vRJIbc8=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6o7wPF0QvQtia0jBZo6ESy7L8YxrS+OvoP4KhLuIW48jegLx8rmpaBwTaZ2blxpbdwKHXtg6EZdF95rHvcJS6wUnvCdBNpf7yEE7t3T0vG8CJvCztq+f8mVkjUmnNgdcSzsVGl8QEmbyVWdS8ps52LbfVdTCpb+aR91YA4K3ESgrRRXineQE9oyBeGInE4ZB+MJKzkDKEt9y4mqZYURwivCiIHgdK3BJmgpYPkIdo0RPgSs9rBFBYViNAWu1JLCnt4Fjq5Q2D3Jqm+8+XIffGwWZves2MhYdECZMBW8B20TINbGCIkgLzHhiw08DUAH3xKscsrZbyqCrqPISghlIkLJnSchyGpWIsb8l6oGyjUcP4VWzk9G85GcFvgv0x/+Xy3lp8ci01sYS5teh4nE10XoIUDW86c/JyY7hsThuOr4VVasrC+n79XufuFE9TF8GzZcTZWQM7C+SUPFrlfSKF3Nk6ZFqmI6zo45mYd5+m56fWq84y+T6m/KIwIXXw/dUeme3GzX/+99VnKs+jtiOLo/jc/sItipTao4z3Y+3J3ztTuRpfFHtyfixwRLQGFO5acICcrbMMTq7l0GnZw74nhQ==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+In+keyword
+status: Unchecked
+record: -1

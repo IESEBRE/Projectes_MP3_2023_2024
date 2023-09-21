@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: builtin_modules.py
+    visible: true
+    placeholders:
+      - offset: 50
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 50
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: T6bP2yqCwluRIdlfIt//t+DOhLVi+LPc/35MPVyLFC4=
+    encrypted_text: lFHY3FQvVnYAEBl1EjB3dt8/uaInAbUiO0jAzbeG/qvAExD/kowRlPqRt8w4/c1OSTvWSciAzws9KD6PcWfSSg==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAVYl5bM/f8o0mWGdQbyYFK2QgxghbrxZVB5QEka6V+xoBNb2101UJQ0qlEPkD8l7Xdka2MSJv/rLO9DRpks4F3p0fE7UgdIzVCp+8ExffTb69CP4C5ndzha5RhXSmQYmEQaEOk+JZ9MQXdE4pRdP+DqQEm3XAShACtrd4s13xq3aTpYxOw2dQMJ2hNAM2DnnC5uVtTPdWMSiOYpCS846PeuX+DHRWn84plnB4rpamZSg7l3E/u16HLe6hkHPSIjIjKT2WkWCEoAaNvMCBh+nDFUtmoL4dl/XnPQSKqIGmCIoLuumZzdq/uu6/JnHRj4C/OiqUduQ7K73s5QCuJ/fmxCHeoaQOux5pCojsjFnwJaW+YCAZZtkqeFwQF8cpzZZ1M55nGxJo/HR+9kn4wnzUlPams89kWOm8GvCvAqOaIOr70nsELHnDf8g3BCn5pMm0x/VlbYbtWL60mjOuh06sQ7izY1daQ2SP4tHC/ECuI3ro5ruEiIjsjQqQbZAHgC6o9cGb6eZ2ULi2qcU26csZTZMAkkDQbMHttwgKd0U2kZjs6otyk6PpwZv+dEzbambEdyhvJQogNy2MdKq4MExHodnzLTWtndYbeOgWxj/ku3yE8J5rH3mY69HdQ6NS6gYU8=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Modules+and+Packages+/+Built-in+modules
+status: Unchecked
+record: -1

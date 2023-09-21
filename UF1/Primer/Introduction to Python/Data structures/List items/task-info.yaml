@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: list_items.py
+    visible: true
+    placeholders:
+      - offset: 302
+        length: 61
+        placeholder_text: '# Make all animals elephants by replacing the last two items.'
+        initial_state:
+          length: 61
+          offset: 302
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: yZvKn7xlKMTKLmrTuimqUdoXojbn4lp46SpOe7mlpNGg4x+bS5ppYLhwii2BDEyR
+    encrypted_text: ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8Z5vzJxnuXBTUb9zRgAc/PIbu2Ekkzfnaaj/ENQyHiJ+VFOvMIViFyEGelUf2FY80h8TWAmbP8IGmdwT92Wm6ySqZioml8YdHSMxZhuuqVzbp0WqfbdyJrDFEqQuHmiFC9O/0T+ImkI85xmCmhnSvnqHNBF2RrlmLfqzEyCHnvDTH1Dd6PhS84qZISPdtufmF/pqZLoPjH+v+d8T7OWadjN8ymqahhxCpK0LcJnQxO/wioaGZaUsyb8L/7AGN8/Tbh40xrv8+Zf2FYugqSb+t6R9xRR42yJrSvnXnMf/IMwN1gwKU1kvgnTV/aMoj1JZCkVoH0WpN63BFHFeQxIwaM2DdTmCxFIJoFjcmu2mgRrQ5/cy4L4QmMMdt6B1UFAutx41XAWa8zimb/1NqhwiTZZLwAcj2yydQbJVCzxslKQJKxhkWK8T2C21xe70BgQBC
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUZqnh3uHfzR0913Z76ZzfYqonHKWOQWbKHudpDUATQ8hLrK/ZFySgfMhueO/7Z1ZryVv1mmCld7wb2FhhWR0TqsqNKpbyKE8hNrC8g7VVeRK8MbknrIRsH5cvj6aUSDmIv6eZsvcIN4llXBrIl8R7/XjSc47XWkrMIyibGcIG2ZJKJEleeVKE5fN7Pycp9Znns9XtROUH5T55TGwlaIBpRj8Tt3ETZN/oXncBMGoEchepzbzERmG9He815u5J0KLt2gT5a8kz1IyJh2e779ojBNyBzs9Swoi5P6JiXec8bGvFU1Q3z+YCeuf8gAcOLJcBLzu4YWGm5MB31SwS38vb5FMWxmQ8fOvX1d17daIrU9KrwfrT6TwOY6zlm6yE61Zw==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Items
+status: Unchecked
+record: -1

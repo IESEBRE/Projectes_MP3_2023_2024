@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: nested_loop.py
+    visible: true
+    placeholders:
+      - offset: 61
+        length: 31
+        placeholder_text: "# TODO: use a nested loop here."
+        initial_state:
+          length: 31
+          offset: 61
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: V3V3n0HqAkWOIm6tp2L3eLAECl9btk5i5tXoCR+SikU=
+    encrypted_text: beHdomPmC6H2y/k66mNLAk+Ddvxp55iAsQnSUH/gBUo/HodE7FX5yJos0a4EWcRgi5Kt/Vy8zDUNoJAjs/X/lKgC78jR5h8uflGd5RI/1q4X4R7OG/GMQLvr7SJvHwD/uzv5bkU39dX+daOqsWxOC5Gclb8RFM+kwfIDD0p4IhthL4ieJ+zpCgq33pHL5rFp
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4pX7bdZtstSdqloC8yJsAC/isfTmo53w51WgcmbOKoyrWWpaFyaOJOOfM/DobKKV/IukddOEwTRtvo2ZBrWDv4bS1DEOcA2B9qtop/KLvTAZPpCYcZXPu6aSHL3VIFKE/fFC29kEMjAQB2iyYvpQrCgUA1P78Cy7DO0ZInDtXEgALpurKOJq+7+RBpfsuXqm5HNCcEfTin8RwBFRbSGuQRkVtI3Fy50c0iigEToQAz5INAAJVAYUysiNCVnMT5RLEsnLBOLwIAZ2ghpNuslnkAYt5aC2gLxjO4cy7R+3m6p9FLsydWdFdVMWPTjXDFOQfib62xNCGZjLcJsxElmoU5LKW7cV1eSPWafyaBU25ez4ptE4qMWHGuHh+dkq/FZpN05Trb44LitFFavWMJIDZ3GN9cbYE/kRzk88U9GCNjjbUirH8Fv+EmonX9MDORrP4C68x67cYRcZi1CN6sMroL2M0J2Cv7wbvYkbarcUGr8sAriBn0kT5L/c8C6Faa2C72rRUCEJ2OyUw6n5vSCSyeQ==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+Nested+For+Loop
+status: Unchecked
+record: -1

@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: string_multiplication.py
+    visible: true
+    placeholders:
+      - offset: 29
+        length: 6
+        placeholder_text: '''TODO'''
+        initial_state:
+          length: 6
+          offset: 29
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: kD+FObku7Zrv6mi6vwtYKfxK6G6FErAkPym77wv8hNE=
+    encrypted_text: ogdS3cctAXFhCAn6p8S+kC/iDNvlorYDAbjJ0eE8o5o6ujJIuDOHFBAa9+UzfguxX3AUrYR5dqZDOJKvhx6oGQ==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdVXGQimnXAbxmYrXY9A8hBiTK8AJUYAjnc75iv8HAW4Onh2wZwx35wEF5jdDfyTzdEfY5EeECHbmj+qPOoz9cSZrrv0jYfZb6DhdKwuuuh8AfaDLPz59NGNtSzzI+kkeCTr0qcUqch3fUZCmpuBpi7PlAxPVta3TL5JyYLpzuqGSKGwrazGUL/On+M+QURvOV3XKW65QAeJTt5Ms7XvvY4YTDN2PBvqGH6mjB1L1PJjNAy9p6GkJnAgZJTqSnye58xCnr+gq+KjWCDceQ41tzg3gmDCpDh/ipYWyf8a769uG24My1PdvbOwUZs2iY6OCeBz7EyiYOfzEgXlA8MPTGhTCmNndSD5YjUWv4Pu/v9e4HrTRvJKPh27727HnbaU03iv4p1viSxnINWhJw9perCU=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Multiplication
+status: Unchecked
+record: -1

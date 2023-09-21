@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: concatenation.py
+    visible: true
+    placeholders:
+      - offset: 47
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 47
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Dte/TD3H1wPQglbhmhSenY1nHZ18fk+oRe1HsKpPyFo=
+    encrypted_text: otZRUEKE55Dz9FFFnu8mEnTVkn+OpKUvLGNUApt70K5K/JBJ0dy4FtZfhYvXrZDPvWGLTl4NI41XzDv4XqmGU/+uaOsnwYe3FocLkoWApqkoVdko0uqV5rDdbQONng3ZWizpjPs03gSWLfeUWE/a1lmNHT0CVflh+QyyE2vIvgc=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdVXGQimnXAbxmYrXY9A8hBiTK8AJUYAjnc75iv8HAW4Onh2wZwx35wEF5jdDfyTzdMY76LJpH54WwJLHtM/3A8lXQg+vyfQTnODtZEEBlhXoywhGlQecIIt0PVJG17gGjiaZa1uOrZtDsKwgn0b7f1zq3ZFBXs6joI636TCH04uGFc02F4AWdUXziC+FjpEDtd3KPoMh+jTt+OAASB0POQy2kDY8qXLa7z0F+ua1wetK5DJbuWUF0qKvSg+s4geIYAlGhGySNG38tfSlFBAhwINtXZHV/nZigW5VBal5DBjDxqeC9xHYRVPkLIexkFgR5oC3OiW9ytUXjwQCWrDStzwVCC3sasbyBiQtW9S+Hs0h8HueB9vENHVxKRpVY+QRIgFOVYPHFxDODY2hRpyj8Zp3u5ydz1oR4rSkoW/YBmDxDt/zh5lU1f7/nSvpG0pYwqCPBujnlSGNCZM3ykI4x4IKhiurp4Ony/2guNPJHy/U+InTDp769QvoKuoK/WCtzj4ZcBgO/jEehrhlhQpN2/SrZ4sT5LRb+YDsOZM5ctZwM+u89DqnxXXJC68RJsFo5w==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+Concatenation
+status: Unchecked
+record: -1

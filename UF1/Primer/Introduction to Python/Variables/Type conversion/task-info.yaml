@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: type_cast.py
+    visible: true
+    placeholders:
+      - offset: 223
+        length: 24
+        placeholder_text: '"convert it to int here"'
+        initial_state:
+          length: 24
+          offset: 223
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: UsHwocaSwLaBLhXjmtt7+UIqvg3hjN0XLVtAefSSHSQ=
+    encrypted_text: YoOJiSbqbvZVuvvxZHm4glvjYH8+2/85XfTT2CADIbSHMcaowC5ZRNG3iwVBZ04WKVTy2PlfOSKVDlYN4H54SGnSpseCW9jvWnR9DREuoHLxqyx9IMl8zzefMuaeXjiBslVBPcTHDAPeZBN+JCrTBNuy7X/fD1mTRxTovDaSJr6E91FtEVyTh0P77ATxJWuRrenuCWdKxH4gerrGUimI9cCvZyt97J+5JFkHhqQcTtPtQoFmYLU9Zf59py3OnH3RPQJwyevsoAEZHddFZgGgLIN1hBjB1Wpqra3Bk0FA+y+EKw+rgZBCmQ0rpzTzAPXlL5AL/UYrojnxeo1p1S5PknYq/IOI6N3/h8EAD7Lry5aDD7p2aLEQgarq/wZM/eorMieJ6zdDAIX5NLSUKlF0XhYV3QD803sjcOEXkmOOIM+PC0vZsNms/ZqN58gQZvPYVOiBsvnk71X/dcw2WPl03ighK+rpgEMsOC854FAQeObeWgIyGCf63Td+CpOjqXBs4Og1LzrpMFpID7VtL9b/Sw==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Type+Conversion
+status: Unchecked
+record: -1

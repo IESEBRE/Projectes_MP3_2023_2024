@@ -1,0 +1,39 @@
+<h2>Goes Right After (simplified)</h2>
+<!-- Describe task in general -->
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/512828d9383246d98f5d2426eb53be67/convert/grey/title.png"/>
+<p> 
+    In a given string you need to check if one symbol goes right after another. If so - return <b class="code">True</b>, otherwise - <b class="code">False</b>. 
+</p>
+<p>
+    If one of the symbols is not in the given word - your function should return <b class="code">False</b>. If two seeking symbols are the same - your function should return <b class="code">False</b>.
+</p>
+<p style="text-align: center;">
+<img alt="example" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/512828d9383246d98f5d2426eb53be67/goes-right-after.png" style="max-height: 200px" title="example"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+<strong>Input:</strong> Three arguments. The first one is a given string <span translate="no">(str)</span>, second is a symbol <span translate="no">(str)</span> that should go first, and the third is a symbol <span translate="no">(str)</span> that should go after the first one.
+</p>
+<p>
+<strong>Output:</strong> A logic value <span translate="no">(bool)</span>.
+</p>
+<!-- Give some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert goes_after(&quot;world&quot;, &quot;w&quot;, &quot;o&quot;) == True
+assert goes_after(&quot;world&quot;, &quot;w&quot;, &quot;r&quot;) == False
+assert goes_after(&quot;world&quot;, &quot;l&quot;, &quot;o&quot;) == False
+assert goes_after(&quot;list&quot;, &quot;l&quot;, &quot;o&quot;) == False
+</pre>
+</div>
+<!-- Here you can explain some constraints for input-->
+<!-- The section is optional -->
+<p>
+<strong>Preconditions:</strong>
+<i>all symbols are lowercased and unique.</i>
+</p>
+
+
+<p><a href="https://py.checkio.org/en/mission/goes-right-after-simplified">See the task on CheckiO</a></p>

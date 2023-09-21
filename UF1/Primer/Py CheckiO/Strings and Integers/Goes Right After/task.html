@@ -1,0 +1,37 @@
+<h2>Goes Right After</h2>
+<!-- Describe task in general -->
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/b662390355d84314aa596d8b2a84f6ca/convert/grey/title.png"/>
+<p>
+    In a given word you need to check if one symbol goes only right after another.
+</p>
+<p> Cases you should expect while solving this challenge:</p>
+<ul>
+<li>one of the symbols is not in the given word - your function should return <b class="code">False</b>;</li>
+<li>any symbol appears in a word more than once - use only the first one;</li>
+<li>two symbols are the same - your function should return <b class="code">False</b>;</li>
+<li>the condition is case sensitive, which means 'a' and 'A' are two different symbols.</li>
+</ul>
+<p style="text-align: center;">
+<img alt="example" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/b662390355d84314aa596d8b2a84f6ca/goes-right-after.png" style="max-height: 200px" title="example"/>
+</p>
+<!-- Explain input and output values -->
+<p>
+<strong>Input:</strong> Three arguments. The first one is a given string <span translate="no">(str)</span>, second is a symbol <span translate="no">(str)</span> that should go first, and the third is a symbol <span translate="no">(str)</span> that should go after the first one.
+</p>
+<p>
+<strong>Output:</strong> A logic value <span translate="no">(bool)</span>.
+</p>
+<!-- Give some usage examples -->
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert goes_after(&quot;world&quot;, &quot;w&quot;, &quot;o&quot;) == True
+assert goes_after(&quot;world&quot;, &quot;w&quot;, &quot;r&quot;) == False
+assert goes_after(&quot;world&quot;, &quot;l&quot;, &quot;o&quot;) == False
+assert goes_after(&quot;panorama&quot;, &quot;a&quot;, &quot;n&quot;) == True
+</pre>
+</div>
+
+
+<p><a href="https://py.checkio.org/en/mission/goes-after">See the task on CheckiO</a></p>

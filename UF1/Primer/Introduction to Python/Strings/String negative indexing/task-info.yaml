@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: negative_indexing.py
+    visible: true
+    placeholders:
+      - offset: 58
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 58
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: UU9vTrzUo+a6ydkWcsJ9dA==
+    encrypted_text: nOnadNTJBU1R1Lqla0G3lFo2H171rvBlx16wniY78FFC+b5OxxbSbGY6FcnjiZKcASlANnMxUVSKmaq1SPhZp72d0pJeW5GnwZrkRaI5PuUM3WWwkth9d4p7g9dIjf95
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdVXGQimnXAbxmYrXY9A8hBiTK8AJUYAjnc75iv8HAW4Onh2wZwx35wEF5jdDfyTzdE6qDXwGFNDEF3UjWeOoA+S0Rn/wfhPgN0DCIYqiFUXaGa3QUnEtXCrFASq41uPL3ARAXs8wCSi67j9b4/wXt+HdXOwfhOGsZACgU0C7V+6u+dbkGfF4RvnsvAltvtc4OlQGv36fr7BLFMyWoX/uOdLGS95Zrjk4N1ON6FtYr5isPPIDa3IUodFBELaMwxZ6+5YSRuPczgowsXzs9vaVxRvkJvFLVcvCZpBISKp7HR7bhp5kXLtsu+t+KlkS6XbVJuOc3T+EDvFAJBYa7dOCTiilOAIOroWGnJE0OmnTurkN1ysQ06AAAbkmg+FcY3OLcxbbd0haGg9K0IO+woKEflQX6oDKMLwXCeHeoiazzZxVLenb5UPucJ/I6zzqjTQGqhxZGcCD46wEapqcyZzxYwFqwszKkYiriks3wRE4iv39
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Negative+Indexing
+status: Unchecked
+record: -1

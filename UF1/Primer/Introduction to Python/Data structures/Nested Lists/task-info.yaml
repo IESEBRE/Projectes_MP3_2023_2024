@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 55
+        length: 37
+        placeholder_text: '''Print number 9 from the nested list'''
+        initial_state:
+          length: 37
+          offset: 55
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: wIcUbKQkzDQZHqa4KQbyCw==
+      - offset: 100
+        length: 38
+        placeholder_text: '''Print number 10 from the nested list'''
+        initial_state:
+          length: 38
+          offset: 100
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 0DrqmhAdpO4eFjHtTziHpQ==
+    encrypted_text: D6wqlir08VmCGA3oW5uWQS2/ryc0T1EA6bmBi7siQEGV+pGT8i+ea2oaIcvrEnAqTtLOxI5Y0dzSCXXLaWLLQ5bmohwkQ68gg/Ily6oZg5od/czz4cFi8X9fdvJoW1TVpJwvzQiYkvMs6yfySowNdHPMoYjVtRki+3iVuVTnqugyOc+XFxrXwAx7/3DH10tB
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4pX7bdZtstSdqloC8yJsAC/isfTmo53w51WgcmbOKoyrWWpaFyaOJOOfM/DobKKV/eG0rb/mkiiSdbEJ++5/nQsQ2xvEQ6DHLMxklvrxSEIgALMuWtg1ID5DsGNklJlZnYDDpaFNKpeGg+XjlOaazea7AEK0ApiK6Pf/ds3Le7ZnxgPV2SQxJW34mi/iwOcVmsyffSyqM//LvS/cSdnmQ1ZrcrUFy/XkQbZXRL0PnOQW63oiMxCtmzDQuP/+M32MZoVSWkyOtMo5Sa9rBzEWG+JGkMl3dOmnnK4LjauVPrMX+9te9k8Wj0pUYKc/TiMaiOZX8skfVZVoGzYR3JcCFS630qN9GDoSyDobtcEDsDJgIBCeBvg0PA8t0CYaUubukw3SQ7d3t7YV4+ZWpNCzHKRcM/YMV1eEqkHR719vy03jr0f0uDI5EIDpbP3XZdItWiD055VTSIUY+/vQDh6Yndg==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Nested+Lists
+status: Unchecked
+record: -1

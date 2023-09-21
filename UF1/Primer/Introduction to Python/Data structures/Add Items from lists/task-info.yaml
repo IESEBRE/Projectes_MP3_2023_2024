@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: lists_to_dict.py
+    visible: true
+    placeholders:
+      - offset: 126
+        length: 67
+        placeholder_text: "# TODO: populate the dictionary with key:value pairs from the\
+      \ lists"
+        initial_state:
+          length: 67
+          offset: 126
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 0BQpJAHgW1Xrsm9PrvOfW50Bg9JBDzCSZDa7r8Mjf5RrCNowVeBRHEQ63N4VPnzt
+    encrypted_text: qoATWIVw/03AYYx4InqZPa3jjufc2VLJL2IzcFK0ogiRD4Y2w46YYoWiE013kQ9yAFUQ/dQV4Wh8awb/KPsY3a3QkE4s10olOkdbij+y6l2QhQF4iBJkrOvKJVKrXzvXrHUNxs8SuAK3Gy+pAbHKEIEQEwFAcOAq2z9sr6zM0yN2bSp/zCdFHNQ2OiBNTxOCY25N7YhpzzYoe6jP3ZWxoNUxwrJBTLwLgF6QdHojh2MaiXsT0kVgZIaOkRtkrHcuB5Klm0Zqr7WU7fMaunMa4ksvryY8cRgkdatXdfhdQ/o=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdU/RdLEhs7H/f23ApxgfIg5BuBqop0mboJypPPfqsBvV7UuSL9M2Dk3Vr7ChDgsqmcd3e5PfGDulaGYy7bzhnEyA321AwvY5GfymDSq6roMt6hO+ngXlvSr0LRshcBfWF8MceBuvVTDr50wjMeaMPJu8knOpVlNUnFGycW/spyMC+8nnELFuQS4zblaubfHdeXW0CciWiO62Wrm9OwwhN1NVRk+KMkYtjl9X/5Yh2gUv6eF5udIrRV0ofD93T6eBsJnEbfXlNJEGq2I9+3UMllSie5coCopQqBYziT6aWyKQCKSTSs+XX6HPxzrdBPVgb2mGWujUznh5jg/BPve6h7CE6pHt5nziqsGRnWOxQ5jB3LsT0H8bdAUvFHZvYGztNVvRYbhxEmz9W4kFA8YSmMYREikxh/Dnyms3cceXhbmvUiVQiTawWEHjmjQk9bNVG64s0vgqHCBghP2nGqC+KYI/7R6lGg+D/ygty5eTL3+Pj7yNhpHvYWLmxAAdV5ud0Yo4QfzohWHEI0Ete84/WYOyArdijtRIyooDM6HV0i7D3ThaObA7kcitMD5vcbd3fg==
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

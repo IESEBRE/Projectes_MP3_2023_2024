@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: access_variable.py
+    visible: true
+    placeholders:
+      - offset: 347
+        length: 32
+        placeholder_text: '''Print variable1 from my_object'''
+        initial_state:
+          length: 32
+          offset: 347
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: nOGR5BCO9xlinllq4hGrfsyoBfTbiBUcSv3TrVaXbyI=
+      - offset: 387
+        length: 39
+        placeholder_text: '''Call method foo() of object my_object'''
+        initial_state:
+          length: 39
+          offset: 387
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 9ojPJkLJz8G1mPyTq6DRWQ==
+    encrypted_text: NpG+FxX+ebRJcN9TpL3RBfVZKYN7+ms1l/CJvlxfjJnv4CPscfFoZ9IOMtP4jbsjdi2h8U3qZRFFOnHvWhIUJxGj3AdpFOJeCb0ZXWA5oZCsEqBx9+pmyD8FsNqLloxuEN0Pb3GF32mdpqFTva29Z76lkQ+Kn1TqElbicTiOk/lvsiBN3UTIUG4T5ibpM7rlFEMupJ+HVENYdLloifcjY/XruhVWWIzA5PxtLbcEPEBpMycruG9NKdt8PEO7pqfcFiJ3THSBcB0MjyyoYUmuroLxiGgeQ1O4vmce1fGCEfnjV6KFOwpJgZ5rIY+E5Ed8fLOc/wxiodzKkorvgix/MZWqWIsc72fBiRGsxNohT60jAthyi8NgWBc45m9RrtlVDHP55IrO3AGbNLmiO8ROuIGngQ+u4DQAP5aEyh50CAvfwZ4MgTWDINSbUtvvpr36u5v7V/OCMQwp9VKq+SyfxnE2Y3xPsy3WnS4PyXXEpPZdFepUzuCPJN3p+uSgHQcSGdfOl6RluEt297n8qCmkirVel2K6JJ73afuOWDuSbwhc6rSKBUcue4fG4IdKykwF
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2v+H2qFyEla/Q6FUY3XengJ1Mc8pvpLqalb7ADYuinS4bBLDin08GecET62+ILwCSU6J7CXJ/YFwiWQoZHahQ2MYmahT+gtLmiqD7Z/hlhNt6Wh5vukYVWX9D5Z7Bm/iU0tBLKYCUy+q9mS5VWEax/kZJBEX9xYR1pW4DxSVaOz0RvLFqUGeUqb6W54cejwjHnj27Kec8LemxY5BfZLacx63hCd/G07hkWtoYtf9JYES556B0F4kR4Hk6YQhFQFHXXm3MvCsvr84frG5avt496XeU1LrAuKF2Fio0R/uJlgAWSRApgGiFjA/eRNDZWvXU1brcVPYl0JnWg4l8PsStQV7IzZh5JAuEs0iVLO0VLt7UuSEF+mw4Xxm/XDS6Caxomh0UvmlBteCQdOBPgRsgoQLCv2XyYSwTC76EiIlBZnIjGcOKu+aF1w/6ZiqX8kQA1wFJ3cwdIG9ZjjlmvLvd1n4c8JF8lyAmWh0Z+3qLBCJSRfjPdWmDotXyqv1M8Tq7P1etb8DeBws8sw6ESML+3jUWHZYWpQh/YtyP6aXMQSFN3/kh2FXTg66Oqqni0MOWfRzPomDeiYx8KQIK8oVgXZbcAkhCBHT1ihEYYs1YTgtvBNERPGRHTUgRcZUoyPfg7fVRnnTq7WHr+ic7opoyYBwOSXFVseMPo9QLvfMIAFwJFbj3Ey5mkWF3eqdgoF0SPNcXcRwBBQeKO3zdo83BBySej+SKNaScI6TPqR6u3mkSo9fEzp1bNdOusEm1Q1Ovrl8FHFnOxZMv9G8dHwNVQs+raEYYzyYuuFeolaDDxYEgddw/s/oU2tWoTkuJAhpkqyZMlIKPc/qtClraefXRuH536M5vqzgwtl45mw56qi+vHj/kRBsGxfahEPLPnqYoZRWogTXeRRSUBCtdXJ7iLPL/lVxM4wQvQTVll+CS1YyLifhDc5nsKmeajMEC3AhuCPooflBcu0LUksGKm9/ONo+sQC60C3JA+1rORYTU7oMPnqsKX9TzmbvycBNFLAWA5aPg6sYGKjEQDZmWqcaRltnrC2bZhK3t8uuEGZYFdfvKyfFwei4rT456ref4Z1Dcf2K1O8yHDMPBJIr2IjE48NsT9CoScaAEJP5d9pqZ6ajUg4VIwfaElRsfS5c49/6G/ryTNhbwCiUNz/+WewTvzpTHbYvbZaLBfoVoKbazTsaWfpsGcNv7PBUDk1mOaw7AvL7Zbn3FGxgUN1JNGKH/Yb43dCmwqlstnmNp4BEvBQE8GaK+LI1xX4kJNoMfgfnEupHs6gbtrpQqQNP+dYA69dPMxc0AL+Wjvy3STcV3a92wnKSWR4TCtZrv+p4u2xt5+7BrzIbpQnS0rfAtaQOPGWReOqgZJ76eSH9OqNM80+VKQx5mDVokELt/64XGyTQ5W+J75Z6VUzskTTtbO4VhAYShF2dxctcrMmZsfTyD8+l0IWrsfsu2RMiHqSVXagXbNvAzsabZiCvKyRP8WRgK0egxD/X8W94w/lqZ7aSkNYPFwm5UREVPABOsULiVIsRKHzH4QCoOA6ytYaZNMqAEIQZPOSaQSypDvzoFUrV+tt6D0T7fLRUSnOp4Bmz2Wr6DjUz3vu+XWFFvpJs01bVcVJxGiiZpfpbTtrmWa3Nakwdkga/l13gRs5LOYxvsD1wpb5y1kRqnTAQVvy4U75wFV55e3kDcrLmzAk39hIFva6E7lIp1acvbAEg3qPOTEgcNcScmtFPa+6AwPEaz7J2OooRQL/qFga1Nq8MjjJswbLZ1kZZ4E+wvEBX7HfOqdDfED8cHTVaSA1Hg8H+WxZFISYUh+1lO79DderyXTnUjFo4u0Lu3Q+IWD9YtuyauTS+mys93z9IPFF2W6YMRaE8Tv6+R7JxtrowlXN8wEreoGsLEY/0wWWTbMxn9zNtfWFaW8=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+Variable+access
+status: Unchecked
+record: -1

@@ -1,0 +1,46 @@
+type: edu
+files:
+  - name: my_module.py
+    visible: true
+    encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1ZiA444GosSwLDgcC8jdABEN6zFBjJ913fWfnFElM1Pdyzg0RwqepWLJOaUMqYm7DDCgBBUmQgqf4ue7AYFmuiBdja9ObJObKE+U+FSWbp6k
+    learner_created: false
+  - name: calculator.py
+    visible: true
+    encrypted_text: 8OtzQjb5SoR6NJEvbIiowUIOLS+McA5znEWLzXLtokft8nJcKJ49dXlmDMD0G2dhNJCl+ytZSU9GqHJmh4R450exWgfDWI3H7VfC50/BBfhQGtFPzUaJ6Amunu93mXDVuC9dqBJspLzIvqmSLQ6O8CjH3eah1swLKRUHhLh+8ExsuznNbLBIoh2ryMdu6kkLmmHJFFshSpu3qIcSV+lXJBIhmXjmZyo0VlqZO7m1FYaK1b6IKkf3mIAuGN9l4Cuur8nKxOT6hKA00I7NRjIDOuchtcThP8na7nJxGfqQ01hm0FCuoJQEmNU1ItSLfI48dth8J+ilLil9i/vyhVTBmZEdQFl1APfxG2hs2wSg6vd46HsHe2p0utkJ4Po6x3C8mD4gkP70iCPvY03d7CbJbnvhKAFnVH29LNXVXsBCYARj+feBF/d3wpkXQMyIZ/7j3VlzbbfNfdKybwh3RMT66QHZ5HnZamR5ymgNZBGF5mO4Lu0kqneY4G9e4NhmD958uxqo0gtThYEduolAiOX4Kj83HV2IT4l+aJ9bwR089hRIE/S6firNvCX1tkH/vdnWbKQe+VKF2G1cOgllR9jL6/827tKeHD3+q1sOoIqNCHZii4ioFACbAaebFFvmOJS1ULRcUFLU2fvcb+Oh737y4wgAYKquFv3PDmL/tfctNRlKfV/uFCSwr3Sy5HqkJppb
+    learner_created: false
+  - name: from_import.py
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 45
+        placeholder_text: '# Import class Calculator from another module'
+        initial_state:
+          length: 45
+          offset: 0
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: AXDlPSmbw+enY4/4rg8k8afhlOtdLLYYuWBK3Z+Vabt1JLg60DF0flGc36jvbXJH
+      - offset: 109
+        length: 26
+        placeholder_text: '''Instantiate a calculator'''
+        initial_state:
+          length: 26
+          offset: 109
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: ni3PM/AmFMT8NObzlGrXEg==
+    encrypted_text: s/9F/ocOJB5KaSbm7lMX/nDcxa58cHFVQIhN37/jCFwTXV/Lb7SgaOCrhfszKfZ2RNSS8xtRy4Mz1caYKBTxT6ckbPhdSpZpcBJepBEDbuTqXExv2zrfBU9j2Ns4xjkitQpf8gDwUT3ItK0qFoNtMAglr2+EQNCNKu1CNVMVcn66u+F0NexP3tPjtKObpK9T0e5hsKoSJQcwgYeWcrkY5imfZ22xMDcJS/DrZMLHARSkki18QEQK481y9sySli7zE+WA6+CO8ChX8CrFfr2FT/SweJWqE1u82xYQgAdKrdKcVbLAXOGcQtihFyvQU5ju2fDW9rv5HNQZTH0ZekTwvF1JYi8d9ANAOWIdB7zKqWm3A0djWFgRjwM76oFD4SXD
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHEko1bheQgYe7htsJGw6luauGukBNUQ1du5LmaW6jRGZKNNu6OEqhEo9OXV7XPtL8UGEZ/OH6uTbl/p+wMy6eYfMMT/NR73f7tPdf5xfWYRhny1XP1hSE5P5NBTuTu3qGXqBvBfsrZbQR7k58oY5HuWBrbyCGkOqOUKwxycNfl6QzGSVC5it+QTreBmfGEBx1NO/xctdJgH7n0kDTfHqj3CJtaZ34/gZAD/Yiyb/p7wKiF3KljsCzTanRSu+IUay+EpMDngL9DcibQ6LwLqfXxGRjvRetoTN1+IBZwce8b0/VdP9nNrCu4VjXJGObDaS+fVZ9CrgsfXaCXcygyF14Y8OCBpP1/WWiubkYmxPdRfbP3FqNjfCyNO91+eqfjMVCQsduCd9xoY3rTEr2aFBSzPjw3iz/KLPt8eITpVpvWqF92dCtT1cpo+3CUV5T132paxBONF7i+rKQODoVah/0dBUZvtuYUX/t83BrxsWOv+9WNMbie4Zoo6a2kwhUnBmsIvXYkJvbmPYRtKAg8s13ZTY+ArDu+/l4HX2mJAJYerUxlmHPhfmvr7WrdLjaQe4hwfbPLuKM2E4A2rVOr1UWXiLfz8sY4g8W49SC0ODvgZ/Coejuz6VVUnyXaA37jCPZtpepeeulx+DdzYDHcP8Fg/UxCow5Ll/tFkN1bxB/QQYVUkrQryT0NYvPk6YPuoG5abMwXBrHqlxx2E92PfonrdFII9RWL0p8EzqVmHsRKXFmir+qZG6U+YQR/igrRBd+4CzqhFfBgzv47648QUOeouNj1uk2gPk/hgSDSqSsDqnUgz6npw9Y5YaAgXkym5VbqJauwO2xyoM1B1Q0dxs6AvDgeybLoGawD2TUvomWO6ozgEAvbYsyERao4NSDNYCnIzNt466lWozAmbFzkziQhIpKi3888WO83K8nkp7WOQCLuiTvKjUDkHFwpkdxZQnMQ==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Modules+and+Packages+/+From+import
+status: Unchecked
+record: -1

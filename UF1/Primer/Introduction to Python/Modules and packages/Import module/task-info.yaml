@@ -1,0 +1,56 @@
+type: edu
+files:
+  - name: my_module.py
+    visible: true
+    encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1f8yD24FhmjPVDRiAKLoNMrLMM+j43rtbUv91IYnUxNVEOnfwqJEFMUKxf0afquPY+xkENZ8xRH3bQ8D88Y64sfHFRhreaV3/JORYkfWwmQbWVG94LmMYfP/O1DddQxwp7ZbVi8e+I3KtgKmiM2ShF4=
+    learner_created: false
+  - name: imports.py
+    visible: true
+    placeholders:
+      - offset: 17
+        length: 37
+        placeholder_text: '# Import the module `calculator` here'
+        initial_state:
+          length: 37
+          offset: 17
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Iskug2+xFWxAL98ZSpQCibISedlP4HTOl+vcnYH2GFg=
+      - offset: 95
+        length: 65
+        placeholder_text: '''Create a new instance of Calculator class defined in calculator'''
+        initial_state:
+          length: 65
+          offset: 95
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: eLx1AxUD4z+yNObeYy+kk+2+w2qPTTWpakHmK7ZY0Mc=
+      - offset: 186
+        length: 62
+        placeholder_text: '# Use Calculator method `add` to add `i` to the current value.'
+        initial_state:
+          length: 62
+          offset: 186
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: ePAFwr9x/zJ4Gl3OZoawJQ==
+    encrypted_text: /tnNqyOY2aLELEafKTNcXqwJAvOBQVbnrvwskFMPwcOFtICVfgta572We6jtRt9HMYsmTthYz2vMzkSh+FuWlXYNdhk6SCjDfS0Y1qQrAOmCge3sUjmEx8Ra5nn63IzCPtxpwXRZK4+J8qP4zcAYqZtISq3n/Qqek6paf2+nHO7ShaJJSySeNWDKC1RFCeJzc6ujkhIc6kV9rW7h10Wcyb2NT/qVCKEpErSghgvnWB+zapK3ne9mvV+aJ9TEw5L2zDOCx3Cx/8c7QTSAk+aJRAnlsSrOJRkm45NvNtvfSgox/VtGYNKjCwhj9m9GR3e3nb3dVCvrz7k0fCYARi+OUGHL8mvI81aEYzMxGHkiqWTgLbFw1rY/kxv7fe9UdJmN
+    learner_created: false
+  - name: calculator.py
+    visible: true
+    encrypted_text: 8OtzQjb5SoR6NJEvbIiowYak6oa+saqfeREv1dnRgaLy7sk5VhktGbPRHl+bL1tpdfZYYsF9ctqzkYI5cjQ1qd4AOlcBfn74bDcBodhxPclaXoxKYenhZ1FamOnqw8+EqBl6VCwxuNHVGRhHTWIVOauj+2gwKeUgLFBFoGqWlYiubMMGE/rAUDaRiZmJeSH+dU3FQsdtJsa/71WONgd2jc8D3TPVM1HgRAijvxBd6teTqO8LS+ekCq/HdoRG/J88azcQ1axDI7JrMh2Ccgq+Di5Fu9TnSHyZUNbldekyEV6Mur8juHC/FxCzQtD5t2HK
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAVYl5bM/f8o0mWGdQbyYFK2tGaOjVgQeE4KzZyfOk/fWjtrZ8Cy8IJ8dkFUwztfKLj1VRWCCX2tDSQt6+mZuumto38XVPUrYnzAzW9k/hDz6F1hkerAxYhGc0RzcT5znDv8/yQJHEYamToblq3+s1i+KBY00Vbdox8uXbmrDu1BAT3ji5is/XXpTnCp5B20S4OyP+KZNsoBVXEgptyJKsqLSE1bGxs6E3F+bBN3+NVnYLvyR9APC1nKC9NMHpHAX1hiWmxCwrDbJph4vTIZOiB/2KGoE4UNWWlVuBXcsPNSZgJoFhOkg8oVjo/uGLQDY4G2cXnFN1sV7qXizvGcGyaQeFQJTcTXf0Q6PK9BERd2iXEWTd0D2i6xmbaGOBgjvjWgsFLPFG2s6B+tAO6RTrOehnYVZDIPG01VwQpxfXcshCbgbFtq12lamGBH8f2q0KcdxcfSUtZrMSkrIJxEXViTpo8kSf96hfRgFG1qAwp9bZXGI1qAUNhXTt7Sftonhp19YuOSG70pevis/OnBYR8g7SxWtMJbzmIPNVKqZf5fmS4hjlyZvSqXPWXtJq21QeNcSipF/AIdtrEMrHBcOQgIE9o4fSYk+Z2ZAA0bEUoH6huESjD8nmsQ4rRwF2ycFQOLty3e2xbmGcRDVQqfAgNUy0GxjrEiKvo8FPrK6V/cUaRQr87Od99mQ90aO6bzlkPUPC8vDfovvLyPGsPuPyvWf94P+ncYRnipxOJdkQfM7L9CD+BryRKdHGNRkveaBZy/4mjTgepqXgG0ePbNVQFpKQni9Z7niXwh0v7pvSITzcEK80p0L9kcT1pZLWUHd41uVvc12XJYEJjkEzxg1QXf+EcoRRIX/itz+Ioevl/MKArppghZe5eE7a137Ve6GzgaVvP6jQIkxsnUxHQWkE663k5ca+bmnAJcHQyMVOlJclLM/InA1+t68RCUjhdo0vfKyRwYMIFvmNbkyDDsO06MSikVMGj7wVdtjMPIIjAcNFdUCC5mmZbxVWg4K3vigP76NRMqff3UNXz1MWRM0tfEgIp9+azckcJFiK5MaEQUVOWd6adD7q1UsPz3dCyG3lidgmsbwpY3OQmJS+9pK3u3Z043OD/wu5LZQvl1RluQNQ1r3i7f0Jmr3u1dQ+698LAT1r+UDKBole9R3Ugw4LAAHRtqmOWKFJTMQSKMXj7M/EbUKvg+/OhQMU7fBossBZLbEVAqA4SMJQTX0C8HJu/ewRG5O7HyTY4GZafCbyp5NMhGma40mexBdRLfOme7Ag5TdD9KEHd1oPTQJEwj4xXMsUJbuoihFIjs79UkNRZlvERAkBgyR295TiJn1NgkPiqInjbRCZokt5s8zShn+N57RTYahLSv6li3//hy7M1sBvASknVGgxSV7HBBTGNVA3YbK57M/SSIKYn8gsZk3tGXZHydy5B/8mqdvezD+SVhU6uuB9gvbtoDQh1+x3JkpoAZk8xN60/Dbh6dMqQ/G0GCG0w/nY9tUYDyOoZZ0mE/XFiIKGQ3FpVUQap4TloGuxdAoD5krXeNyr4PgjnuUVvuZraFrxpdvPXBBQLchHAq1gBIwebAI/zND2ljnTRFL+XBkTYl3dX0ocxT1McNAn/W
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Modules+and+Packages+/+Import+module
+status: Unchecked
+record: -1

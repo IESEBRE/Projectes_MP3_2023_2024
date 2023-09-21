@@ -1,0 +1,36 @@
+type: edu
+files:
+  - name: read_all_lines.py
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 69
+        placeholder_text: "# TODO: read all lines from input.txt into the list called\
+      \ lines_list"
+        initial_state:
+          length: 69
+          offset: 43
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: wbhX2Ha7O1/X0iVchBHKRjyA4hAX7qv4ZQvwfTB45qM=
+    encrypted_text: TsPvYgirl0XPN8RD/UmvrH0m5Vjr8edRh2EneMU9xvl+LkrCu61enlzLCUz4oVX0cFXfCvohJUQU1QxJqNnXmolu6H6PE3hYIIsegvd5juqYD99DMocngubXcA9/D6jbF/OH5F9kHZzcLh3G4diwM5W60nVwHhAIKGDs7uKfsLDkfxOPZw/oIjd3sQt4xZce7rkGDPiGFTOeenPpI7rfK0AEtpm75HBpNJ57EEctdjQ=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2saJchgIdCmM8wZkJLbx/EciXdkie5znvlIAIxMKCONlcfHFXth9HuSpf2QH0872xNV69NZVkShtNEb7h0Whrz7wcjQU/4S8oDqtu/waQjlPVhTLCSedAUVKpEkIJtnG/5gWSw6oSmjDZncz+poi+tVgLR3BNzrxcnX9nOeY8/e2l+6DvwQxKmRQzSA85jOIzYNNaPecy16JGAiBOzWyA3yuKDIICwgp1IPwR6q5NxskdfDw8CT1Gw+lOZaX9g4h2+zrBrxdTcp9kvI42k71yzFDPl/qlVhmf78vAjnAgivatNN9xCI5DVrOZz1mD1BEGuX/OVGrd809KRSPxxRlUxbFY25xsUSFOc2EB9elPxbc2Jf+k8+ISB7giwASU66H/XU3U/5XiLqgCg4YU4pjn2R
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: input.txt
+    visible: true
+    encrypted_text: 18jJRkXEpn+AXcduq5TkUBUCePzdwwlIIbVBb/eOr10CdoJ6niIvh1GOTUoSzQMVwcQoJghHzK7b1W920UaigDJbLMEYsxWT+axWPH7/+xtFuVJDPZd9H6xdA1CQXnOYGOIW5yEoqElFvcCjNENj7vAuvpym8IlZvxvDszFTM4m1bSmaNcP7BGN9KwTAsq5E
+    learner_created: false
+status: Unchecked
+record: -1

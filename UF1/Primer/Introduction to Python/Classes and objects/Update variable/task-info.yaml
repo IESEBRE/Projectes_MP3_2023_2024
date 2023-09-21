@@ -1,0 +1,59 @@
+type: edu
+custom_name: Update variable
+files:
+  - name: update_variable.py
+    visible: true
+    placeholders:
+      - offset: 212
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 212
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: IsNVGe1Yg8mDRMZK7T9DpQ==
+      - offset: 250
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 250
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jCBKeqMOzL5KiCsrBDlPIA==
+      - offset: 261
+        length: 35
+        placeholder_text: '''Call description() method of car1'''
+        initial_state:
+          length: 35
+          offset: 261
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 6bV/zTwKhe96QzBanOjHnIbEnF30ySJRDwHhSflP9Ks=
+      - offset: 304
+        length: 35
+        placeholder_text: '''Call description() method of car2'''
+        initial_state:
+          length: 35
+          offset: 304
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2ksgboGnFDgD7ru3/1wq5AX4sKMHgIFD3yQ294I23sM=
+    encrypted_text: +jrbBZvV+NJuQS+oBT5r/7eBpcKqfRCK0rPYqYOBBM4x6OuoWkeLFRk10dRdeHv6/Kfx+LPsC1eRE4nY0697e05hfpCosMhu91e9MV9a6fq/VwUYhuo3n2h1uPssbTjzmUo9lj/6jvFaYqVFxOExcfY+9lsUgYMTrIMdto64BAZc9iOlGhXWphyuGjal2iXnXNiUdU8KkFJd7Dk8JQjE0hWSLK9j80FaJhcvUcn6ouuGRUeDdo06xWJdHlhLgaSsZMs6oVtwPaPEasUbZAST10OakxA7GcDI8xZaGAJJiDWbzPThmbFCGfIDasMGGN7orFcs4elZZt0lAGDs0cDBlIjKklQGAERB+Bu8sqc1wDmD71aBqZJt2Im5TFM9LFj5HIKtZa9DeI5xtcaCnXsYl0A9mWY2yPqadbiR5N6U92eJ9pHMvtqeU284oQhM7V7Q2KG1l+Fzg5QkesV1OINwoQ==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+Update+variable
+status: Unchecked
+record: -1

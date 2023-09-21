@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 115
+        length: 83
+        placeholder_text: |-
+          if my_random_number > 50:
+              print(my_random_number)
+          else:
+              print("Too small!")
+        initial_state:
+          length: 83
+          offset: 115
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: pIKazqTfz3BfTsv1OT3D0wo+bT+qJiY5j3mvqmKgTzN+q4ZA7H23WBhUcuBRi2G0oORJBwd2ax2GJNXUoaZ0LBXSbTEiwde/JfcVq4BsL0w=
+    encrypted_text: qfsGgOCumdmJ4tbXi5aT9eFlezxeMTHRVmB5MwfW+7FmvDchpSBbfmPxS7y8SdR+9ahw1Kr2WFB4NMeWFkncG296DSANgdf2MMH7m/DfyhjORjDhfyn4bire+W09s7gbZGs4lUG5JYqoykjIcj8BMhoj4qm2mhX7TTct2uUA+iDqIKe/ufWbaIgxUpZajmkuIHZXqoFa8+zUZbPv0XUuhi03IQTVLo8HAjPtefA9w881BEhcGaClv+53Wh7YbSJMLByRF/z/3r+jy+p8sxMJXA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAVYl5bM/f8o0mWGdQbyYFK2Bw/6KnSXe3boX4U09y4hnDClq2JhAXlYlN8U2GqUPPAJ64HTHCGeqq8UgK+Tc9QvhCQkqkes2NFPaLEMwgw8PBk/L46vVbtm0Iw34sqgbU6LBxV4Yh31MouR3+ToVDnI1JC1bAGn4srbO4sJlsmoBzy/ehWgkRA1+mWd9fMp1hd/zHLPATcvnOOg4zp0fHE8CUJCPxPhSOJsZ7XJUtza7rx+U1cRwK9g7VF5eg29b26ukDR3qxD+2CasJwjgbCiAYRS6EkXckKZmQ7VOknS2JUNF18sdjQEeB8Ab4oDNlFPqMTOBNFNJBuSKxKphe17BcTtLXTIWJXC4/d2Xo9m077MqP6/fn8q5OXxPsQTvpbr0zjEqa7gHG5YtVVxGcHNjfUXgPskenD1NN631woNurj7eNW1yW7wWmKuFAzNiROCqDplMG6+u872VAyMyy6B7Sm7wBm0W/0b93aKhJQzd5/XCXQFQv5oYSMLeAdWEpgrFRQBqHzLDsi0UD8u/p8rb1Q6XaS2OWYRvPsVXhb6wGlgaK0Dfr5hIbjlMXSYoktuyauifeDVTr6o8jPZnGXxF1DfKBB9GEk0NHehoGcQ5mmh07LfeVB3DnPT4q625E+GOqbZ5FW8U15aUqTw8/egkpL4T1etIGrCIaj92OKQP0wHfyHYWf1vNt//bPUnr8r1ychZjS7TyLX1N9jMD6M5x
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

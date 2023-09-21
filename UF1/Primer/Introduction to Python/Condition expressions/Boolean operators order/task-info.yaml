@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: boolean_order.py
+    visible: true
+    placeholders:
+      - offset: 110
+        length: 5
+        placeholder_text: '''???'''
+        initial_state:
+          length: 5
+          offset: 110
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 05tWlSAlFhaVB5FZCo0IMo95WpHcIQOglFoPFQRDrsmROt921JLB0kSqJui0hCtTePZo7/hg27VIxF9fxPhYxQ==
+    encrypted_text: jTRA5ybceSpFBbSNeYml7LdMPCqD0t3O1+fPceh5sMV4q2gghmFtPmnUNNSUZj6muZPg+4fn5NrBb3U9+CxGGxbT1UvVOVZbrERdv2GErQmqKL8t3KHXj+rc2EFU69dHmBPESH0YoIwzWbXgBpZym1Y06ZrYAmZKEDri3SrlahQ=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4hNJlrj91Z0pL0NEW9qmaTwZbCgrn1v11l+F/LKZULDFk+IKYU5ZSgXPltgQk6z9vilIntb7upeVGtKg3KH4qhwfQIrMZUoCxmaSZNB1bpVW1yJ6JgoTitGb2WYYFEmG2NU/Ya8EUSfeX3BCz51FsAjqhSVYEMIuwFu7/rNepeZ4phMUJLO8086J22xAjlxvrcRLqHvcvXSMaS0/oO/kpNrJYHt1vkZivRjdBN5KqQcI3sndI2FU7SEkjvJdEmUSVyIlY1+y1OuWxMZXcSxUMQnOk1gH4KYqbV7iFReF4IaxdUuGILdh7u2e6iUhnRh770PHZRNp9QczZ0v9hesFeN7nlbwC81K6bWI4DieuVM4wjJtsrJ40CQz9zaNjwTDKZw9SeZnKFc0Z98JdqufvYYi8kL2iEvZVw2Zs9r5CeumQOvqTlX6zExRARF7qQZoJj0Bk/ZcbqrHOn2W9yKm5ufMov/xgdog9moQbEogpd7Q2Ijer0Ht2SaZ1xcKcFt/EX1ZgORLkAQSkNMd1Ygpct3+fLjKZhfjgNXI8NyLYfFeGUkYZK6lX6n5mddlkXN+JA
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Condition+Expressions+/+Boolean+Operators+Order
+status: Unchecked
+record: -1

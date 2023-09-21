@@ -1,0 +1,66 @@
+type: edu
+files:
+  - name: packages.py
+    visible: true
+    placeholders:
+      - offset: 95
+        length: 35
+        placeholder_text: '# Import the `official` module here'
+        initial_state:
+          length: 35
+          offset: 95
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: BdfI5n9eNpE/PpMVcNRX34G0359qrjPEpkdEElk1j0AnApYq/agY5umcZ79HEK32
+      - offset: 186
+        length: 21
+        placeholder_text: '''Say goodbye to Alex'''
+        initial_state:
+          length: 21
+          offset: 186
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 3U9oQy1tKznM2HnuQRPkogzRi2LBisoY2CAB2xAiTdc=
+    encrypted_text: BdfI5n9eNpE/PpMVcNRX34KtWiNav5P85DRcA9cb8cI7GeGoMR1z0/ldqR9BoC+SGuGxFRmIyWgFMFjmzXw14ZCwoL5EgyF0NI4W93oGIFzoUuuCxKBCuMxh25juC2jENdR6/9V8d3ouNHhIwocMqGPThn1Y3/WKOnl4Eeuzx4p0s95Qjqg6Vhl4CUX9SuUtnnjJ2q8ublQamlOOboDBfAuCMKV8nObws5PxiEUj86DbV6NBYOSpuI3mRVrijSvH7x51d4xKDrMpygT9/r21pFGNBi7U/WSbikE6BYzPTAZhlUd0Arxj7cYyyzAaPlPkf2GDnNbN8xj4AWOoaV+XrxyLotJ/7/hX7WjBPIFRuQmpWuW+KgkT6QX+6jhsYkhZa1R6+ga/DE6WbCYQGckbNgUDzLJOFonYr1AfE6qiiao=
+    learner_created: false
+  - name: functions/greeting/hello.py
+    visible: true
+    encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1ZiA444GosSwLDgcC8jdABEN6zFBjJ913fWfnFElM1Pdyzg0RwqepWLJOaUMqYm7DDCgBBUmQgqf4ue7AYFmuiBdja9ObJObKE+U+FSWbp6k
+    learner_created: false
+  - name: functions/goodbye.py
+    visible: true
+    encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1SgeTlVYDetaQxh962LEAtakSAH+c5qxpGCrIq1dIL22OFyv0Sle8uXFnCFFZHK/I9c5Exc3jHCSGiWGvoIiO0paui0gDNAczhe5X8XG0mbXLA0+g06dM9GOLj4+x7tDOg==
+    learner_created: false
+  - name: classes/calculator.py
+    visible: true
+    encrypted_text: 8OtzQjb5SoR6NJEvbIiowUIOLS+McA5znEWLzXLtokft8nJcKJ49dXlmDMD0G2dhNJCl+ytZSU9GqHJmh4R450exWgfDWI3H7VfC50/BBfhQGtFPzUaJ6Amunu93mXDVuC9dqBJspLzIvqmSLQ6O8CjH3eah1swLKRUHhLh+8ExsuznNbLBIoh2ryMdu6kkLmmHJFFshSpu3qIcSV+lXJBIhmXjmZyo0VlqZO7m1FYaK1b6IKkf3mIAuGN9l4Cuur8nKxOT6hKA00I7NRjIDOuchtcThP8na7nJxGfqQ01hm0FCuoJQEmNU1ItSLfI48dth8J+ilLil9i/vyhVTBmZEdQFl1APfxG2hs2wSg6vd46HsHe2p0utkJ4Po6x3C8mD4gkP70iCPvY03d7CbJbnvhKAFnVH29LNXVXsBCYARj+feBF/d3wpkXQMyIZ/7j3VlzbbfNfdKybwh3RMT66QHZ5HnZamR5ymgNZBGF5mO4Lu0kqneY4G9e4NhmD958uxqo0gtThYEduolAiOX4Kj83HV2IT4l+aJ9bwR089hRIE/S6firNvCX1tkH/vdnWbKQe+VKF2G1cOgllR9jL6/827tKeHD3+q1sOoIqNCHZii4ioFACbAaebFFvmOJS1ULRcUFLU2fvcb+Oh737y4wgAYKquFv3PDmL/tfctNRlKfV/uFCSwr3Sy5HqkJppb
+    learner_created: false
+  - name: classes/__init__.py
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: functions/__init__.py
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: functions/greeting/__init__.py
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: functions/greeting/official.py
+    visible: true
+    encrypted_text: OE2txtbWxwDIMfF/jRh3JUtrl+jg2gSU3MF1jjChJSXZkbgZpab0R/5G3x5eTbwWGve0ZxQitFpb2CTDq4FZ1fRYw1mzA6B1dLmISXJVTLxwM4IXrT47pSsWv3Pje/zrx9dyvLyfbDnh+9haG0jiRLWZVGX8wyueBWnW+ywpkDFWFtIdRpVbJKbZmWM74JDhPs982lLM7FB3s2pKbR5RX+HsL8kZ+n+rpdJgQ2kFg4oC6ol6ClrSagecLTBRK1/l
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4pX7bdZtstSdqloC8yJsAC/isfTmo53w51WgcmbOKoyrWWpaFyaOJOOfM/DobKKV/ypRlHBjUtg+G/ui2Qr/KhkeU7bscUHYR6AfJDeUEooX5NETNuZo2VXlXYavpglW/LI6/bdLq86wCCwuqhB5lDJ4GRhp4u4F3SGh+nNw0GJrxQGFNyjwVf/kK7rgo9WTmSc70l853bqlmfUAFxApm2cgI8Hy4aKNhafUG6sds6xDDYO1ABIKNBwYFzff2Xj5KiQ5KAXRNjvew8lY1gjss9Yl2hINEyl8NleCHEY93+A+PX3N28h6SR8/bejhVIkbrZ9ETN9a26gde+3X7v6Wn8pY0nKXDuemDXc7Zju1HC4aZ/EzZbBTpc04hUwti8zo3xXg1Upm5lLTvXeaUKaXax5uROT5yFxYNhty64r0Tt5G/R09RrhkQDe/EHFbPPnVjJJdagYfQJ785vrT4Jr95Yk8386UYj5FtoVSc3vkV52zQlxrbrsWtNpB4uH4aa8n90Ao4d5sd+4i+1o0pjVNFt/OxmTPENcGgte2XL1ri2jTGYivCPKT6xiChZLYuI5MKnb96Dfe9lS7rt/7ULvDJCAYyKa7bV2zWicrGYL3aPVGewEjG4D3oSKTXI5sCqv5m7CIxD+PGG/QdnCsmFxxoU3y5N/pT1zRtTqJ6sTmzZTqTpeHQTfTONAR8oz1ZzrL0FPzlC4eILnfNLPXf3VBP9Qy/EXD1ICW94Z4amHJ0iM92Aec2dxTzIKHjXXjRFQ2Cx9Sem6ztBxTFU2ByVpTJ4cSUCu08/4cMo+1mIzNdXQaTxXeUZdR3hrnWF6R9wcM+OnvoJ5tbRDgv5OH4O1kgjRfoqw2ZTPRPW/fjG1msT7y2er/ssWSB8CVwacJ62rc0jCSG+MGFydwu3svce8GZTu8sZ3t0tqLDQxxG7WSNQ/N2T5+h0tvxmwrPTjp+mdM/gIYtK27U9EYgnuf+N7esezLAmCu1ngFGKXZ6m7Nm5Em3J7RMycof/tdt/OanQmwtLlZ9Idz3YzKse88McPE6EpMaWr83L0dWcUeq8oStPVXTOp473GTEYxX3G1kYI768yawD3xVGrDcA34bHiUG1nefTEYdSxBTYpYfXDSkyKeVrm2u4K1CaTNoDOYKc8Fp0Fq6p2KtSqMHZI29AhTugPlco0cDa0PpPhzgaySdmyyIcHayJocuFbS868N/3Y8cinodoPkgs4qMB1IAfss7yYA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Modules+and+Packages+/+Packages
+status: Unchecked
+record: -1

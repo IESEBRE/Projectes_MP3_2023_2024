@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: str_and_repr.py
+    visible: true
+    placeholders:
+      - offset: 438
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 438
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: cijuVeBcw0jsBWH1pcYfKvrRwDf9hR95EfLpLXhaw9HC86xVhV6WyEQjcxj+ogH6
+      - offset: 481
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 481
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jYTuRJ60f0fB+p6FLr+Vo5evzopOtdNceEBhyYZ/wPaF3XhH+5tTO/ImB8xXT39f
+    encrypted_text: XegAmWHMqWUz7dTAwh2h+l5fj5LRDSEdSqP007TnIJFUvrOlFMqpZIW9Zxf7lSDdkNeZODoPaTB8Sc8P8Ceb89GWqSxAGwDg6Kxwj8MVXP7uMOZCCJM27ElsV7OnKgEa3RUZ6EdJrHaJoSfuh64E7ZETYUCHjc+TFkDdRXYtBIIUOPcEn/PnIZeWnXwOrWZQAazJAhGA4Fu+5C0hDDo8iEnHj/5D8m3eTwQKbHjBpsPo3w4O7+JtNm367UsOhQ1pb+aqs/ccRqe6PeJdx6xVssn04fQ1CYSiX8s8ly2PQQbRSRoVIv+xzImQJzNR2fJo/EbhY7aYPPDvI+xFFaFOd82KnqtU1XXHjPQbR6+jo81GzxsFbwcMCDcBIJ9W0Xiih1jAvS+nq0ImuxXoyM36AQtW5MyAU8ENOMUmwrLXJ+P1dxzpHMpaDjVvUJJV2aZ7T/pSGKIAFuS29uqrucTOcNwNuJEwhznEiTN27kcmK+yRPNpJV0axMuagALsdTTXDIKG3Nb77jWsZAbpiQqVTZWzk/TVboVYlqbjT+zmZP+s/EsUPF649a6ngYF1uAh3Hjyw9M5+V8x+/U8U4xHZH8lma5wgGFBNSureAQP8Vu5MHscp2rwf5GE6wrkL0vi+6rPnY+Sgn+d2jd/w7Wn0fSgtni91n/DjeXSOih1X6CxnMKOSfH40yDXVWZj9aieBZ0XYh2NtW27PtWTQ5xuYx/hPcxsqH6Dtt/xas5xtWTCE=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRlHc1J/iAU/CLWktyPk08iNB8rTZ9gQd4OVCi2gWFUjtfR7mfZxqS8i9udSfVO29IvkSySs8wox8KCDC8YUd3qV1uob1cwcD/JMPxje/hcUeStUMYjqEnRMjponkfacgwmI36WB+Gb58c1Uz3mx1nPN9+S8mcsHVCZtU2F2sLbKJl1PJJq6GSEggu0iU2tqpAEeNe2ax0LW3aRtLrE4qSi4Aeo/fkSDJHmlvy2yYEtu4qeZG93YSCJOAwN+uWw0iCpuKUrjQuxZO0VLZbYkvNKWSGjzpzaO16j9SaVb3GwSqSfGUOpYSoys9VKJ89oPnjkH4N7uxeffm2q3SpV4+0B0pD1KvnAN+irsUBr46j+ks3AJmQl6LqTXRx54rWkfMGse7IJ9+7zXbuwtWpDlG6pwf55/kYs94BUJYUZe4vvq+g7t69aiQJCPUASXzxeaZOpElPGw5v1foBdlHxrHjVQCimvNM6gQx13TU48davoL4DZ8g2FZGrmKAFzXce+t2wmuMIGaqVrvR9KH6aG7E0N6iNpvZfxusbiwWMUeLNklMGYWmc0999TFhgwapVrfZa/mQ2B2mq8WJqDejuvUGPudBVrK0NPKYBgnZgGUwsQENDRA+7G2Iii4rZbiRwlwuByqkg8UvZLIC17Iqo90IHapaJzPZybpKUMwFSQWHolrIb6hpXZ+mRHvNssfsNZkd6F/IoqAF02fuJgdLVup/1N8604lLRk19df+PCAPiwxlYjfiG3dTdovezilry0wSYVsWdpehpnu4NtYPnOW5iXDo3cAWw+XSpoTa/D0jeLen7d42z5XGrz8mIXpUI7B85eznDrEgtPcQNbtNndvSmhdrgY4sSO4lca3fX9bCbG/u/CxKnAJiN5PhPRsQqBsqNaLRXWps8DDGGdUGn87FOS9WKsoCVyl3MKxqF4VpAKgptuq6cseuxkqMHDwnc2ALC6ckloSERPPFzRhC8PKwpRmkxzNBcxS4h26RYqeHuD5oq5XqEzkrw9dR7HkNCTNH5rOL0XyxivAaPdfNjBIq+8HMARy4cc0VeblxnlY8vXWBD+LifsTHgv47wDOVdmKAdZgXUSSx+SoYgqqrYV+h7O3Jd3bFKeNuWX93p7W6vf2wuemI7IzGOwxdutYI8ZNHI8y8GiFKeATvMgWgsjVMMv+WZ+BRErttuHrHG3A01O9U6FpaUCD0mt/S5fsSG9ri8tknD0ijmpQWI/Fjolc+hbOWY61zj0rXtQnCCc2s2vHdFMpuF9W5NlcEd4srrqVZiz0rd7bqgV+gAOl269CVlVDWvwNQkM8zmx3JRnRksEWQ5m3avyNd8hr5KlwvmspYcUC/DHN6xVpM34R2Up+Xi2BAbQPV5agbmNtInz536r68ffBvr0dznWBIsFhWiixcv9VRV2+zYuxL3CNJdjF0+bWA02TM81Z0DMadQ2PJ/zhjOyaO5mG1XKAD9KEL4AXu/153yf9CA4gix7KPX+8jNna3PN6UPBnfurCivwnruOtjrLdy2Iat0eQskKVrlqwwiNQcC6l2K//uuzo7+/U7gdUcpZU40a7hezx+kLMB9FHFTIrSNVn0ww4DoiXwu6Cbc4bhZ5zeUIGWpKmXMV25tcLcZ3SKcToR7p2OP6DG45gtk/l4FsO6q7LoWFAHHnT9tRJn/UqYDsiTB0bDz9KKm8v5yAA0mrh8ROF29TE7CUrceckjqb4jAZadHi6+bad1OQ==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+str+vs+repr
+status: Unchecked
+record: -1

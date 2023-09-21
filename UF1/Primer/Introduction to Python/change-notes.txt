@@ -1,0 +1,2 @@
+ - Added link to the Gateway to Pandas course into the "What next" task
+ - Minor fixes

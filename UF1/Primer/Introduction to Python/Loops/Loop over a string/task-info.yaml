@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: for_string.py
+    visible: true
+    placeholders:
+      - offset: 172
+        length: 26
+        placeholder_text: '# Iterate over the string.'
+        initial_state:
+          length: 26
+          offset: 172
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: aAFfcy0espifqQ8zc4YD5EC5+oYsEbarrApe9bpcIeU=
+    encrypted_text: EKn/v7LssuCm1OxWTAmGCnp1MIjhUDF2ZQjMawxPHGkAepIFS3YfVL33P22007y+YQpjPow9xLATOo4Tk21VGixbfwmzzegwm17VvT5ekP5odCBB84kD5CbE0HgTxgJDebZjtqg9i1+TAONURVsCivtrMEA43saUo1Sb46w8mIrc8Ym+lNQaXgZekcug5HHGWkiWr+iUztg0UA/TCjQUHj3yrJ9gwHooiHiuvhAxrEy5pPGACefmb1hNjLYu+ygPoPQXKK18HenrXswVMoKsz2rgDiraHgTe0urNZOWwfR33tTqCoDXSAYVR1M8gGdQAVSlSw9/kh6dR8JZkcBnGLet8Kwaa0cKBJA6C77BxUfcs+qoP3eTzF1+NOeXSvhbs2DPAuetuk1RhhvKQ3+ptfTLVLjDdC1TSOfkDfMQtWbQ=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHFYDO42UkWM+uTkLdKgLjruX8kMt5biD68UYPzYesgWCJVWu7Zfop3joYSEZeZsXxBouHehKCHuDcZTg8+7WibssozFQUGZB2sEyuoKZsD4CIYy1IOfwVK9D3olTEQrjHjE0gAU4tDe+xIbgpLH6tNSeEJDK8SuJRaekUqOFZo7DP0Xxv4BKhHhp4ayTEX80HybXya0yDjCMUX59mLGqyQOyIb4M65WUPwiNoKJAgRarFOd+p1gaicdhpqMJPKddXKfjQg29c3E3wd4dg2q4iyynpXSE+ntlxC/06o4PSWgfb+qv7IgdVJE1onB5QoCgigcWRk3CWFpgEOzG09hxS2h6ClssvLWJSVlQ03au92hom/LoWU2AOA8sk7ZvnTdUbiOSM4veBa9tEJ1As0w3b9eIr6NIvWTssykbb4k7b7lTF0OZinlnYPUDjkz6ZnLMrkl3rTtaFkBthd1zfzzOH8wADGsZ1UbILDK8hYnfV87mu+c0ibu9+xZL/AUpSTjubaiaugV0W59eXI338sTGEk6xIoutEKl5jIcqVIE8QJXqc0q1Sk/jjvutJ1OLVa5CuGnitf3Xms6VNnqX2K1LMfbJqQ8aiBz+LytZnPSfqha+rKz2NsjAcepFePnzzZeaUZHW2aJcNNTxMuLgq6cupB254p0yJ0CQQzKb9v8Q79C9qcTYnhu7QMP6cJbvf6wqtEJMyvEfz7S0yjeNNEhzKRXsEfpKrf7/zU4uI+CtcxjPl+7DhtmtY703UIkm7ln18sHQvv94MaDQ7o+/taZyUGCoZmndRGo5G9+fAbvizretev7BgY7k0gIb5KDg1oR1oj27BuAHZvc71+brfzFeiaiw5PzVDsEMcUCftchzhpt516PNR/M0LYVoLbPPW8XbiP6a9NOYkdM3vpy1fjCHy6QvVvx14CjQRxBnU5qV7uhkiV//dZzb7j8GJ+NWGXuplanhfJw9MwqjrONxbtzbVD/C7aRruKOUr1yKDGYfJF5GXobYvCTW6jFVquL6nXDDhVkmmiUUm4j3rGsgkUW0D3bogW9/sFFCrlbNPMjbrxk3
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+Loop+over+a+String
+status: Unchecked
+record: -1

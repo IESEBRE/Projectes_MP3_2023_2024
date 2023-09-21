@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: list_operations.py
+    visible: true
+    placeholders:
+      - offset: 259
+        length: 37
+        placeholder_text: '# Replace "dino" with "dinosaur" here'
+        initial_state:
+          length: 37
+          offset: 259
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 6s1q3zweMokI8vfVCQu+6zZptV4kTa9L+NQZRDdG1QI=
+    encrypted_text: ntrWTxybLwWXbhmXy2hxGlzal8HOI2mnYpEHv10/XBWxh/1K5MQ11cDOLXeGUqK8ZQYUssTLeP9/zxjALi5j7KePAG3qNm9c/GnQIIFdrNQNdjqGokrSnY4TYE/fEYJgqeSoJcPVLtSUjOz+098586BOkH/xhBhtRtR/RIZx6xGru7S1S5NMHA9Qq3XLVP0JjcXO5EEiBxH1BMEtr4woEG3UB2VeIsNf8vbqlTk1z8EKnAR4vFV9VjLLhcShl0BA6Zc2Gf8N69a72mXSZNPL8ZDJIQbGt6B4k5f9oGENIFlwK9rvyvI+VsGC5jeMOywG6ysa9eIZDB6/plzGJyqre4/fqLSUKyEDm3ZQ2oBR4sP4AXZd7wC4nf+dOeCHPGbkfzivg3c56NyI2YSO7l/CA3eeuB+ujt8w/cQfWlkB/fk=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdSLYIBzgYN4y+r+nZPi4qxmZsWlPn65+I6U06a0R5xuCcjKJ5mMhTZJOd/rySxQYQyLMWJEfJqL6m9SYUjwB+UUMrLiS8WrKsdGay944icAH6q8oqnR2OEKmBhSjspLs+8OVpP153SbtJ4VDbkQ7AI1U+HZmlK+ywCRqcFnrlnYN02jxlY4y0myLs8qiUX5VQ5lo9n9SB8HHajuUile+8Cc4PdNobdME4Op4cWYow3qiKunWXW7UqyjLH0jyv7d+A5rgy3P1UVpUy/pmoQl8Ij71htRaH6ICgLiORueGwmyAfWMDW7ETxayoB5YWE2gyK6NNQA/EHVxh0F62G+TA3/lyOQPointgjYhbdlVCwae4+C6Kf+Z52SoRrNeoJGjdDnZAk9h+jATCtlHl+s+B31YCSDlZfdrzP5yKOalxfjZVSVeIe8HqVqO/LUY/Mc1/w0j9/n+ko+kKeT7qDe0rKjgLMuKACxdua5Vot7wLCdXFvqRpS2g9vR7FNNVwFc4/djFNwjTMFDp5pOGjPXObM+CncXhByj91Pt5c20Mt/kPCycdsZxHJMoesJEGPYrHPl18dhFAqnciLJkPNSECBKKtLIRASxJjnhFB4VX4rkJQrtZ/3a4g1qc8roFelMCffNKnW8OsRoQr+nYIPLahQGxJ8g+Ht6yLJtlCLGXthIF/7T6RrxcFnAhTRePeMSx0C9oz9ZDFK45Vk//Ehy7Mmdpi9DlXTdCWJP4mankRi/opNt9Resqc+Kc2cPguUZO0vl3igIwBqWj2JErjj6yrOjD82genfvPJFDF+cxlMTnMGCwb8ncGDret67/XEI9sU6PTFpELy+aucfuFk9qqx2sEg=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+List+Operations
+status: Unchecked
+record: -1

@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHNTb4C5RZ1kqNZcPLmZG/4DdKFzfmwTs/CmshiW2rNyzbu9Rus87MqCAxW0ciLRsbzoMwMxomcFH2BqQLu3p0kbrkz6CgUKCg8IgYmagYshhsKGgRI8MgzY2IrxtwtzxqujVDDAV9xzXOWQRnvwAGviUU4eEEF5xrnMd0DtdJIC2n3FXnVn0ssA+1W6YYsN5YxstNgXwRKlOASXIMrQIYAR52R2oWt9Ry6C/OfcmXwqlyzzzQE6QcVw7dK3qnjLDQGgHO8NsdRN7dlTWw3jAEU8/kXeGUehIMU4Q5XJqs22TKLQ1b11NV86snZH7mx7KWbu/VWwHfptmEz8RcOWhqsLruMBJfl57RderBpm+YAe1IVAFGtfH0//E4IkhczJHqGmQXnJm0hSiMdoAlhhdMxGW5/fl/LEwGTVCKrIu8qoFngX68xHlInGwZu/1QNAGA0+QOIRejRjfd4Rwc62wUWEOZk+kGJ7CyObd8z0uqfY01M1R2A3t5BjXqmMpNVoWFlNxZfVFvlI9fs3koz2DZKIWrVQn5EZDM1wTOAUtkJwB0pyTz5TXiIXjRAiLy8DG/kW6XsAXJQXVxJdYmHajPJWqjHt+/AqRTuzkoukqftErq0q1qzuSOswAyjBtNaLoJbGG+fvdjP2O+UOdYZ3Hn9Gv1Xvp/VWbJaXWA7UkwlBRpj4VXyGF3UNlZd9e/MejCcbenAsTKO+pBzj8Wr4x8DCiX7cYPkz+pUcjzFTOqy2GheZGBrdPkkRTE+zMLBI5gJUFsCBeApaklm2htxxz82/Ax9Xmye+V4QCNqIaRXQJTkVekkPQw5ho5mmmMmPCE/UCIh8TjIm7uiT0eMYUkTo3AbxlGindhN+8s3TA1Ku+W3AhoX//7Hf0oYmr0bimEQHj/CpMTEWYltsa2v90AyB/5LFaA8sYACcy4BTs2LVR0ppeTHHbjZTIR16oP/HfjFOvAkSmoT6wtGV+i55SaFKfU3UluoKfKZTvIKDwpglp0Ps8qfi4UwgizBWcYHCPiqEj7n9k+XfiW1kGE7T+9zLVQwIr5hCmhPh053pbAQBmjgqfBWz/JZ4wcIoeftt9X+0bFOeoYOqbQE3QG4l0s7AtjTF1wG7Zn5vWWzp+7rA/NxNMiyFduHH5NIOL6VhI/Dir8CMfk5Udgr0A7ClChdJNGKQzbbuZaog4d4Dx4R4jIo2l+XAGHm29vAlDMvbpG0zqreTFPI2fB2bdsZfdDhOGn9GS1pXJuwW0rd7dvt/aCuXVWNwTM9o9YohkTQ0XmvvrYgqqdHEMu++6QAXaOVWGPBPXT3xetYuMerp5xpFk2RM7EeQXQWBX9sKpkSMijFw==
+    learner_created: false
+  - name: while_loop.py
+    visible: true
+    placeholders:
+      - offset: 302
+        length: 45
+        placeholder_text: '# Use a while statement and a condition here.'
+        initial_state:
+          length: 45
+          offset: 302
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: k2NRSYIPL/X4VUW73Of2i/0ZJeuLMJMjgRE4GibuJkk=
+    encrypted_text: oDO1+C0s0ej0xvUT8w7C325BhzOCQm5ajpWmmxBQrVZkfgdXWegBy54ID6UVExY9+26D40/VOk/pYJnhIFie9xWp023ACznCntThw7+Xg1ZZDQ5U0SGw7M4QxYha2z1ZpuDZlLfoPiI5RGHmOC9lgGg5TAQkyXZ2AsaVa49FPLPNk7K77AzBrrc/nai5v6TN0ROkX5kJVfxhTe2mZBqYtJBhcLNCb3sBigBOW7U3T5oZ4dv5Nm2amQpLSdadH4pp3UMppCSXbF+TxM1v+Ml9yXxZivXHF94wlaUT08lynwadBpUG5CadKbeDvuM66bggXTufVDe3px3H7+ybrpVN9dFrXr8823extXohNvVZm16cS+XDZaqmEIlQYTWkGI5DLCng/abJfEs4CJWPWLDQ87jfNHuBC6mtaPecXfZoJ1NFEIkN1eoTUMnR2HXj+bHFCLGT05UMrtuJs7YHovVqnpVXebYDgv8P7OxH2L+EIxkHhuh8JKCQpiRpcUS7f6wR+WWEEU6k/oahPTfRiy1eHWhWPT+eHUYugHjAEekuxuQ=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+While+loop
+status: Unchecked
+record: -1

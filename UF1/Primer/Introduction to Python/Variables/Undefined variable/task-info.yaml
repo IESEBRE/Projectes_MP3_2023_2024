@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: undefined_variable.py
+    visible: true
+    placeholders:
+      - offset: 19
+        length: 8
+        placeholder_text: variable
+        initial_state:
+          length: 8
+          offset: 19
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: chbWVbivddhwYzK5j0LqHQ==
+    encrypted_text: /8eDqdYs4e3/Q6CJjMG4RxporxDEhK8lRf+z79O7wvI=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: d30iRzdAO9KfRXY4tECupBfq0nEjG4w/V8RZXRrrzzXQY6PaySdrDpZvb+qZ2gK8611QpmWAlg77t/cGMgcqrxkGAqtHyxfzw7+isluZTXGo7HuRb4+qSSwZ/0JTMLzmNRnPzOvUObYzR+R13hiNlZ87ENUzcNx/Bt9PtShecFMip+tivWvp972S/Hrkp2HDyA+huAxwgZi7Pik7ug+lSleKFxl5BxU6BVgHId0KzeQtZV5693tCK1vgMjEGhYph7petF7rYE6Zqt7eS3UOSKJcfh67FfQxe3WXKO1DXQ/Y+6AzwmeS61DFJFdMizZ9g7bPXDR8yyudfzxgPSuC/jgbRTNTQDk9rmONh1JdAbX+a97ZjKv25/vaGZrs6ouMTzH7wMlh0bk3FmYzWnKepNClx2sfY0e0YVnkbsvH3LnA1MNAJ610feMDhUcvq7NDryxJgI8ismjXAj5/A0UI4/nu5VosrDJCmpVkDxN6bpjEcf+oBLlqCnMIOs5MdEVXkJYLRK/DTQXQjt2sbhDzW7ol0JJCNqeDh4QMtYlZVUHdU7Ki03EiA6pNsJzspEJn4mc/ev/z9x+F+JqiY50nqizRWlVCCI7j+4AWPKgUPn+QP3+Xa6vDhh4xlPtHzKvjs32A9bDqTc/erUBTiWchQjO8Cd8QtMFrdzoHk331FTWCokC9CRzYN/ErSFe6gUaS+geXwsrymMpd0sorS0SJbniKTSK77xTNHbiQruz8abpRJyhNdllRZA49AWMaY4yUziyQpcVxZ8Wyk9s9HBKrFOCFwNEZfjqafqvwsN0qBx/Uqmgm61WSsKea9C3v1jHLw2SlqkfacCrjAuCe/gd4T5UgCkdJhhjVYDmHbMcIbczhT8CTtR7IZNI7AYijXBbl3NlnNXJPqZQotxgulIXdSgE7fz9cQJplAab0iEFCpgF3ACRUTYV8xb1Vy0aKV2JrjwKNySb3L93867fjAGAfFD3uh6mJYEoqgvf609j/z4Du+WIveKy2ChUmrz5ZxMeX8uPMFu8Xna6eO1iK0DllUpQLBOEu9m9uhtVfBRK9ZoDUWalTaJb1SpiY/vBAS9k2623PbE35RcXiUu0tBXWu7L+2opsJ6Fs6Lmy8ZBiKlFP3p6lSj9XljHiD5MtspIzXGK54fvAzqTw4RFpgbKEdA35SQwtbbxXiwTzk4vVVv7CVrTcq+alx7V8XgHNyn35rT3+m9Wqu2hBeg1yIxqRWQuPhrsnF3ja66J/BsC43gYvpB2HwrRI45D3IWMwEMTD3V4/uBHCjEMwCjGWDLMjBAVhZ8ee6NSscN8xdOKVEc9KVATwEf20JObJSAhZcbSmDDrAvNXuREr3vog8NXdBF4K5lB/dkwguCs6T8vgbOpMXn4f1PZkE16vXUJuF48UsnhpN3AilXy1jEqf2KH0hIkMyxX+OA2znLvsRvm9UmvwsLi/TEMfOexySzt+QeBTvwV9FrjOSwV3OoDxOOXPUZ8a+Q++e6RFcfWS9H1g04vfoH/8HXCyj7P3pXQOildiizHbBxAslCmbjUS46RC/cXBNQ==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Undefined+Variable
+status: Unchecked
+record: -1

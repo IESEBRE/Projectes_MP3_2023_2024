@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: order.py
+    visible: true
+    placeholders:
+      - offset: 185
+        length: 19
+        placeholder_text: "length=5, 5, '____'"
+        initial_state:
+          length: 19
+          offset: 185
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 4tNnVg2IYnyCL8qZzfMXriBjyIbiv1+xt7GuvaDF4uY=
+    encrypted_text: 6oJ6ggMYn5HW7a/w/QVEVu1wkyKcbZUshEf6tMBqtjkDklQmVjiSd3bcRsLPcpGxWag8UPsbTvZTeD7jBzjFmsHPv/gLj4fia12BtWgqZVMMcbtBRB9vETNjCiJ8WTRB50T3TUFtT2CIGGMelN4S6yzx6pQvjeuTdNoG4Z4pjlslnvDvbBhEinBlroIl+ByQtCK5UhvWwZo18u+vaPfdKgHf/mpXonOFdEUAHZi/DBKEYPXSLDc2JWZ+2JSDeZb6ckQFfvRZMiEleKzY83DIAg==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHBfhbPDV16P+f+bvKAWQIFZ0SDz+OsfSepiPYlCREv1jhVTpk/yK1vmWF7lifoNSLKGmt8deN1qLrYrddJriUsdZAT/ZbIhWnQBSnBwEEqD8C1XOe4EvwA63xXMqgE/gTHNR22M3+cPlXqjR5Kx8tFYTklqIhrgGY9mER/ww+pa3QN2LHi7c95bhKCw9wUnCDpoihaHieS+FoAqxFn2aEEGucRd0rJ1yu9dZjktMRHdAh03Zi8wCPluOTX7m27VWnYvLaC3fsx2w6SJQrqOXPW0Hj9+GoiYCw/R1LDq34lJuVQrByi/6WVP3mcEZ505KobVmXF+uCbgInTK5jy44uLmynTfucTRY101GY9xazYFoOotgKjlC3y27rt3piWq6Hy/ttD2zWg6Oj8ggdaD9d1/IeAES+6xOAIo8o9/RgG/u3f2UrOGEB51sFVJG1ziaBPjihEj/p9tRTV6PMkAYxHs/NY27ECYWC+zZlTuW5RUrcvD1yjqK4Uwhgh4OItrClmLR/bIyv6LCDLzB+MMmqBIG8iKujafSygmOiO+3Y7mWS1u2iNn+CdjNl9df3sPOI9OQzrCc1ZTj1aakcWvCJVZhJIfL2ByGq/ReSAayAzJVgAOaEY70krunbRMnv42zzocDNxNbOSXJO7YrPg4RMJZS9ZIT9L0S3ZiTMOkFQD/WMDab+IfA1QA0SVXDqGvwUw==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Functions+/+Argument+Order
+status: Unchecked
+record: -1

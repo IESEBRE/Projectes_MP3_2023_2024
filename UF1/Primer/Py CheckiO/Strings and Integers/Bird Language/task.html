@@ -1,0 +1,57 @@
+<h2>Bird Language</h2>
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/bcfc3641ec4e4b458251972088a4395b/convert/grey/title.png"/>
+<p>
+    Stephan has a friend who happens to be a little mechbird.
+    Recently, he was trying to teach it how to speak basic language.
+    Today the bird spoke its first word: "hieeelalaooo".
+    This sounds a lot like "hello", but with too many vowels.
+    Stephan asked Nikola for help and he helped to examine how the bird changes words.
+    With the information they discovered, we should help them to make a translation module.
+</p>
+<div>
+    The bird converts words by two rules:<br/>
+<ul>
+<li>- after each consonant letter the bird appends a random vowel letter (l ⇒ la or le);</li>
+<li>- after each vowel letter the bird appends two of the same letter (a ⇒ aaa);</li>
+</ul>
+<strong>Vowels letters == "aeiouy".</strong>
+</div>
+<p style="text-align: center;">
+<img alt="example" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/bcfc3641ec4e4b458251972088a4395b/bird-language.png" style="max-height: 200px" title="example"/>
+</p>
+<p>
+    You are given an ornithological phrase as several words which are separated by white-spaces
+    (each pair of words by one whitespace).
+    The bird does not know how to punctuate its phrases and only speaks words as letters.
+    All words are given in lowercase.
+    You should translate this phrase from the bird language to something more understandable.
+</p>
+<p>
+<strong>Input:</strong> A bird phrase as a string <span translate="no">(str)</span>.
+</p>
+<p>
+<strong>Output:</strong> The translation as a string <span translate="no">(str)</span>.
+</p>
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert translate(&quot;hieeelalaooo&quot;) == &quot;hello&quot;
+assert translate(&quot;hoooowe yyyooouuu duoooiiine&quot;) == &quot;how you doin&quot;
+assert translate(&quot;aaa bo cy da eee fe&quot;) == &quot;a b c d e f&quot;
+assert translate(&quot;sooooso aaaaaaaaa&quot;) == &quot;sos aaa&quot;
+</pre>
+</div>
+<p class="for_info_only">
+<strong>How it is used:</strong>
+    This is a similar cipher to those used by children when they invent their own "bird" language.
+    Now you will be ready to crack the code.
+</p>
+<p>
+<strong>Precondition:</strong>
+    re.match("\A([a-z]+\ ?)+(?&lt;!\ )\Z", phrase)<br/>
+    A phrase always has the translation.
+</p>
+
+
+<p><a href="https://py.checkio.org/en/mission/bird-language">See the task on CheckiO</a></p>

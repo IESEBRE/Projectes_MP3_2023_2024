@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: self_parameter.py
+    visible: true
+    placeholders:
+      - offset: 484
+        length: 58
+        placeholder_text: '# Update the current attribute by adding the amount to it.'
+        initial_state:
+          length: 58
+          offset: 484
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: JxK8razy9yT1YJrzXyRnkMijd3NAiSGLdZ1BscZ16N4=
+      - offset: 586
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 586
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jqLCfDFztuS5w/E471PR8A==
+    encrypted_text: XegAmWHMqWUz7dTAwh2h+j4fxfGiKzZwCLcvXiSgjQCGj9JHodWCJvAZCFQpMxFfaIOuJlX8TORMtTsHZuUQsiNHy2q6AFXOayTOVufIJa8rCfMPexqw/3VEhxTx7PKXiQXHr9CK28BLIrqQW/gWLkDkucLYGB86o+c2SQivAC8TlNWaAiujKpCUSG9Usxz63D+z9UeqD9NaEIZN41qk0r5YodcxhPehdCXmTUW8fsX/754mDltZmgcTQ2vuR+MFLYls5vNRc6Uq9kb4hHLTQqFstnb+f01R4f8lbUilumbZ9vNU80ZpJYg0QUZ36dtuN3n5wAkui9R/11EgETPWhP/YAkOtEBBDNZSxD+OkP1yFdJyQfuxf7r0rLoxMb7gUCvUf0GP/AUHdfgjEZmYvPJ7YI0CyMsjuCHucvhOWOqNRyDrPW/g5AtLJc1lbEmke0GkWZANFEneAlRH9iAE9YttWXjlhnHlqDlzNGCN7rtHoUaY9PL2wSmRSa5ix8CoWxKrvnf5AgfLUEyIX3U8kN7LMKQKN/1yE5TyA30IXuRHv83u8Dq4YxEtGdr4AI09X0zCt1iBY50LW/HJviMw3wmx2ANPYQ+UReoSAMl/k/+NM21rtOnC6hKr56uU/8K7uE/jvsqnIYoDdQH83aTx6s+4mWBeCAbBNeZg3yW8T7cr9FpBpqkfgByCuIATGm6gqe9HhATh9twVZNS7sHQATZdEjAzK3qxIf5AXK832K4RJ/ogUWZggeT8TaJ4foFraEM/1vSpPW9JtOOOHHgxdrWWaisssgqTPPD0aGDKISH6GWPqcJNwuFnZrOmnCg0tQBcAPuVHjUxEtLfcUH7tFsP9Tl+6ADGv0rb7GU5/NFk7ZNc2lkrQXPEAy7tzaI09PG
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdRlHc1J/iAU/CLWktyPk08jYHhWoj5oC47gNuxRJMjaYLK3RC9aAHnSQGRswf3FeRDw14gyLrC0ondRmE+JWo0jnFe0hiiPt5KgC18sjGg7GDQFhTLMUaFeUW9Xr8iXoDqNORSePW4RDvan0jCU66VcAS6etu6xEpJD8H3CcZKhsHTTd2DuYNJz+lzMAVrDCyYJ1vIfDJWnr+1iBJJ/kcJxY4gXFS0FduGQq3tmaqw73lsdvSYASLEq20x4f+ocJb0HWo7t5p8VpLSf9K49cL0crPag+C5Q+/sYd4VTHF6CEZf73x0KQhMO8wXnmDWadR24Gdii/US7EhN6OZXcTxTBSR7fJOyYtDu28dOgwK4Ce9BHtiO/FMGPwTGIM0mmJ+VPZo9erahqZVoQC002q2/cCWXYiUwZPY/15M085V1DIN2Ux4yAzVYbbQZAqtJ5SNwevAcn0hJug39DnGaXHf2uopIyTepampAMoDGvg08nuJArMIaVn9ZS3Txj0eLkic3YEYzhHG9CzUQqfCRt7LDCvFiXuWtjRedsMwdV/JU0I2y2nI/A6uwmdPdu+gyhxMEAbnD8WrhToGzzhcXdppxj6x+I48f4OR8FibsDB5jiqn6cSk38I12L3OZ/7ZRMlzZlv5CrXJDNsGS0a/SxAyYKVDZHni9RkK57iBy8/SvEbcVtmyh8YIcRl4riqlqH/zV7FLS+TxiL2+DpkLH2nw8CtLDIG7OW/hgDqoyV0DAUkWV4B8wiMI0pYX0rG//0CgcjygPxaCQL+n4Q82p7RXoKrfi+fYedaSzYkvdsF8gDJXj16snvJ1uAE74JBOW7hUddudgjphT7kOdlgIdM+Zgn+sD6WJSifTdjvib05KcGr3B4pdddjs1LAYGuzZ/gnrrtvT9V5P2/nlTe43DMCY2zhmnCTrD08wfa5f+PIJ2OOq69/5sd38EPulRSwjqU/AbjHQ6+eIaK02Tixy2sRVoSTC5ljrtjtv1LbKNHVlN76zhOhbKpTHUsxElwx7hCYADhTlLvxVD8EcPkOFuXQwtVoGJGDaE+lwIpjAh3/VK9yxAk/UTBXShnwNh6MSaXWvYzGgTk+7DvLkg6USb2CvbvHVNQE7tnohP9lD4m2kwnBKkgHKLImL/wzNd90zlxdp3cGq3s4aKyVB8Z587JLS15Ww0LKzNkoFl6A+b7a1/FhYXzyOg957dVLmjv1G2RQYVxM7R1aGfTzFwaUOOhxGOAFTfrwWZQAgbbiOY0zmen6I9KKm80YuRmtBcMfQuXy+l80VTCwnfJTsuxWDyU2BSvArJ0sl9vm5PoN97oEofdPYSXl8NrcE/od3ELuPF216g==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+The+self+parameter
+status: Unchecked
+record: -1

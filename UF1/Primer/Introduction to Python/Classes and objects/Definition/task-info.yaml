@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: class_definition.py
+    visible: true
+    placeholders:
+      - offset: 30
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 30
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 7vQHDauFrBEfwdEtLYqGyQ==
+      - offset: 254
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 254
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: vss52IWMVKf53EG+ZFcx/Q==
+    encrypted_text: NpG+FxX+ebRJcN9TpL3RBceKmDS9Vu9ap7BGhRDILUeRYb3iE9o+w5LZ5TUnDGo72UdphusmSM9GTN03XgbIKjDV+1FXzi96lJB5RXEQ6MxcsljqvnpqkmghrzF2Mekllx8xnZIPZhZeyRY/UvtLvwhrOK9B/rTvIKJTU7EpW7uCyuBDcvgXeJf48eG2NsoiklFiDnLKYpNOPBqtd3bG8YeQMtyEWemPQmqCEN1yF6qvVZZrcNvpRguLQisvX/3Z0/U4Y6gOWcJjeGUYB+mBgJdVK2ai4MUsdU8VFpBI956p4QgsN3lK3WpM1zXOkYmVPnUXUdJLjpdSU/Lt+V+7gy5wlsGeBlaPMgJ3HGBlrlcbBo5ecbxKgMHwXChEOM05SUHZHJ+yQaFzjqmvQ6ee/rFf/doedulQ1wLiseQWMbo9d7K9+z2CTdfGrLpzm/47QjPpjBm18FzWr1sKRGxqek8fnDQJ9SDRGLGathsXzdAwEK+5ukk5HoWOR/K8YJ2IRFVM6N2KPbFEtjsRgxjqfKJSzi6nhxinnGgDTt7t3Sc=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2v+H2qFyEla/Q6FUY3XengJ1Mc8pvpLqalb7ADYuinS4bBLDin08GecET62+ILwCSU6J7CXJ/YFwiWQoZHahQ2MYmahT+gtLmiqD7Z/hlhNt6Wh5vukYVWX9D5Z7Bm/iU0uPvJ6okq1tcL0FOzitRWMs3PppjW6pUePTtMpojQBfT8uVVzhimqFFuQxOCxQ09g+ziYzr4WVlXi6yuW7oEVkdjTvdsFyBtT1R/O5QX5JOiTQqinLmTrAtBuOjoLryoFRC3mTqioiMCB1tihbfpEkh8KItnYsCbp7GHMi6uo+/8KyIfMoyXb+Yhcd2ZD4Ntl3ODiraWSVXzesbRifyRC7fJLFpd8SF7LNrQdU2ONll4TquwHFZETmDoIi7aa1/CnHFVMBOZYM2KowF+mdOivtmJHXE88q4a5YTXU7/lfr5NEzsr3HwEIo/BV0YUcMJhbxTSsceMED8irv9rEywy2ysDh8BaReWnOMHF31WHuUv7aX8cqu+shvDC7pHs+W304Z1qgKaccs+QkB9PF11Zkl2QjV+V+ATt1Dkvrtgy0eH+n7p5U2HNqgaYeH4ztjR9FJRXeWvkIIIC70MGrVpzbbAoesqSh/5cb2LjXEyMIgjkLC4vbGI9U4iatVJE8B9L1llRBHpYGHz/jerD2HauPQCouwIWk6KJZG7bxbwIk3SDGtx+oAd6qZLbfKojf7iShg56jQpjaTsH01jnatccK+WCmns3e3RPwhiINiW8ymbsLz/WBsS1g1TNtbXQvxVb/VFRjCZJxjyfngWuiUfkguTXjNIwsSXDrWaT6GsyQ4lKj3KBkqTMvLvmkA/52gtw3OPzLLaWaXRQRd3+dzsSdftnmdcPr5q/2SttdnUEduqPqtv3r//nZ1cUJzUsUmDqh2IaCaxn0dpjgRqSLWjaCyOollS63mfjlWlJ9OiNYP9XafwP2VSE0EDpgwP4hd6Ldh+zPe2Z/lyQxRkHMyQJuHw4RPyJgIe7cnOsZ06FqN+jatLlDlOmMvQ09ZAWw2IFvELeX2mekAAXSGgYVKwGPOei3Yy1nVnkhG8fhr1UOqZLSmhVV4YafHv2BWzJG7DfcRyppddq+4Xnf5u6tFtp0DYLoTH0huGJBNWHc7BZEtny/Z2e2YzgWDKzVGYLHjjFr1OzjSZrV0fVkUojefCOQJIfb263IQ08PmRgPV9AsjKOS206L596l7VytyGikt47Blgi/feFANpye0B9pfwCdQCx5yTKuZEX/KoqTwa6bjRSpJwPHlddsFc2YrvZNdYbo=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Classes+and+Objects+/+Definition
+status: Unchecked
+record: -1

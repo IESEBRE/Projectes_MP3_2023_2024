@@ -1,0 +1,35 @@
+type: checkiO
+files:
+- name: mission.py
+  visible: true
+  text: |
+    def to_camel_case(name: str) -> str:
+        # replace this for solution
+        return ""
+
+
+    print("Example:")
+    print(to_camel_case("my_function_name"))
+
+    # These "asserts" are used for self-checking
+    assert to_camel_case("my_function_name") == "MyFunctionName"
+    assert to_camel_case("i_phone") == "IPhone"
+
+    print("The mission is done! Click 'Check Solution' to earn rewards!")
+  learner_created: false
+status: Unchecked
+code: |
+  def to_camel_case(name: str) -> str:
+      # replace this for solution
+      return ""
+
+
+  print("Example:")
+  print(to_camel_case("my_function_name"))
+
+  # These "asserts" are used for self-checking
+  assert to_camel_case("my_function_name") == "MyFunctionName"
+  assert to_camel_case("i_phone") == "IPhone"
+
+  print("The mission is done! Click 'Check Solution' to earn rewards!")
+seconds_from_change: 9223372036854775807

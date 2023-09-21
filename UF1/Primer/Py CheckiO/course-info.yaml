@@ -1,0 +1,12 @@
+type: checkiO
+title: Py CheckiO
+language: English
+summary: |-
+  CheckiO is a game where you code in Python or JavaScript.
+  Progress in the game by solving code challenges and compete for the most elegant and creative solutions.
+  <a href="http://www.checkio.org/">http://www.checkio.org/</a>
+programming_language: Python
+programming_language_version: 3.x
+content:
+- Strings and Integers
+mode: Study

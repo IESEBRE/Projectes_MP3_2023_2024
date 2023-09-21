@@ -1,0 +1,35 @@
+type: edu
+files:
+  - name: indentation.py
+    visible: true
+    placeholders:
+      - offset: 89
+        length: 144
+        placeholder_text: |-
+          if datetime.date.today().day < 15:
+          print("It's the beginning of the month still!")
+          else:
+          print("It's not the beginning of the month anymore :(")
+        initial_state:
+          length: 144
+          offset: 89
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: mUtN6liRxI44WT4ovVOl+NeMpQXX1BYcjP9hF0k3IUc8vqwwWtLh1CgQfVqgQsyShLfJW/lrOs/Gr5ClezZ7pdp6eBCmxXWjAC2ueeNlUhLe1X5NIvXWcC0Yo3AuIA1x8GACnPEZ1CZmGZ3aRId8W1UOjmgw7wFQ1JGeQd2l4tJrVaTdDMVHlXuffpTGskuO3qtddrpyQpP5h/zqVXHdSQ==
+    encrypted_text: iczbAVrtBjg/mkpHuV3XK2gOplLILv3rPcR4XsP1vVELDky2GRTn1qdw3qahhhzraoLi9Yi5h9RxKi7J/tA73DiVI2mptbqb+PR/m9CmU5CXQFKHgzSxTbeB8YmMScxlnX8G+lt/tQ2dxBmYCHdlrOPOE/0dghhGVpoDEgcmN3GBw8Xc8dlD6mcNfHmpv9jvJsP8TJ/cGrw5yjgYxFgifIfruLz3tgCM5WgNDlv5ts3wUqzMpnYjl3UAlM6BSZPBKm6Xcz/FJx5/K2Sgn84fNE1zARjgp/1PMwTCvvPhlCGs2nELAfSkgV35yvWqsiOP
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdeO0yBzrRWEpnUakwy2RCcWIlU0nJm+tlilV1MkBC3Yq1Wr+BedLYvIGq5MnrDkF9GrmZDlYbicwrJK0qDjkzo1HUPDAgnFio+YPLQp7MQMyX4u6TV6ikTFEoUpddXBGk7dNdHATXP3hO/706ilbB9APWE6w3+nKASd5b5Zz5xDF/u8DfKbjwMv4xuSsbFdNiUE78yK0ehRxCdcYdkjSZHjVfVCQ+fzmszBp9RwvJ3PJ49LHUZtqQMMQE8KOaLonw3wzD/uGhdbWR5RH81J0rVsfHtIwL9s4kxgByHBUGCpcpUIHtjptnjwHF2rQAYA2z/++t3jKlvBaOgmi8WmI7l7e+wDJsCPdFTGWtLeDTM/u0i+jio1N21xRD0K4pwM99Oc0k+EP7XiOg3lksEa3aEmUZXMUNivgjJ0XmR6si5KOfXB1AUUu/59j2i+92uEHPMtx+A7nYOaCweqwPFt8FMcINDPQAVFrn9PhR1HxrSSev0JoA6JGGKzehKcGvyNecGfwCrRxn7RIJU8Xe0ohyFKx6YDYCYwiFjOpjz52euXQblswC58JjQfarzDDgnN1P0wCIcEs+t/s372iNPLEEvd5mA30HhJtte7F6XnnRRAyJ5/CThrD0HjTZ20HdW8dlliQ8AXQk6hzgr5/JBiy1/EAKNBibhpAHw1GIFpcvUF8RpKKL5wBRFj8nKaAQ6WFMA+U9k0L4nhfZD6Glh/ufNnrTi7bKnz40baZq3UP5xmzNQ/rYULmA56aLfTct24277P79F5OInvSxvCIACY/ZgawYJLRFv/GfcweEHdNsZlJkIdpHhYLFq5LTirLagVCOtQhp4H5NYg0B1zuJoJgFjWLYwBs2fmHlSaZ0UwwRZpMyXE+ffy7vwvmLiLufKaynh3D7bfMIh3EVgTvM9kHAdgOqoINERiRO7TsCuaAG90Lal3sVYLEaJspMFoYK7tp/jQ3DngUQh8whi6YE6gdoma1glowLZLQLOA+izihzV73oG+AyIgMU6Jqkj216PczN0GxGGyYANgEtzAG44iVIzvSH1htE1ytXbqMxNn8kCHFWfpRgUtJ7x4ScTJdhUwD39hulMFJ5tRtfqKvO5LesRXaQYE3BrBf8YwdDTZ7xYWA
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+status: Unchecked
+record: -1

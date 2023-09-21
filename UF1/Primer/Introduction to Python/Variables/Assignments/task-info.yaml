@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: assignments.py
+    visible: true
+    placeholders:
+      - offset: 100
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 100
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: ZnvxBNjCe5Nx5JO336bOBQ==
+    encrypted_text: WrY/UtV2HT7BQT1l7/ldtieajueWVKVgT1WLJQHyqaqunumb4hQnVFpUMVOdeOUUZrEhtsoPKiAy/lMpJqlkIyM8qd5ioFBYBd+9p2dkXEstz645s0r6GTkDTFLIWFVkUV3R6Dk3PqZdL1N52jh7WUX1KDUVddXEQQi8jaXSIhIFdUiE3TmHwdfJDrcHfSr7
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: d30iRzdAO9KfRXY4tECupBfq0nEjG4w/V8RZXRrrzzXQY6PaySdrDpZvb+qZ2gK8611QpmWAlg77t/cGMgcqrxkGAqtHyxfzw7+isluZTXGo7HuRb4+qSSwZ/0JTMLzmNRnPzOvUObYzR+R13hiNlZ87ENUzcNx/Bt9PtShecFNrsOctfTzg6m6v44+oIlG1IUmuk9N366N9jbQIokPkjR0ezbXzsU9XpHQQch+MvhFy2DKQqVkYaq8PMWpe8+DboROizSZHGuMT3yDC6A2dp9YAQrqxzlPMfNkv2cewwAcF4C8GI6ZUZRjm9PFM7OBt6DFMm217GXzZvCEuRLgVTw2b7AaeHeSaF/Y3STQVVgpsbBn+E44Im4pO6LA1VozP824opx1rLs+aQBninSvSwI3RLKK26MJ9R4PtAQfkRmtXFOK7V1XUAM2385wOGtbGsNpduzfESLfsQteY6rv4Wh2rMO81PbpX82lzWnNFrK2kg2omLFvNcRmj3TQGwyTLP2LS+XOQGvLN5clLtQWq3AcxY6kPOr/e3+nKccjNhc5dmNMxn2wPvXwICAL8EyxYiVn8E1D7iSYmWpr6cJgNZSLb1uGOTdFY7EAGWf8B6dNkQMFedW4b9OOtmuraNjfeM2eTtYwH7nkmhxSkXzwTtm+hcZv330pMlEprWtH6ZOfdc7tUq5zYyz/K9h9/xUHsqA5ysySjw6NXbkAtJUWMCPLIQ8zxTHtkRfVf5u3DdnmMd006PFaZSDeJ5kUEwirykQqskFrTELV25UACSin/NsTpwKOrYYj3vtfPjOYuEEzzVyMqp/qSmPjYuOYmnGFaFva6JoT4z5kb9WCGpfFcXA3T7TmBJvfN3piNz4auvQ1oXSOWvkRdi8+TTLYJUefgKWt6vDCYUOAmQlYHxu7/g8e+fmj8aCX3V2cF3BacycrOS1kqKqCX2t1ack2MaGL1U8nNvtmFxnOd256uI3z5tpoPy/8rIy6EeYfpwz3tw08tslzvg1vn6Q0wK1lPIIO23TkEOox3Mcg3cu3tAV1w3vUYy1mOujWUEm0ArEYkvB4DylS06T0jz4IdEKqj1v6v/9mtE4OI62elgDLTu+Ttvl5C0t76TRj5zC8Vw6hZmEBL10x8CRZqkgjFQvR2Qs+w/CAGlXSM9odudkeb4b6TkNoxmm/Nf3yg5Anbk/4ytrd1DkW4yvvM55eivHHmOHTu/BKNTAVajmhFSqO6EOCr9m8RSvdxqK2Ze+AG7tI+Afv5V2DysY6WOUkQtWI4/RqM8ROKpyHEZC8NgyxJD73FeC2n1eeSFSORmRvbLXijNPfkhWceGxTFDFhbezXC71QWAjFmO8AtZbT7F2NHC7+u9mLfm9zgPAt/khvspoCyk4NkQINpkOkTwfa5YPPUQPnzS+OCb9gohHteX8u02Ckdd2P7PYAh1fwOjqDIUCCMmy8FOFBW+1vJz8w/19Ae+qcn+UjxuOl88C4BcpZgKvC69b8YZP7qQ4hOsIzuXGAvjjVNBa2eLCTDNKzQ75F0ZY0kZYEMmFNQ6gFhN+FdqKbsn6TTeDfmEQ8vdGBpANfql+k/6SqxCHob18USmJ9fTPYEUGZNH4upHEnuxiHKTZhd5KOnuHR/H3CVIMaTPsLlWIf9/aeZO3MUII2ZJCjjr5bvzEqzkppciNKvC15vTkxCCYrTju//lj4TmDj55mG7FM+azglcWj4UoApnNOmQAXzC5cMKuoxvA5s+5PXa7qwnSKEO738sDY28P7192w0RCXmCSwh9u6jDFcWufkeSvBFp7t51DaZN9mOb8RzQvB9+SCxa/RttweKMkBQoOa1X1dPQ8cBI30o9KiqGsi9bM7OU7/vjnBi4amwEr/S2nrLOZsznHF6jI5xwIhEkezsa4DQpBaRaIcGG7s2rkOZ8iRlRv7U1CiHp88b120ysVZRmrw==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Assignments
+status: Unchecked
+record: -1

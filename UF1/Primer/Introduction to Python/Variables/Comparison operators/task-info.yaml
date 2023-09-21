@@ -1,0 +1,74 @@
+type: edu
+files:
+  - name: comparison_operators.py
+    visible: true
+    placeholders:
+      - offset: 213
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 213
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: WDXBZttNfAVbbyebeCpJoA==
+      - offset: 367
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 367
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 8H1MCk2SdPPp0ZNJUIcSaw==
+      - offset: 519
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 519
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 8H1MCk2SdPPp0ZNJUIcSaw==
+      - offset: 527
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 527
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: WDXBZttNfAVbbyebeCpJoA==
+      - offset: 708
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 708
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 7Wv+S0/gr4/qhsKnO1S70Q==
+      - offset: 859
+        length: 1
+        placeholder_text: '?'
+        initial_state:
+          length: 1
+          offset: 859
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 7fwRgGhI1XP/fa9HQT0KaQ==
+    encrypted_text: 5ND7RewyazfDEHM4lyuzJzIfoECsX8fCLBs1jK8P+fwNkgEPj4Bzx2xhcPReSQjnWMKzWYnK9Ed7jHUBpj9WMb53PpQbGWdrQYEsNkS2KxKeiEifsZxgnhgACMv1+6RlkE4J70lckP3FwoI8TGVWI6MhhAWUIhz/ugtamTovWcbMuCzplNtl37RT36ERXM79Lvuk6ZTih75E3OjR5ZexL+FfOxbq0/bpu7Sv+tkSzP9znHa3Yx9eFDTNnEqpc+s1sxBBWYCszvVt41So1/56LktilPpoVNUwrZVmhD493wnZEXeKzPHNSVvU8Ma+es4VZ8nQOzK661oVTpZp3Nr5jNEEUvdhYWOz7sPR5BDS+dvlB89AHevbNt/5FDeMHVcmIu2lqE55hBPDEZw35vD6/9hUsLhDiFVMgjXt9l8gpuPy5rSyIuC8DByO21O/vlQGhS/VeiBZ6lbdI+xmyGAVvGZR9sMI20/n6GKQ0ZTynZ3p16hCYcOV+7fSlvnhXeXb1NmPnRv2m1LvDnKCXrM41awlhYYNAn4bQhqKM/tSEVoyLtET3Di7mIJOhEq9pWSizTW7Nev+cho4l2BH5+rlQi1B4/BzIcEIGge1Mp8h23zXe1Dqfksml9oHvYxqp/d1o+K0Kj+Ftw6kfed1Xq0n98XjHVUud7lZzNwKOtSOQvVE/hM6ytTBYY6oQE8z48I1+Yks7z5UbXPJdUz+k0E0Zc6j/W8l7WIxM+cntLCuNnp+mAXIMqfDCCvRJwdFtGPnKN1SWJB+xKBWUb//pVyWm/nuhae/UyntZG6Oc0pKUM9EYa2JqGgEOfvNoWSI5gdez+f9Jsu47tj8gQnxwVipO88wwpuzqy9SbsFv4c3tAVQSbiwvvGja7bE6djMySwiu57ZYDkcEizsORNZSnWGILtIYuhYVKgZtuAkAimzIq/F8w6pXpHxBQPvhwjzNT8DGFHHmwVRURqoH/LQHiZHVWRbI8ox9lkHo6cinKuL8yvgJsTb6xzx9c/eGSqMGdlMAfSBBa3ztqThHMdF0qGGNkDgbmks1bnY2jesY5IFpS7ot1s7hSnNlVgWipsIOv6SKnL8GmMMm6YIAsABPoJYhmFBHAbYFJs+iA1HArsDP2MzpJUDv+aDtrmZJUyTEriYffCZJY2pGWHggTnKMm4laFJqb7TT8B0Q3VmXN9gVutq/WY4ldpG3YEwyApyR7AtBXmwT0LUdBmw/xfu3tumlUSkEEQV8d/ZKepBHGJ9HDg4VgMwo6x5WIKuMp0WYri+vc18iJTwMYuk4oknC4i8O4r5Z8MbGDeQd8HQD1Gh/p+48=
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Variables+/+Comparison+Operators
+status: Unchecked
+record: -1

@@ -1,0 +1,22 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    encrypted_text: eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc=
+    learner_created: false
+  - name: edu_context_menu_run_dark.png
+    visible: false
+    learner_created: false
+  - name: edu_editor_dark.png
+    visible: false
+    learner_created: false
+  - name: edu_context_menu_run.png
+    visible: false
+    learner_created: false
+  - name: edu_editor.png
+    visible: false
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Introduction+/+Editor
+status: Solved
+record: -1
+post_submission_on_open: true

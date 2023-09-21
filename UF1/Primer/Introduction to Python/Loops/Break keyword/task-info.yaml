@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: break_keyword.py
+    visible: true
+    placeholders:
+      - offset: 402
+        length: 36
+        placeholder_text: '# Add the condition to exit the loop'
+        initial_state:
+          length: 36
+          offset: 402
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: ggPOR9nPTT8e4PFpmhJVHkoB8Z9M89z9rNlae8YRo0g=
+      - offset: 447
+        length: 15
+        placeholder_text: '# Exit the loop'
+        initial_state:
+          length: 15
+          offset: 447
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: +rreWeLZ2/PtWdFPxkaAAA==
+    encrypted_text: HJwUPF8Ce98ZxQAYo3CPrh5vWy+OaE/ZKGLJtZGJPf9TwB/IPlRiYubUf+MG6d/pOeAW0Rrbv9TwNrH3OmR0JdLjWCP3mYZGqIpPuoYrTs6WFngqCvYdvvni/Ik2/rT4ZnIAruoesVvB3wWAgHtKp33Z73/0VJfK/t26jn2N4IyE75Ot9tp4LT6AQqMsc4F/4k87wii6zR8VOaEZ01jxJgy68vR+xvnBUrK4rgVSqfEhiyU9kfOay8LWKGVrb6bzPKjm1ySsGLm/LtfGzf2pWnUmz6/fR4AtDbnVOYdtHOKmtsa18lndysX0wTj/rF60CRP7zwzIJgKkyAZ/dgiWlpW6oHLM0+EBSHIwNNnCj+YKR9CDIJ/wSJjCqmncTg8SaLaSFYDH5zVwJttQyy5/aazTvOKsg98cdpFeyP3K8s75+YOcYSBtlilh7IeuyG+oLX2CsdDJ+W8z5hLKB2yYgVTK5Do2kwO9XQoS4OssKStmBqPNQmyCEjgZXGVzBdFGsJvEsHcghymnDUjDktOXXMr1GTHmT206+gwAAnye9j5UFxpOhqCQriIB773MH9tmp5fpRmxOfRGDPygS/2zcbgjxWgqyu/kwKRuc5iNWtkr0qs1dD/aJzGaAQ6rdZo69
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHHBDEhdlKDoZTGY7zO5WXz4fFOvEwjXt2H7Pg6SmRgmTnvFfC7MR5wvG8CAbFy1IWyw/PoikbPgEkLaLwIfGjZaCAMRVTFUsrFb56NgLG5QWNGGNHciz4UjQVBY9vN37WaM40eUzYbuw61XlhRVjaH0n/qtokhpv466y/JkaYP4kBKh+LUQ+95LGbVGWVJZJkPrqGl4usczc5YvEhPYkjIRyhzDgNgm4jkoR0u67pl+hU/rZb2YDPEO3qu1ZNZHhn32uVpolw7JHXCuVlmghH1E0nsnevX4bltSqvWhAoOym+hdHZYjXE09/COLVmzcEeUN5rpu5EXlNhY7AKBjyWjSzoz3qIxRn2msO1fZHnyKyq0ECS7pEFaYP/fq03OaNoTEy+kPl7o5LWvrRiUjJ6KC1nKBfQfR14KWO8KVSSDz2/TAA7bD3U0h0fOZUPHVz/SC/X6N2hc9tlXiqkehABmeh0uUL5PrL1/OFylIMPhDzc2WMdppAYt5sWUEi5CJkEEN1xD3suxaDDZnxm7HtUZ3dfDnU6mMhVxQODtGwgo843H2RovPG9JI3y+sXf73BxFaDo7fPFsZiALxaBXbAQygWJjjxawxkXwbzZu/owRH2bPzDYhX/H0KnapNhh/67ExefE3eR8DTBH0ewJXzBi0orM4dtp3T0Lh8QstJASYDgsO6iTVcLp8cP7xj0vRXwTb80l9sM2yaQHatN5yCc8h2Q56LfaP2l3LodgjWetC3Ap25Ep7QMjkiDmrHnG5Ur/adby+FmQOSehMfaCjam7qQLypEJOR1xSc0g/dznPRyR35kbWAtTegAbsz3OL1g2dEMOEjEP7b6h8g3AEdUsZQNS7yqJBqDa6GK4O4ca0vRHwV4tuyHp6uEkSThgb9cEV+TZC68j79n2VM+Dv28kMJTQiWUd80Hr+SOc0NGmVihSmU74Iwj393OLKpZns5Mwjui0P2hW5gjOVHvW08/2JBl/1MX/rpgyo+QVVl5dChjz1YVnZAwVFmJafwjYpce0m2YMoyKS+Z47Q7ILzgDdax5rnXkE2+cSoo6kBAYERVj1mlO6jd8gRrYfBn/W5xl6V/9HnoJayPVw+weoML+sKuCwUt/0oS4Ez9LRsedqtusX
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+Break+keyword
+status: Unchecked
+record: -1

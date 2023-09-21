@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: len_function.py
+    visible: true
+    placeholders:
+      - offset: 121
+        length: 5
+        placeholder_text: '"???"'
+        initial_state:
+          length: 5
+          offset: 121
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: jtgAkkh96OH29tSMm5OPdislabG0yGa/GYKhuz3kqhQ=
+      - offset: 185
+        length: 5
+        placeholder_text: '"???"'
+        initial_state:
+          length: 5
+          offset: 185
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: LrVL9uMKntpgyJrnzVuE6oTmaCLZg3Sus1VKJ8e1jwo=
+    encrypted_text: BsnJC/FWTh0puhQakpHCyFn4LDDTR9OqykbSmp7nTdzZJqPBav31O3xQ7igZNmeo5ew02aEuhQo2OrMK+LkqUsQ5My81ox73Uv0BeaxCqWSTJQ4c7LHCfzkniXUD6MoMb6tlPGvZgIsWTYSQ89Kr9FAgygvTqwTOajSkXTrqhyxapgbiBqACy4EAbYi2vTD4iww8tWExDCR0B6J9yPJQbjmuDKpQV+4f5I8cmYu6JdYWIgNFasdOE9BhMI+RS/8fHvo3WZtlTVAO8tVY1948m3FCm+Bg7wA5BBB74c2gDIg3zGUEClis5t4ULxCojuMpORrA9Njk1rmvy8D1aP/IqQ==
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdZy1e3PdJgFayjFcnSC7qo5ZKMaM52B2mb9ejQyVTbDZrvEjHO4Koxqzg6p4c0tdBiWo8LtudtBf2ZGcsh/OSWrft5Ne/Qde6r+PFGyabMdz+vaLNNJZgcbSTHlTdqaIJNdPX9ZWV2BRm4Lmk4UQYChLtydFkBt9o21LPF7ODXQrbR3FyjVSeL6j3cSb8SN7efWbXSNaK3j/9RWobprst+u7rlY1pcirNAonJdQxRjHe2Tfe7VFeznagfW556srzltq5UOReMYmo+QmTO+B4xmuwxPchk2DewTDlSiesRyem9eMcFmfCGT82qNMxwuCivthrMYy3whu4IZubY9P013vOBGGO7RExUM87ax3EFd9/m9eVJAqlto3pKCrrlGdnSfFHcKjGlFJhFezGz2ZZWMdP+FrblfO3tWeRU2BmKO85yQhG/vkQV3YsNoIjaFR2wRHED8EVfH/OZi2Lx5I+xQoZw/Vf1H8TJQjy4ZwE31EQrKLk4D0gIukZiphYMNGyiV1NyY3go0QVKUGVG57XTbCFdVhRxI55wIH4jE7ixX8ViAoXc5RoCrQhHOatSoVPC3IONeWaWnUHI36+7hYGP/xS7gwCUiLGerUfoHbCDP8KQo/pLANwLzgtvgJWKvsgB7ww0mNfO22VS1g4KFD3HbH8WiTpQnZxgdqxu2pGKTp11DKoR5H3qyhNp16w/2Ouq7CCzSQisAG3h8HunD6hBQa522HT1FAMNZFtkajvg1jYAaLig0nVTvbbE+LRGChuflQ3/xcZEyihOr2DdiIzi7pqA/vGrCHp3NmOj537yNszesc2ugifvfcfuGNDNXWEI+WiEvyrG0MsCbehQToEavmzaX2lt4uU2JhIQxm9l1bwqBaCnzD8bakBbsGw6SADrYFeSOMdv/oxLvUWxI2zAFk=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+String+Length
+status: Unchecked
+record: -1

@@ -1,0 +1,48 @@
+type: edu
+files:
+  - name: dicts.py
+    visible: true
+    placeholders:
+      - offset: 317
+        length: 38
+        placeholder_text: '# Add Jared''s number to the phone book'
+        initial_state:
+          length: 38
+          offset: 317
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 3kfSkWpsWeLHAbaLKvu8Ok8WEU6eY/kijWuvRz5XD84=
+      - offset: 357
+        length: 44
+        placeholder_text: '# Remove Gerard''s number from the phone book'
+        initial_state:
+          length: 44
+          offset: 357
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: uu6FW1F16pWcrGhiyEWBsjgGemuLhdSxGAmgOEbzfSs=
+      - offset: 427
+        length: 47
+        placeholder_text: '"Print Jane''s phone number from the phone_book"'
+        initial_state:
+          length: 47
+          offset: 427
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: xbtk/88SKjUBTI5/N3MAoilbRXl2EK61C444T4o+haU=
+    encrypted_text: xXxk51reS7JOk8bYwyYk97eqyFVCn9fHHsTHOKXZZiEAcbuCVqd+/Ls9318CnCzkbttCTI19DCbx9W8mHmKECacXMWgw4QC9NdbD+NUjO98labrhLZXWhS+CXYD0E8OnNZI4H71OZxiTEjrx8Le7MSJ0Qv3QYV9CxENOZGGeFiRQcemPpLVTp39AME4XjmM2xh+1NzOYh/jG35zfh6DbrTbUrXIE5CsTTdCCRFJkqfQNDgGjQ1t0J5E6Wb2O1DydkkAwSlYRTbt4K+noNtCtpeHV8oC4rDmyAKya4x7chTLLkUmRRGCoQVsccVoneOD630O9RetoPoRVOFIlr0qeR+Z7jtYyGbxJ+FgP6oi+KEcQI5b0WI+833+GEIN/ZPbEFNzVEuejStwasgXd/fzIwiEQ0+bBjfXffMKEmS6Ey89qM2g7wQa2FAP93CsDtBCfWTqK09DbwBcBxsqkYMWLVC0WQMdljhQ4j4qrPfLfZFQDwiV0E/hNNcca7Ucp6ToYfzUuFB90+242VLddLNr+/2GuqTR1fBS0NHzyfWCMykvoWlATUTIozdRZ5A6pII9nWOKfs0yxp12spldfCCh3gb8EE3rHvwwgbz1Tzk3e7yi1osy47c5j9GNHd/+DGaHK
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6dI23JntmDZ0xtRpCzn9+4U9ISeMmK8dYVzQlFsiLRdscw2aOAk51jjZ878JOXLMT3qIzHFRYoOS73T/w805RUOJ1PNWS1Xs4SE38iRtkAeiytXQw3pU+lnqfc8pAzXp/dlog/IhfQTn7jd6FmkyERsle5z5+xatPzZAPX4Undq44wItBSGYV57juZoDyyTIAmrsr9uY6q/8kq16Ej0HsXe5mAFx0PffwxKkf8i+m9S+eqIHy/rHtuAY6g1snpzb5oLDRAW+FEVNOdOmSclPLl/cm3eH0QADzZfvx9VRSVRLQiRjTThCXoD5zGN55wp2K/UOeneV9Aozkka7T2Ak6ehzIib/YVqaLQfJl5QL3bh0FCznJxAomCmwYnRZHB8ihZ5S++zS2X7J4EEES4ZR1V+s7HExnta8l6ot/dy7y+o7V8576udrYd1GzA0boAxYOE/9Ms0pDOFyMyxUsRFGCab/FPp7/bCbHhcEOefCuY4D1qh2TOP3Tg/s+R3ai1kxu6DTxIfnZiy7gWzkU6ZXSpKuUZwsHFH+aE91OKNJtXl6pXZj+NfL3h9spHChbGHQNCkLNZGvjZFx52Zl/PGiP2TG4kuliJeJ9wowYyKJhUG/H5gutqPLTYusHN/w+YylYS+IavjGT1t8kPneKYbFZfaAFSA9R985+oa21xWxbma+LGlA+r8sddcSO6mk2xbImA7R177/8oBEiV1w6475mC/h12UNKRm/iuocfa4VBA80WRPkPU0+hy2Zqc6xsjp4pCr/OJx4bZXT6IOR9pXYoS65zPTbpfrE6v0j1SPCQ9vJljUnL0chy1ofn0dqm70c/uFn8ng5N/FNNGc+UPerJSRZXFbUVqDfI3G9F67T48B+6hdroJJI0aJdFcnUaTzRtorVKP8SVuVt47giz91zr5auX8KPR7xzPux4nOkU567sXGaZtVqex60DdFdAERgjyGccgbE6pfmGxUgWm5JzsSgRs5DOz4nmbKxhQUgEE+VCrJdj7g5lF+YESVWTfOcWWTNAdESgAZWJgROmB5F0UW3YZfMyGXUQjurWPUbjB2/dQplh4qmDSU6Dqtml28CehoTtcUZ4mVh/bT+MeSIqoQQP2nZuw41afWmWX1Cm33tPrKkkHALLdQSEDeCKybF5BHxlFazJkV3cs5VUh9ygB+U+ZCGzWmdkRNqJjeX5xWNnBMoWSFDLfbM0vzCI6fQO8
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Data+Structures+/+Dictionaries
+status: Unchecked
+record: -1

@@ -1,0 +1,54 @@
+<h2>The Most Wanted Letter</h2>
+<div style="text-align: center">
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/0a271e6be5594c78919b29d4c0e58145/convert/grey/title.png"/>
+</div>
+<p>
+    You are given a text, which contains different English letters and punctuation symbols.
+    You should find the most frequent letter in the text. The letter returned must be in lower case.<br/>
+    While checking for the most wanted letter, casing does not matter, so for the purpose of your search,
+    "A" == "a".
+    Make sure you do not count punctuation symbols, digits and whitespaces, only letters.
+</p>
+<p style="text-align: center;">
+<img alt="example" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/0a271e6be5594c78919b29d4c0e58145/most-common-letter.png" style="max-height: 300px" title="example"/>
+</p>
+<p>
+    If you have <strong>two or more letters with the same frequency</strong>,
+    then return the letter which comes first in the Latin alphabet.
+    For example -- <span translate="no">"one"</span> contains "o", "n", "e" only once for each, thus we choose "e".
+</p>
+<p>
+<strong>Input:</strong> A text for analysis as a string <span translate="no">(str)</span>.
+</p>
+<p>
+<strong>Output:</strong> The most frequent letter in lower case as a string <span translate="no">(str)</span>.
+</p>
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert checkio(&quot;Hello World!&quot;) == &quot;l&quot;
+assert checkio(&quot;How do you do?&quot;) == &quot;o&quot;
+assert checkio(&quot;One&quot;) == &quot;e&quot;
+assert checkio(&quot;Oops!&quot;) == &quot;o&quot;
+</pre>
+</div>
+<p class="for_info_only">
+<strong>How it is used:</strong>
+    For most decryption tasks you need to know the frequency of occurrence for various letters in a section of text.
+    For example: we can easily crack a simple addition or substitution cipher if we know the frequency in which letters appear.
+    This is interesting stuff for language experts!
+</p>
+<p><strong>Precondition</strong>:<br/>
+    A text contains only ASCII symbols.<br/>
+    0 &lt; len(text) ≤ 10<sup>5</sup>
+</p>
+<!--
+<p class="for_info_only">
+    <strong>How to use TryIt: </strong><br>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/yJUA5qN898E" frameborder="0" allowfullscreen></iframe>
+</p>
+-->
+
+
+<p><a href="https://py.checkio.org/en/mission/most-wanted-letter">See the task on CheckiO</a></p>

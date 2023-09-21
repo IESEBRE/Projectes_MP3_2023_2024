@@ -1,0 +1,38 @@
+type: edu
+files:
+  - name: continue_keyword.py
+    visible: true
+    placeholders:
+      - offset: 151
+        length: 17
+        placeholder_text: '# Add a condition'
+        initial_state:
+          length: 17
+          offset: 151
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: tamdY/7MMO3e0n595JRvHA==
+      - offset: 177
+        length: 46
+        placeholder_text: '# Add a keyword to skip print(x) for this loop'
+        initial_state:
+          length: 46
+          offset: 177
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: rj2Ff1u65ER/ux3MWFmixg==
+    encrypted_text: dY51pS1w9v61h5Gko+wW8RbuY5w607dXc4QVVMLftOdkkb5ZYhO5KzXBmQgrXe8OSJgyXPb7REsQGF1I/QffM+JhAOLCdUs6DycfR6Xs5ZhY3k8hTk0VpMxPPrKSpVeJghVG1VGdOnmCk0ApnuUdDYONnuPgadCnnvBdgOEJuFd9WmBvqcShsgbFeQHKyRzxqgMj3mM638Q2Ix2ZXnrpeKMvKe/VCqpi3o1uqrkje+CnhYEWY5nfP6O56BtFcoZBbhrGVwtNerRcjkhKLat5NAOu1prO0B5TOvZEM54COkxVWkPtjPmO39S3Js6Ke4FK
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4pX7bdZtstSdqloC8yJsAC/isfTmo53w51WgcmbOKoyrWWpaFyaOJOOfM/DobKKV/Gps2UPpZ1tIF/RetZUimAbVT0y9xiTTvc8Y+PzG/e/lX1yTmCRINuWRQVn8+DSQZG1WbbetbCt5DIQ+wH9+81uLll4ki4p4TSCN5+/NPmhK1WBeeu1qfDEtFn7gqzj0kUQ1+4pJ8YeAYPaKtHUECfKqpmA9O2CN3DMOoAVnRjK7pTax8xfp2iGuIXbToecZC3dsSkukBvtzeqmSYw2Abjvcame8xJ6IT+a14hrZwIGcZ23xUa5mvSffPXrRwYRRZVI6fWM0+EvYsgCLeEltuW2lu5IB58IUIWG0euVj6mo3PkVVhgZkY0TNkva7fgzli/21XGrND04d6tZSlO2UJzevhuXzT8hfkbT75U0YXLDG19iy7FhhAlzpcjAyDPGEikO8PEuRq1q8QXRtPVPVoje0oS3Wp6lcC4992PdMFdXcBBUnLEMV5TCzn6VUJOvrUFE/t8yjmc2THV6pns2kk6N0XvPtPuTjCNT4oLgu+Wwtp+qdXSlfIyar4DVnk3W0sZk94SwsPrqul5UUs6jxVj9NUH5CzMyvt+P1KWvm+FQDUwU6PbUvjcADPSQaR5QDaLkRZMvwsdBsnWP6JKL8lFAEjq3S3K9iD0vkawr6NE7gbUZk03itHSoxnPuaiTdfp6goMROwbOEyPBxfnKTA/aMEbCzmSQJBkI2rAODlUqAjjZneZS0kA9MwylDe3z1WCAPzZHHYBSDcC0VDN9gOnGC0kASJgk66ABCKVjGWq6mxPsahmEK3I8OkFwDaviShJ/y6OkGePDy108H5lE8FZqr5nEdlbRcVG1osOyDZYLCnd97cgWL0hSxgNTXRtZnU84buLL30x+xMs8MDYhquWPA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Loops+/+Continue+keyword
+status: Unchecked
+record: -1

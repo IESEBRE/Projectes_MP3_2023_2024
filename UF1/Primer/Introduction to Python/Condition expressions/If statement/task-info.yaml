@@ -1,0 +1,40 @@
+type: edu
+files:
+  - name: if_statement.py
+    visible: true
+    placeholders:
+      - offset: 236
+        length: 85
+        placeholder_text: "# TODO: Write an if statement with a condition to check if\
+      \ the list `tasks` is empty."
+        initial_state:
+          length: 85
+          offset: 236
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 4hThaZsUAs+TIu5PoNCUPSSjhzybT9Pid6SGRMzmWkY=
+      - offset: 388
+        length: 68
+        placeholder_text: "# TODO: check if the list is empty now and print 'Now empty!'\
+      \ if so."
+        initial_state:
+          length: 68
+          offset: 388
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: koYoWi7r0Kv4kRa62j+BpNo6Vy960CWcT3NZ+TwjJd40nPW7SbrnoxdBApC1QJ+T
+    encrypted_text: jTRA5ybceSpFBbSNeYml7LWD+llEEmpXQsTfW7P8oqyaG5qsbAZpugDbkQPAwOPfypXHqnLYgDnkoBrGZdIjrA389nfH8/nBYrJ0EDE2kRMM/YZM8AO05qVdczQvGJolMjiPepKyz3tBPb1+nbtMIkLvkkRRjJpYrcA7vB4TwT1/JJTHAajLwwoovEVz2Ca0KwRUo8+QhteuapYV3Wkw57kDFd+bPxcJ8BJo/SsodCdd0LfYNEeOPDLOncYc+XxQ5rY5ZBAi7zE2fVcQOd8iHaTJGPr56+TN4T1C+RH0Ow+jLCJw88I6m1OtQSocwMGAJZ9w0W67oK3eJqGwCn4+JtErdt/jAC4w6gU0ebJq3etThkYzHRjuUDwMv7NGSo8nh/1TG7TenkVHNhGf3YLge+Q6svrIXA/Lmb3+qdrB7ec0aaVIebzlPodLzW46wFipmMj7i85BzgNgsJUpk9yb1ErS+ALupifVCSOqMFyra8ZDMTfn2XPAhN3oyCU+pNLUO1ZNzRwYOM0pseVxajTEdE+qEj/F/SJlNPB4dUtJy0vnGcCE6+66zqQOm7Mu63qPHeuP8Qv+af5D2Ihz+FwvCDSLpNret1Y2apxTNeYK+WQ=
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: XIlL2u+4gqNTqO7La77YdUL7aR8p/B/NVC9K2/TYHAWilSYfwUwu8wznnExh+vP4wHm9JKGY/zj+0TtsUYvuT4oRF/LrW7xxms4cgWA+4As8lnFV1vLs6DCalOvxyh1/+X1FP7+M/Aubii2xhXHIHBjXs6AN7oFbLO5pYZfiyIJNEyB7KQzfHifUmEPwBKCFDg1bJapP91oCqQpzxoKHPTY+CcUNVvZ3T6Y4GHjV04ncPL0pKG2TiRhGIz3OLl+auTEVJwfFpgu+hptdwL/BMAeejLbeGaUb317vc4/Ac4HwwZNvFzYMHbPkXpCRf420/pMluVUeL070SzA/H7MZ2snbhfJ6Pt5ZZGCpFF0IXUqFBOo7G+IORiMJKwBl6YfY2WCG1S1K1yEVzwPPrL2GAAn775Co0Uc0s6jMZW+eJ9VcPvCy8JumI8tUMHqHHDryeKtNTIvv/affYt4zgybUDxZYNv23HbrX5cH3ZY3N9rCDZGDe0IXAtM7TPqKsvEv+awfdeRYKQ7Sprx00Ud/P2nwZHU2MdDVS7OyqYwY7aQqT68ePzf+iIwuUsw2mXwijBFVdNSezvO1DmD1DANzjLXmqx4QpIXIoWv7uyLzB7otsrC+b+8C8L/TwkRnewU1hGaqhn8wmWX3R0PYn+TzUeEEdvAWFK1KgirEh4pEWPntMkMA35lNqSxLWUht2Het8EA704gbB2CZhAJ0t1zsruxOyX+sJoJBHsDI3HS7cZM/4qRzWT31kHk2zTiTHemAuo8zch+X1WhOlE2uKf4LwmLgas2HDhWEn0//N75oMBH7uYBT88KmeORMpXjO7ANm7YHIHpTDNNaqj79BCbILO/vaCX54C+Qi/CarkunO5ZyFH767cl2a87UW89fby0TvsaqhGiTMLGs4Rc2oNSleZSIYn0bZ15EKBoI+N5Rk3wRyAocGLJEL00HtSk/lIuopsdKPn0miZSQ77KrS0YminL3Jdt4//MBJiChQeUMHEKyWhFNQMJ3+zfgbKz8uo0hndo+bh1zr+WCqvtyMoshseIBvcwEAy4bggkoF9JP5ICKbnmPGfVs4VFm8DxOfij01wcYHahcV6ehsouEhoBgTXaV6rxyQgipIQH5lHsCK7uvMeY+c796VTCsCMIZ80ettuPr1JFpi11EYd1O8BUPhPuqMiXrEypaQRzGFN42bvryMbzGIopd++9k5VpZ79tFRTi+l5wVnYEbwapdCapZw0HtQwAF0gIK3UnUzq9EL/iSufFzRX2RxsOpVt4mhz2ZQNVQ+GzQKfedHUznzCQ1oUgfG8TYnXP1aKAv3HQMsSkmjeuRE2+MwqveTPZl9ORLI53C955IQr3Kmc7kflckUuQ5ApbwuZmXn/6tponCksIwQ=
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Condition+Expressions+/+If+Statement
+status: Unchecked
+record: -1

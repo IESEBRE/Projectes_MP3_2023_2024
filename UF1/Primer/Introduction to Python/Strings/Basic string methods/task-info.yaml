@@ -1,0 +1,28 @@
+type: edu
+files:
+  - name: string_methods.py
+    visible: true
+    placeholders:
+      - offset: 131
+        length: 3
+        placeholder_text: ???
+        initial_state:
+          length: 3
+          offset: 131
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: dhmgeFK4lWK0pYLoM7Y5rhpy5xq/+c6G7pknnWQ70EQ=
+    encrypted_text: 65qTBzJxhsJNiRt1kC+yDNaEeD2PIcTxrjol+sTKBbQxCJfeYPQq0sS0Mc+1kkC3JoZb5WUj5WxDbyZrcIQuvXYaDx837mtXg+sl8ww2tDO7iy9VcONscPr4fWjEJO8LkdlqhegqesPRzFQlz9b80tsuKWKD476bNHpNEElBmWuQLbfB04T9QxyWYVBoGApD
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    encrypted_text: p/vRxugTeR75z2WMybsppd3wEqbNy7yDPpJmZAm9T2stuUpBz5QEeg5ZqeYwbP7+ir08t6ObGDpukcwzkzpozt3NOe0qkOLD+SlXkY53v4NlVnWzsnvrsAf2xSjM5wt6/dws6CsuXiGV66WywB1dBN+lbOdS/bVWHS4pLwv6zD4H6a6zuVv+LblVnfCuzjLWgOIsQCuvYpLke7xivgZ1duiXSxL7RJb48gYB+jYY/MnrsTm7M+tSEUhWJP/eFShtPB9D6aTM94GeAaLqb7dW1mEvrWBhpZpFlMo79zevl3VELNDw+jnIMQS2wIjejpke6KVsTmWDdhuXx3AgS/1m92OBtKaDBq2NaNZMX6cPdgJUo6Iv8vi1h6fgqKYBzc+oWwq1IAk7M25ekoRZSK3f/28AkMTpcf1L57tGdiCSJkr5AfdOWAHiI+1RmkzCBSO6xnH09miGW+y8EhqUVfbTVoreGZ+qjFqXQspBHEV2wvrduDxm1EOEVqInerzBA6a5drihxwT7RPkB9ai7rZKZ/EzcaezO7xEMU+wm4v+j3rMEAQYdxh3vBnPPbjBxSES8eU5Er5zaKr0ZwjJtv/C8b4DMELRA9g13KJHMFA8P9R5p3Wz6qu7xxi8hKMqi3eTh
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSfRlDlldKfuq-cHMNFfHMER61P1PRIan7KG6yp1GvaweDI7GA/viewform?usp=pp_url&entry.2103429047=Strings+/+Basic+String+Methods
+status: Unchecked
+record: -1

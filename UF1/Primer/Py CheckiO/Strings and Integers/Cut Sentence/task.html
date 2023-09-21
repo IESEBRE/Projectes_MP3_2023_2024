@@ -1,0 +1,46 @@
+<h2>Cut Sentence</h2>
+<img class="title_img" src="https://d17mnqrx9pmt3e.cloudfront.net/media/missions/media/7c9dc2d8b3df407ab6ddbfc243cc42ce/convert/grey/title.png"/>
+<p>
+  Your task in this mission is to truncate a sentence to a length that does not exceed a given number of characters.
+</p>
+<p>
+  If the given sentence already is short enough, you don't have to do anything to it. But if it needs to be truncated, the omission must be indicated by concatenating an ellipsis ("...") to the end of the shortened sentence.
+</p>
+<p>
+  The shortened sentence can contain complete words and spaces.<br/>
+  It must neither contain truncated words nor trailing spaces.<br/>
+  The ellipsis has been taken into account for the allowed number of characters, so it does not count against the given length.
+</p>
+<p>
+<strong>Input:</strong> Two arguments:
+  <ul>
+<li>one-line sentence as a string <span translate="no">(str)</span>;</li>
+<li>max length of the truncated sentence as an integer <span translate="no">(int)</span>.</li>
+</ul>
+</p>
+<p>
+<strong>Output:</strong> The shortened sentence plus the ellipsis (if required) as a
+  one-line string <span translate="no">(str)</span>.
+</p>
+<div class="for_info_only">
+<p>
+<strong>Examples:</strong>
+</p>
+<pre class="brush: python">assert cut_sentence(&quot;Hi my name is Alex&quot;, 8) == &quot;Hi my...&quot;
+assert cut_sentence(&quot;Hi my name is Alex&quot;, 4) == &quot;Hi...&quot;
+assert cut_sentence(&quot;Hi my name is Alex&quot;, 20) == &quot;Hi my name is Alex&quot;
+assert cut_sentence(&quot;Hi my name is Alex&quot;, 18) == &quot;Hi my name is Alex&quot;
+</pre>
+</div>
+<p>
+<strong>Preconditions:</strong><br/>
+<ul>
+<li>line.startswith(' ') == False</li>
+<li>0 &lt; len(line) ≤ 79</li>
+<li>0 &lt; length ≤ 76</li>
+<li>all(char in string.ascii_letters + ' ' for char in line)</li>
+</ul>
+</p>
+
+
+<p><a href="https://py.checkio.org/en/mission/cut-sentence">See the task on CheckiO</a></p>
