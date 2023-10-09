@@ -3,7 +3,7 @@ package org.example;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Anonim {
+public class ComptadorNotes {
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
         Locale.setDefault(Locale.ENGLISH);      //forcem a mmostrar la sortida del format en la notació anglosaxona
