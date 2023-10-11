@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Exercici2 {
+public class Exercici2For {
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
         int num, fi, temp;
@@ -21,9 +21,12 @@ public class Exercici2 {
             fi=temp;
         }
 
-        while(num<=fi){
+        for(;num<=fi;num++){
             System.out.println(num % 2 == 0 ? num+" és parell" : num+" és imparell");
-            num++;
         }
+
+
+
+
     }
 }
