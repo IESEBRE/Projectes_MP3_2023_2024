@@ -1,4 +1,4 @@
-package org.example;
+package org.example.nf1.introduccio;
 
 import java.security.spec.RSAOtherPrimeInfo;
 
@@ -13,7 +13,7 @@ public class RepetitusV {
                 i++;            //actualització
             }
         }
-        System.out.println("Valor de la variable al sortir del bucle: "+i);
+        System.out.println("Valor de la variable al sortir del bucle: ");
         /*
         for(inicialitzacions; condició; actualitzacions){
             instruccions;
@@ -25,11 +25,11 @@ public class RepetitusV {
         }
         System.out.println("Valor de la variable al sortir del bucle: "+j);
 
-        for(int i=0, j=8, k=78; i<j*k; i++, j--, k*=25)
-        {
-            System.out.printf("%d %d %d%n", i, j, k);
-
-        }
+//        for(int i=0, j=8, k=78; i<j*k; i++, j--, k*=25)
+//        {
+//            System.out.printf("%d %d %d%n", i, j, k);
+//
+//        }
 
     }
 

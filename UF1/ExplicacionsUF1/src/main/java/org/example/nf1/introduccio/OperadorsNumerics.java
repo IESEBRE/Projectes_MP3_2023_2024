@@ -1,4 +1,4 @@
-package org.example;
+package org.example.nf1.introduccio;
 
 public class OperadorsNumerics {
     public static void main(String[] args) {
