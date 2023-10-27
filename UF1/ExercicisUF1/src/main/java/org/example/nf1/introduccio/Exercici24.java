@@ -1,5 +1,6 @@
-package org.example;
+package org.example.nf1.introduccio;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Exercici24 {
@@ -26,6 +27,8 @@ public class Exercici24 {
             }
             System.out.println();
         }
+
+
 
 
 

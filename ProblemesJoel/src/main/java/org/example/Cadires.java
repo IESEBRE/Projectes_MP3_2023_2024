@@ -19,14 +19,20 @@ public class Cadires {
                                                   // inicial separades pel text que passem com a paràmetre
             torns=ent.skip("[\r\n]*").nextLine().split(" ");
 
+            //Miro si hi ha igual o més torns que xiquets i en este cas direm que no hi ha guanyador
+            if(xiquets.length<=torns.length){
+                System.out.println("CAP GUANYADOR");
+                continue;                   //Tornem a l'inici del bucle i passem al següent cas
+            }
+
             int inici=0;        //indica per on comença cada torn
 
             //Recorrem el vector de torns, per tractar cada torn
             for (int i = 0; i < torns.length; i++) {
-                int torn = Integer.parseInt(torns[i]);      //número de voltes que donema la torn actual
+                int voltes = Integer.parseInt(torns[i])-1;      //número de voltes que donem al torn actual
 
                 //Pegar voltes a les cadires
-                while(torn>0){
+                while(voltes>0){
                     //Busquem el següent xiquet no null
                     do {
                         inici++;
@@ -34,7 +40,7 @@ public class Cadires {
                         if(xiquets[inici]!=null) break;
                     }while(true);
 
-                    torn--;                             //decrementem el torn ja que hem fet una volta
+                    voltes--;                             //decrementem el torn ja que hem fet una volta
                 }
 
                 xiquets[inici]=null;                    //el xiquet que indica inici ha perdut la cadira

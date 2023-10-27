@@ -1,10 +1,10 @@
-package org.example;
+package org.example.nf1.introduccio;
 
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Exercici2For {
+public class Exercici2DoWhile {
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
         int num, fi, temp;
@@ -21,12 +21,9 @@ public class Exercici2For {
             fi=temp;
         }
 
-        for(;num<=fi;num++){
+        do{
             System.out.println(num % 2 == 0 ? num+" és parell" : num+" és imparell");
-        }
-
-
-
-
+            num++;
+        }while(num<=fi);
     }
 }
