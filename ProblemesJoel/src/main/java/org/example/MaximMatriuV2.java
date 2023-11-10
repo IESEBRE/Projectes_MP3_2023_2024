@@ -12,27 +12,20 @@ public class MaximMatriuV2 {
             //Tractament de cada cas
             int f = ent.nextInt(), c = ent.nextInt();
             int maxim = 0,
-                    iMax = 0, jMax = 0;     //guardo la posició del valor màxim
-            //int[][] matriu = new int[f][c];
-            for (int i = 0; i < f; i++) {
-                for (int j = 0; j < c; j++) {
+                    posicio = 1;     //guardo la posició del valor màxim
+            for (int i = 1; i <= f*c; i++) {
                     int valor = ent.nextInt();
-                    //matriu[i][j] = ent.nextInt();
-                    //Si estic a la primera casella actualitzo el màxim
-                    if (i == 0 && j == 0) {
-                        //maxim = matriu[0][0];
+                    //Si estic llegint el primer valor actualitzo el màxim
+                    if ( i == 1) {
                         maxim = valor;
-                        iMax = 0;
-                        jMax = 0;
+                        posicio = 1;
                     } else if (valor >= maxim) {
                         maxim = valor;
-                        iMax = i;
-                        jMax = j;
+                        posicio = i;
                     }
-                }
             }
             //mostro la posició user-friendly del valor màxim
-            System.out.printf("%d %d%n", iMax + 1, jMax + 1);
+            System.out.printf("%d %d%n", ((posicio-1)/c)+1, ((posicio-1)%c)+1);
 
         }
     }
