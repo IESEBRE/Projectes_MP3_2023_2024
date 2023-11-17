@@ -31,5 +31,9 @@ public class CadenesII {
 
         if(copiaVector.equals(paraulaString)) System.out.println("Són iguals");
         else System.out.println("Són diferents");
+
+        copiaVector.charAt(0);
+
+
     }
 }
