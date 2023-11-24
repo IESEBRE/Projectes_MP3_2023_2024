@@ -2,7 +2,8 @@ package org.example;
 
 import java.util.Scanner;
 
-public class ParaulaMesLlarga {
+//Versió 2 utilitzant l'indexOf --> algo més difícil
+public class ParaulaMesLlargaV2 {
 
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
@@ -12,7 +13,7 @@ public class ParaulaMesLlarga {
             //Tractament de cada cas
             String frase=ent.skip("[\r\n]*").nextLine().trim();     //llegim la frase llevant-li els espais en blanc per dreta i esquerra
 
-            //Bucle que mostra les posicions on apareix 'a'
+            //Bucle que busca les posicions on apareix ' '
             int i=0;
             int inici=0;
             int max=-1;
