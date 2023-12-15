@@ -16,9 +16,7 @@ public class Abba {
             //Recorrem el vector fins la penúltima casella
             for (int i = 0; i < noms.length-1; i++) {
                 //Treiem els accents del nom actual (noms[i])
-                String s = noms[i].toUpperCase();            //Abans de tractar ho passo a majúscules
-                s = Normalizer.normalize(s, Normalizer.Form.NFD);
-                s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                String s = normalitzarText(noms[i]).toUpperCase();            //Abans de tractar ho passo a majúscules
                 System.out.print(s.charAt(0));              //Una vegada trets els accents i passat a majúscula mostrem
                                                             //mostrem la primera lletra de la cadena
             }
@@ -28,13 +26,9 @@ public class Abba {
             //Mirem si han quedat 2 o 3 noms al vector (són els únics casos possibles)
             switch(noms.length){
                 case 2:
-                    String s = noms[0].toUpperCase();            //Abans de tractar ho passo a majúscules
-                    s = Normalizer.normalize(s, Normalizer.Form.NFD);
-                    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                    String s = normalitzarText(noms[0]).toUpperCase();            //Abans de tractar ho passo a majúscules
                     System.out.print(s.charAt(0));
-                    s = noms[1].toUpperCase();            //Abans de tractar ho passo a majúscules
-                    s = Normalizer.normalize(s, Normalizer.Form.NFD);
-                    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                    s = normalitzarText(noms[1]).toUpperCase();            //Abans de tractar ho passo a majúscules
                     System.out.print(s.charAt(0));
                     /*for (int i = 0; i < noms.length; i++) {
                         //Treiem els accents del nom actual (noms[i])
@@ -46,13 +40,9 @@ public class Abba {
                     }*/
                     break;
                 case 3:
-                    s = noms[0].toUpperCase();            //Abans de tractar ho passo a majúscules
-                    s = Normalizer.normalize(s, Normalizer.Form.NFD);
-                    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                    s = normalitzarText(noms[0]).toUpperCase();            //Abans de tractar ho passo a majúscules
                     System.out.print(s.charAt(0));
-                    s = noms[2].toUpperCase();            //Abans de tractar ho passo a majúscules
-                    s = Normalizer.normalize(s, Normalizer.Form.NFD);
-                    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                    s = normalitzarText(noms[2]).toUpperCase();            //Abans de tractar ho passo a majúscules
                     System.out.print(s.charAt(0));
                     /*for (int i = 0; i < noms.length; i++) {
                         if(i==1) continue;
@@ -67,4 +57,12 @@ public class Abba {
             System.out.println();
         }
     }
+
+    public static String normalitzarText(String textCru){
+        String s = textCru;            //Abans de tractar ho passo a majúscules
+        s = Normalizer.normalize(s, Normalizer.Form.NFD);
+        s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+        return s;
+    }
+
 }
