@@ -10,20 +10,20 @@ public class Exercicis {
 //        System.out.println(Arrays.toString(vectorDigitsV2(-145)));
 
         ;
-        tractaParametres(null);
-        tractaParametres(12,232,3453,56);
-        tractaParametres(12,232,3453,56);
-        tractaParametres(new int[]{1,2,3,4,5,6});
+//        tractaParametres(null);
+//        tractaParametres(12,232,3453,56);
+//        tractaParametres(12,232,3453,56);
+//        tractaParametres(new int[]{1,2,3,4,5,6});
+//
+//        System.out.println(tractaParametres(1,1,1,1,1,1,1,1));
+//        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
+//        System.out.println(Arrays.toString(tractaParametres()));
+//        System.out.println(Arrays.toString(tractaParametres(12,232,3453,56)));
+//        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
+//        System.out.println(Arrays.toString(tractaParametres(new int[0])));
+//        System.out.println(Arrays.toString(tractaParametres(new int[]{1,2,3,4,5,6})));
 
-        System.out.println(tractaParametres(1,1,1,1,1,1,1,1));
-        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
-        System.out.println(Arrays.toString(tractaParametres()));
-        System.out.println(Arrays.toString(tractaParametres(12,232,3453,56)));
-        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
-        System.out.println(Arrays.toString(tractaParametres(new int[0])));
-        System.out.println(Arrays.toString(tractaParametres(new int[]{1,2,3,4,5,6})));
-
-
+        System.out.println(mcdRecursiu(35,7));
 
     }
 
@@ -148,6 +148,14 @@ public class Exercicis {
             if(numeros[i]<min) min=numeros[i];
         }
         return new int[]{suma, numeros.length, max, min};
+    }
+
+    // Exercici 29
+    public static int mcdRecursiu(int a, int b){
+        if(a==b) return a;
+        if(a>b) return mcdRecursiu(a-b, b);
+        // Segur que a<b
+        return mcdRecursiu(a, b-a);
     }
 
 }
