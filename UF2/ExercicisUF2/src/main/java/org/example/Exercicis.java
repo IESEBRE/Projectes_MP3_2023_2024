@@ -5,9 +5,26 @@ import java.util.Arrays;
 public class Exercicis {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(vectorDigits(0)));
-        System.out.println(Arrays.toString(vectorDigits(1000000245)));
-        System.out.println(Arrays.toString(vectorDigits(-145)));
+//        System.out.println(Arrays.toString(vectorDigitsV2(0)));
+//        System.out.println(Arrays.toString(vectorDigitsV2(1000000245)));
+//        System.out.println(Arrays.toString(vectorDigitsV2(-145)));
+
+        ;
+        tractaParametres(null);
+        tractaParametres(12,232,3453,56);
+        tractaParametres(12,232,3453,56);
+        tractaParametres(new int[]{1,2,3,4,5,6});
+
+        System.out.println(tractaParametres(1,1,1,1,1,1,1,1));
+        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
+        System.out.println(Arrays.toString(tractaParametres()));
+        System.out.println(Arrays.toString(tractaParametres(12,232,3453,56)));
+        System.out.println(Arrays.toString(tractaParametres(1,1,1,1,1,1,1,1)));
+        System.out.println(Arrays.toString(tractaParametres(new int[0])));
+        System.out.println(Arrays.toString(tractaParametres(new int[]{1,2,3,4,5,6})));
+
+
+
     }
 
     //Exercici 4
@@ -97,7 +114,40 @@ public class Exercicis {
 
     //Fer el mètode però només usant propietats i mètodes de la classe String i Integer.toString(numero)
     public static int[] vectorDigitsV2(int numero) {
-        return null;
+        //Mirem si el número és negatiu i el passem a positiu
+        boolean negatiu = numero<0;
+        if(negatiu) numero*=-1;
+
+        //Passem el paràmetre enter a String
+        String text=Integer.toString(numero);
+        int[] resultat = new int[text.length()];
+
+        for (int i = 0; i < text.length() ; i++) {
+            resultat[i]=text.charAt(i)-'0';
+            //resultat[i]=Integer.parseInt(text.charAt(i)+"");
+        }
+
+        //Si el número era negatiu passem a negatiu la primera casella del vector
+        if(negatiu) resultat[0]*=-1;
+
+        return resultat;
+    }
+
+
+    // Exercici 17
+    public static int[] tractaParametres(int... numeros){
+        //Tractament de casos especials
+        if(numeros==null || numeros.length==0) return null;
+
+        int suma, max, min;
+        suma=max=min=numeros[0];
+
+        for (int i = 1; i < numeros.length; i++) {
+            suma+=numeros[i];
+            if(numeros[i]>max) max=numeros[i];
+            if(numeros[i]<min) min=numeros[i];
+        }
+        return new int[]{suma, numeros.length, max, min};
     }
 
 }
