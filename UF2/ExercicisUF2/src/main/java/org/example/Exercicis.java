@@ -23,7 +23,34 @@ public class Exercicis {
 //        System.out.println(Arrays.toString(tractaParametres(new int[0])));
 //        System.out.println(Arrays.toString(tractaParametres(new int[]{1,2,3,4,5,6})));
 
-        System.out.println(mcdRecursiu(35,7));
+//        System.out.println(mcdRecursiu(35,7));
+
+//        System.out.println(sumaNaturals(0));
+//        System.out.println(sumaNaturals(-20));
+//        System.out.println(sumaNaturals(5));
+
+//        System.out.println(potenciaRec(2,3));
+//        System.out.println(potenciaRec(2,-3));
+//        System.out.println(potenciaRec(2,0));
+//        System.out.println(potenciaRec(0,0));
+
+//        System.out.println(nombreCombinatori(3,2));
+//        System.out.println(nombreCombinatoriRec(3,2));
+//        //System.out.println(nombreCombinatori(100,50));
+//        System.out.println(nombreCombinatoriRec(100,50));
+
+//        System.out.println(fibonacci(250000000));
+
+//        for (int i = 0; i < 1000; i++) {
+//            System.out.printf("Terme %d-èssim de la successió de Fibonacci: %d%n", i, fibonacciIteratiu(i));
+//        }
+
+//        System.out.println(potenciaE(1));
+//        System.out.println(potenciaRec(Math.E, 1));
+
+//        System.out.println(seguentPrimer(2));
+//        System.out.println(seguentPrimer(8));
+//        System.out.println(seguentPrimer(2345642));
 
     }
 
@@ -157,5 +184,115 @@ public class Exercicis {
         // Segur que a<b
         return mcdRecursiu(a, b-a);
     }
+
+    //Exercici 30
+    public static int sumaNaturals(int n){
+        //Casos de parada (no recursius)
+        if(n==0) return 0;
+        if(n<0) return -1;
+
+        //Cas recursiu
+        return n+sumaNaturals(n-1);
+    }
+
+    //Exercici 31
+    public static double potenciaRec(double base, int exponent){
+        //Casos de parada
+        if(base==0 &&  exponent==0 ) return Double.NaN;
+        if(exponent==0) return 1;
+
+        //Casos recursius
+        if(exponent>0) return base*potenciaRec(base, exponent-1);
+        return 1 / potenciaRec(base, -exponent);
+    }
+
+    //Exercici 33
+    public static int nombreCombinatoriRec(int n, int m){
+        //Casos de parada
+        if(n<m) return -1;
+        if(n==m || m==0) return 1;
+
+        //Cas recursiu
+        return nombreCombinatoriRec(n-1, m-1)+nombreCombinatoriRec(n-1,m);
+    }
+
+    //Exercici 23
+    public static int factorial(int n){
+        if(n==0) return 1;
+        if(n<0) return -1;
+
+        return n* factorial(n-1);
+    }
+
+    //Exercici 24
+    public static int nombreCombinatori(int n, int m){
+        if(n<m) return -1;
+
+        return factorial(n)/(factorial(m)*factorial(n-m));
+    }
+
+    //Exercici 32
+    public static int fibonacci(int n){
+        //Casos de parada
+        if(n<0) return -1;
+        if(n==0 || n==1) return n;
+
+        //Cas recursiu
+        return fibonacci(n-1)+fibonacci(n-2);
+    }
+
+    public static long fibonacciIteratiu(int n){
+        if(n<0) return -1;
+        if(n==0 || n==1) return n;
+
+        long primer=0, segon=1;
+        while(n>2){
+            //Calcular los nous primer i segon
+            long temp=primer;
+            primer=segon;
+            segon=segon+temp;
+
+            //Decrementem la n per evitar bucle infinit
+            n--;
+        }
+
+        return primer+segon;
+
+    }
+
+    //Exercici 34
+    public static double potenciaE(int x){
+        double resultat=1;
+        if(x==0) return resultat;
+
+        for (int i = 1; i < 34; i++) {
+            resultat+= potenciaRec(x,i)/factorial(i);
+        }
+        return resultat;
+    }
+
+    //Exercici 6
+    public static boolean primer(int n){
+        if(n<=1) return false;
+
+        for (int i = 2; i * i <= n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    //Exercici 36
+    public static int seguentPrimer(int n){
+        if(n<2) return 2;
+        while(true){
+            n++;
+            if(primer(n)) break;
+        }
+        return n;
+    }
+
+
 
 }
