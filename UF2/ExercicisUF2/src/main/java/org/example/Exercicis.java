@@ -2,9 +2,13 @@ package org.example;
 
 import java.util.Arrays;
 
+import static com.iesebre.prova.library.Cadena.buscaCadena;
+
 public class Exercicis {
 
     public static void main(String[] args) {
+
+
 //        System.out.println(Arrays.toString(vectorDigitsV2(0)));
 //        System.out.println(Arrays.toString(vectorDigitsV2(1000000245)));
 //        System.out.println(Arrays.toString(vectorDigitsV2(-145)));
@@ -237,7 +241,7 @@ public class Exercicis {
         if(n<0) return -1;
         if(n==0 || n==1) return n;
 
-        //Cas recursiu
+        //Cas recursiunoSeQUeFaig(int n){
         return fibonacci(n-1)+fibonacci(n-2);
     }
 
@@ -284,6 +288,11 @@ public class Exercicis {
     }
 
     //Exercici 36
+    /**
+     * Retorna el següent nombre primer a partir de n
+     * @param n
+     * @return
+     */
     public static int seguentPrimer(int n){
         if(n<2) return 2;
         while(true){
@@ -292,6 +301,7 @@ public class Exercicis {
         }
         return n;
     }
+
 
 
 
