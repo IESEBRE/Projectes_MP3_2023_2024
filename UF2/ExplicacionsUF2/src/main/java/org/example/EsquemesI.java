@@ -25,7 +25,9 @@ public class EsquemesI {
     private static void tractarElement() {
 
         //Mirar si l'edat de l'alumne actual és superuor mo igual a 18
-        if(edats[index]>=18) comptMaj18++;
+        if(edats[index]>=18){
+            comptMaj18++;
+        }
 
         //Passem al següent alumne
         index++;

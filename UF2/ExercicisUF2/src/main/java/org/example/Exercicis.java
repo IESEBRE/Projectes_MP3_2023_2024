@@ -8,6 +8,8 @@ public class Exercicis {
 
     public static void main(String[] args) {
 
+        System.out.println(numVector(new int[]{0,0,0,0,0,0,0,0,0,0,0,0,1,2}));
+
 
 //        System.out.println(Arrays.toString(vectorDigitsV2(0)));
 //        System.out.println(Arrays.toString(vectorDigitsV2(1000000245)));

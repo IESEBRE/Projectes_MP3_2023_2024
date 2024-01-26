@@ -71,4 +71,5 @@ public class Cadena {
 
         return cadena.substring(ini, fi);
     }
+
 }
