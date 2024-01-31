@@ -72,4 +72,28 @@ public class Numero {
         return n==revesNumero(n);
     }
 
+    //Exercici 49
+
+    /**
+     * Mirem si un  número enter és perfecte
+     * @param numero el número que volem saber si és perfecte
+     * @return true si numero és perfecte i false en cas contrari
+     */
+    public static boolean numeroPerfecte(int numero){
+        //Variables locals
+        int suma=0;
+
+        //Cas especial
+        if(numero<=5) return false;
+
+        //Generem un bucle que mire els valors des de l'anterior al número fins a l'1
+        for (int i = 1; i <= numero-1; i++) {
+            if(numero % i == 0) suma=suma+i;
+        }
+
+        return numero==suma;
+    }
+
+
+
 }
