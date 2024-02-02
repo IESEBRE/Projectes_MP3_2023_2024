@@ -24,7 +24,7 @@ public class EsquemesI {
 
     private static void tractarElement() {
 
-        //Mirar si l'edat de l'alumne actual és superuor mo igual a 18
+        //Mirar si l'edat de l'alumne actual és superior o igual a 18
         if(edats[index]>=18){
             comptMaj18++;
         }
