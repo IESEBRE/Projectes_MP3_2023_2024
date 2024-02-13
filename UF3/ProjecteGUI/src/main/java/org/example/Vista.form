@@ -82,6 +82,22 @@
           <text value="Pes"/>
         </properties>
       </component>
+      <component id="a3f35" class="javax.swing.JCheckBox" binding="caixaAlumne">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="75ecf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Alumne?"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

@@ -12,6 +12,7 @@ public class Vista extends JFrame{
     private JButton insertarButton;
     private JTextField campNom;
     private JTextField campPes;
+    private JCheckBox caixaAlumne;
 
     //Constructor de la classe
     public Vista(){
@@ -22,7 +23,7 @@ public class Vista extends JFrame{
         this.setVisible(true);
 
         //Anem a definir l'estructura de la taula
-        DefaultTableModel model=new DefaultTableModel(new Object[]{"Nom","Pes"},0){
+        DefaultTableModel model=new DefaultTableModel(new Object[]{"Nom","Pes","És alumne?"},0){
             /**
              * Returns true regardless of parameter values.
              *
@@ -38,7 +39,24 @@ public class Vista extends JFrame{
                 if(column==1) return true;
                 return false;
             }
+
+            //Permet definir el tipo de cada columna
+            @Override
+            public Class getColumnClass(int column) {
+                switch (column) {
+                    case 0:
+                        return String.class;
+                    case 1:
+                        return Double.class;
+                    case 2:
+                        return Boolean.class;
+                    default:
+                        return Object.class;
+                }
+            }
         };
+
+
         //LLegim el fitxer de dades i omplim la taula...
 
 
@@ -60,7 +78,7 @@ public class Vista extends JFrame{
                     JOptionPane.showMessageDialog(null,"Falta omplir alguna dada!!");
                 }
                 else{
-                    model.addRow(new Object[]{campNom.getText(),campPes.getText()});
+                    model.addRow(new Object[]{campNom.getText(),Double.valueOf(campPes.getText()),caixaAlumne.isSelected()});
                     campNom.setText("Pepito");
                     campNom.setSelectionStart(0);
                     campNom.setSelectionEnd(campNom.getText().length());
@@ -86,6 +104,7 @@ public class Vista extends JFrame{
                     //Posem els valors de la fila seleccionada als camps respectius
                     campNom.setText(model.getValueAt(filaSel,0).toString());
                     campPes.setText(model.getValueAt(filaSel,1).toString());
+                    caixaAlumne.setSelected((Boolean)model.getValueAt(filaSel,2));
                 }else{                  //Hem deseleccionat una fila
                     //Posem els camps de text en blanc
                     campNom.setText("");
@@ -132,7 +151,7 @@ public class Vista extends JFrame{
                     }
                     else{
                         model.removeRow(filaSel);
-                        model.insertRow(filaSel, new Object[]{campNom.getText(),campPes.getText()});
+                        model.insertRow(filaSel, new Object[]{Double.valueOf(campPes.getText()),caixaAlumne.isSelected()});
                         //Posem els camps de text en blanc
                         campNom.setText("");
                         campPes.setText("");
