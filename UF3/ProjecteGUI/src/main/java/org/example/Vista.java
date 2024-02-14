@@ -183,6 +183,29 @@ public class Vista extends JFrame{
         });
 
 
+        campPes.addFocusListener(new FocusAdapter() {
+            /**
+             * Invoked when a component loses the keyboard focus.
+             *
+             * @param e
+             */
+            @Override
+            public void focusLost(FocusEvent e) {
+                super.focusLost(e);
+
+                //Comprovem que el valor introduït és el d'un pes correcte
+                try{
+                    double pes=Double.valueOf(campPes.getText());
+                    if(pes<1 || pes>800) throw new NumberFormatException();
+                }catch(NumberFormatException ex){
+                    JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
+                    campPes.setSelectionStart(0);
+                    campPes.setSelectionEnd(campPes.getText().length());
+                    campPes.requestFocus();
+
+                }
+            }
+        });
     }
 
 

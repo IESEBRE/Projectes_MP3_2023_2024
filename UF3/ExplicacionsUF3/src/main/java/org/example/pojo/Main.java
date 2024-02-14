@@ -1,6 +1,5 @@
-package org.example;
+package org.example.pojo;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {

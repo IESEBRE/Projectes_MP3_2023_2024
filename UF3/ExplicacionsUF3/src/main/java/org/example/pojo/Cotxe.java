@@ -1,4 +1,4 @@
-package org.example;
+package org.example.pojo;
 
 //Pojo --> Plain Old Java Object
 public class Cotxe {
