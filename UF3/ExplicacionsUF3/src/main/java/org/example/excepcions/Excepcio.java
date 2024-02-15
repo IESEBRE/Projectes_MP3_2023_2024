@@ -1,4 +1,4 @@
-package org.example.pojo.excepcions;
+package org.example.excepcions;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
