@@ -1,7 +1,9 @@
 package org.example.pojo;
 
+import java.io.Serializable;
+
 //Pojo --> Plain Old Java Object
-public class Cotxe {
+public class Cotxe implements Serializable {
 
     //Propietats estàtiques de la classe
     private static double indexFregament=3.4;
@@ -67,6 +69,10 @@ public class Cotxe {
     public void modificarCilindrada(){
 
         cilindrada=cilindrada+1000;
+    }
+
+    public void noFaigRes(){
+
     }
 
     @Override

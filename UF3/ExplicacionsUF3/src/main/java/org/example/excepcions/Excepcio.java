@@ -1,5 +1,7 @@
 package org.example.excepcions;
 
+import org.example.fitxers.Fitxers;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -7,6 +9,7 @@ public class Excepcio {
 
     public static void main(String[] args) {
         Scanner ent = new Scanner(System.in);
+
         int index;
 
         System.out.println("Quin número de lletra vols vore?:");
