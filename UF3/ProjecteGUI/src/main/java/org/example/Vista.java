@@ -3,6 +3,9 @@ package org.example;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.*;
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Locale;
 
 public class Vista extends JFrame{
     private JPanel panel;
@@ -16,6 +19,9 @@ public class Vista extends JFrame{
 
     //Constructor de la classe
     public Vista(){
+        //Definim la cultura de la nostra aplicació
+        Locale.setDefault(new Locale("ca","ES"));
+
         //Per poder vore la finestra
         this.setContentPane(panel);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -78,12 +84,22 @@ public class Vista extends JFrame{
                     JOptionPane.showMessageDialog(null,"Falta omplir alguna dada!!");
                 }
                 else{
-                    model.addRow(new Object[]{campNom.getText(),Double.valueOf(campPes.getText()),caixaAlumne.isSelected()});
-                    campNom.setText("Pepito");
-                    campNom.setSelectionStart(0);
-                    campNom.setSelectionEnd(campNom.getText().length());
-                    campPes.setText("75");
-                    campNom.requestFocus();         //intentem que el foco vaigue al camp del nom
+                    try{
+                        NumberFormat num=NumberFormat.getNumberInstance(Locale.getDefault());   //Creem un número que entèn la cultura que utilitza l'aplicació
+                        double pes= num.parse(campPes.getText().trim()).doubleValue();  //intentem convertir el text a double
+                        if(pes<1 || pes>800) throw new ParseException("",0);
+                        model.addRow(new Object[]{campNom.getText(),pes,caixaAlumne.isSelected()});
+                        campNom.setText("Pepito");
+                        campNom.setSelectionStart(0);
+                        campNom.setSelectionEnd(campNom.getText().length());
+                        campPes.setText("75");
+                        campNom.requestFocus();         //intentem que el foco vaigue al camp del nom
+                    }catch(ParseException ex){
+                        JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
+                        campPes.setSelectionStart(0);
+                        campPes.setSelectionEnd(campPes.getText().length());
+                        campPes.requestFocus();
+                    }
                 };
             }
         });
@@ -195,9 +211,11 @@ public class Vista extends JFrame{
 
                 //Comprovem que el valor introduït és el d'un pes correcte
                 try{
-                    double pes=Double.valueOf(campPes.getText());
-                    if(pes<1 || pes>800) throw new NumberFormatException();
-                }catch(NumberFormatException ex){
+                    NumberFormat num=NumberFormat.getNumberInstance(Locale.getDefault());   //Creem un número que entèn la cultura que utilitza l'aplicació
+                    double pes= num.parse(campPes.getText().trim()).doubleValue();  //intentem convertir el text a double
+                    if(pes<1 || pes>800) throw new ParseException("",0);
+                    //campPes.setText(campPes.getText().replaceAll(".",""));  //eliminem los punts del número decimal
+                }catch(ParseException ex){
                     JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
                     campPes.setSelectionStart(0);
                     campPes.setSelectionEnd(campPes.getText().length());
