@@ -2,6 +2,7 @@ package org.example;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.*;
 import java.awt.event.*;
 import java.text.NumberFormat;
 import java.text.ParseException;
@@ -63,7 +64,6 @@ public class Vista extends JFrame{
         };
 
 
-        //LLegim el fitxer de dades i omplim la taula...
 
 
         taula.setModel(model);
@@ -71,7 +71,16 @@ public class Vista extends JFrame{
         //Forcem a que només se pugue seleccionar una fila de la taula
         taula.getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
-        insertarButton.addActionListener(new ActionListener() {
+
+        //LLegim el fitxer de dades i omplim la taula...
+//        while(true) {
+//            Pojo objecte=(Pojo)entrada.readObject();
+//            model.addRow(new Object[]{objecte.getNom(), pes, caixaAlumne.isSelected()});
+//
+//        }
+
+
+                insertarButton.addActionListener(new ActionListener() {
             /**
              * Invoked when an action occurs.
              *
@@ -229,6 +238,7 @@ public class Vista extends JFrame{
 
 
     public static void main(String[] args) {
+
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
