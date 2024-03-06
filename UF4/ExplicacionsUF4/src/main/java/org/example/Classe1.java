@@ -44,4 +44,10 @@ public class Classe1 {
                 ", pregunta=" + pregunta +
                 '}';
     }
+
+
+    public void diguesAlgo(){
+        System.out.println("Algo");
+
+    }
 }
