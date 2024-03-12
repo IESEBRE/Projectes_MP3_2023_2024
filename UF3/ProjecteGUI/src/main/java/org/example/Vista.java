@@ -128,7 +128,7 @@ public class Vista extends JFrame{
                 if(filaSel!=-1){        //Tenim una fila seleccionada
                     //Posem els valors de la fila seleccionada als camps respectius
                     campNom.setText(model.getValueAt(filaSel,0).toString());
-                    campPes.setText(model.getValueAt(filaSel,1).toString());
+                    campPes.setText(model.getValueAt(filaSel,1).toString().replaceAll("\\.",","));
                     caixaAlumne.setSelected((Boolean)model.getValueAt(filaSel,2));
                 }else{                  //Hem deseleccionat una fila
                     //Posem els camps de text en blanc
