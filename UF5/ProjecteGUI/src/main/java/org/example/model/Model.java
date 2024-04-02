@@ -49,12 +49,16 @@ public class Model {
             }
         };
 
+        //Omplim la taula en dades del fitxer o inventades
+        Fitxers.llegirDades(model);
 
 
 
 
 
+    }
 
-
+    public void escriureDadesFitxer(){
+        Fitxers.escriureDades(model);
     }
 }

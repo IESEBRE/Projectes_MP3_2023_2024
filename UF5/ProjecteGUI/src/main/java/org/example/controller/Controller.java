@@ -6,8 +6,7 @@ import org.example.view.Vista;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Locale;
@@ -29,7 +28,7 @@ public class Controller {
     }
 
     private void assignarCodiListeners() throws LaMeuaExcepcio {
-
+        Model modelo=this.model;
 
         DefaultTableModel model=this.model.getModel();
 
@@ -139,7 +138,76 @@ public class Controller {
                 else JOptionPane.showMessageDialog(null, "Per modificar una fila l'has de seleccionar a la taula");
             }
         });
-        throw new LaMeuaExcepcio(1,"Ha petat la base de dades");
+
+        taula.addMouseListener(new MouseAdapter() {
+            /**
+             * {@inheritDoc}
+             *
+             * @param e
+             */
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+
+                //Al seleccionar la taula omplim els camps de text en els valors de la fila seleccionada
+                int filaSel=taula.getSelectedRow();
+
+                if(filaSel!=-1){        //Tenim una fila seleccionada
+                    //Posem els valors de la fila seleccionada als camps respectius
+                    campNom.setText(model.getValueAt(filaSel,0).toString());
+                    campPes.setText(model.getValueAt(filaSel,1).toString().replaceAll("\\.",","));
+                    caixaAlumne.setSelected((Boolean)model.getValueAt(filaSel,2));
+                }else{                  //Hem deseleccionat una fila
+                    //Posem els camps de text en blanc
+                    campNom.setText("");
+                    campPes.setText("");
+                }
+            }
+        });
+
+        campPes.addFocusListener(new FocusAdapter() {
+            /**
+             * Invoked when a component loses the keyboard focus.
+             *
+             * @param e
+             */
+            @Override
+            public void focusLost(FocusEvent e) {
+                super.focusLost(e);
+
+                //Comprovem que el valor introduït és el d'un pes correcte
+                try{
+                    NumberFormat num=NumberFormat.getNumberInstance(Locale.getDefault());   //Creem un número que entèn la cultura que utilitza l'aplicació
+                    double pes= num.parse(campPes.getText().trim()).doubleValue();  //intentem convertir el text a double
+                    if(pes<1 || pes>800) throw new ParseException("",0);
+                    //campPes.setText(campPes.getText().replaceAll(".",""));  //eliminem los punts del número decimal
+                }catch(ParseException ex){
+                    JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
+                    campPes.setSelectionStart(0);
+                    campPes.setSelectionEnd(campPes.getText().length());
+                    campPes.requestFocus();
+
+                }
+            }
+        });
+
+        view.addWindowListener(new WindowAdapter() {
+            /**
+             * Invoked when a window is in the process of being closed.
+             * The close operation can be overridden at this point.
+             *
+             * @param e
+             */
+            @Override
+            public void windowClosing(WindowEvent e) {
+                super.windowClosing(e);
+
+                //Aquí haurem de guardar les dades de la taula al fitxer
+                modelo.escriureDadesFitxer();
+            }
+        });
+
+        //throw new LaMeuaExcepcio(1,"Ha petat la base de dades");
 
     }
 
