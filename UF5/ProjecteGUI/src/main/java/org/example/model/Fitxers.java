@@ -1,6 +1,6 @@
-package org.example.fitxers;
+package org.example.model;
 
-import org.example.pojo.Cotxe;
+import org.example.model.Alumne;
 
 import java.io.*;
 
@@ -18,16 +18,15 @@ public class Fitxers {
             //Llegim el fitxer i guardem les seues dades a la JTable
             System.out.println("Fitxer existent");
 
-            ObjectInputStream entrada=null;
 
-            try {
+            //Try-with-resources
+            try(ObjectInputStream entrada=new ObjectInputStream(new BufferedInputStream(new FileInputStream(f)));) {
                 //Objecte que em permet llegir els objectes del fitxer
-                entrada=new ObjectInputStream(new BufferedInputStream(new FileInputStream(f)));
 
                 while(true){
 
                     try {
-                        Cotxe c=(Cotxe)entrada.readObject();   //al projecte guardarem este object al JTable
+                        Alumne c=(Alumne)entrada.readObject();   //al projecte guardarem este object al JTable
                         System.out.println(c);
 
                     } catch (ClassNotFoundException e) {
@@ -40,23 +39,12 @@ public class Fitxers {
             } catch (IOException e) {
                 System.out.println("Error al llegir el fitxer");
                 //throw new RuntimeException(e);
-            }finally {
-                //Intentem tancar el objecte entrada
-                try {
-                    if(entrada!=null) entrada.close();
-                } catch (IOException e) {
-                    System.out.println("Error en intentar tancar el fitxer de lectura");
-                    //throw new RuntimeException(e);
-                }
             }
 
 
         }else{      //Com el fitxer no existix, el creem posant-li unes dades inventades
-            Cotxe[] dadesFicticies=new Cotxe[]{
-                    new Cotxe("T0000A", "Seat", "600", 600F, false, false, true, false, 'C'),
-                    new Cotxe("T0001A", "Symca", "1000", 1000F, false, false, true, false, 'C'),
-                    new Cotxe("T0002A", "Ford", "Fiesta", 1600F, false, false, true, false, 'C'),
-            };
+            Alumne[] dadesFicticies=new Alumne[]{
+                    new Alumne("Pepe", 60.7)};
 
             ObjectOutputStream sortida=null;
             try {

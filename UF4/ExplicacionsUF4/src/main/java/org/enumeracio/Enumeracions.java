@@ -71,6 +71,7 @@ class X{
 
         for(Direccio p:  Direccio.values()){
             System.out.println(p);
+            //p.setAtribut(23);
 
         }
         System.out.println();
