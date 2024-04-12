@@ -14,4 +14,20 @@ public class LaMeuaExcepcio extends Exception{
         this.codi = codi;
         this.missatge = missatge;
     }
+
+    public int getCodi() {
+        return codi;
+    }
+
+    public void setCodi(int codi) {
+        this.codi = codi;
+    }
+
+    public String getMissatge() {
+        return missatge;
+    }
+
+    public void setMissatge(String missatge) {
+        this.missatge = missatge;
+    }
 }

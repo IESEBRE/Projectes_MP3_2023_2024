@@ -7,16 +7,67 @@ import org.example.view.Vista;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Locale;
 
-public class Controller {
+public class Controller implements PropertyChangeListener { //1. Implementació de interfície PropertyChangeListener
+
+    //2. Propietat lligada per controlar quan genro una excepció
+    public static final String PROP_EXCEPCIO="excepcio";
+    private LaMeuaExcepcio excepcio;
+
+    public LaMeuaExcepcio getExcepcio() {
+        return excepcio;
+    }
+
+    public void setExcepcio(LaMeuaExcepcio excepcio) {
+        LaMeuaExcepcio valorVell=this.excepcio;
+        this.excepcio = excepcio;
+        canvis.firePropertyChange(PROP_EXCEPCIO, valorVell,excepcio);
+    }
+
+
+    //3. Propietat PropertyChangesupport necessària per poder controlar les propietats lligades
+    PropertyChangeSupport canvis=new PropertyChangeSupport(this);
+
+
+    //4. Mètode on posarem el codi de tractament de les excepcions --> generat per la interfície PropertyChangeListener
+    /**
+     * This method gets called when a bound property is changed.
+     *
+     * @param evt A PropertyChangeEvent object describing the event source
+     *            and the property that has changed.
+     */
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+        LaMeuaExcepcio rebuda=(LaMeuaExcepcio)evt.getNewValue();
+
+        try {
+            throw rebuda;
+        } catch (LaMeuaExcepcio e) {
+            //Aquí farem ele tractament de les excepcions de l'aplicació
+            switch(evt.getPropertyName()){
+                case PROP_EXCEPCIO:
+
+                    if(rebuda.getCodi()==1){
+                        JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+
+                    }
+
+
+            }
+        }
+    }
+
 
     private Model model;
     private Vista view;
 
-    public Controller(Model model, Vista view) throws LaMeuaExcepcio {
+    public Controller(Model model, Vista view) {
         this.model = model;
         this.view = view;
 
@@ -25,9 +76,12 @@ public class Controller {
 
         //Assigno el codi dels listeners
         assignarCodiListeners();
+
+        //5. Necessari per a que Controller reaccione davant de canvis a les propietats lligades
+        canvis.addPropertyChangeListener(this);
     }
 
-    private void assignarCodiListeners() throws LaMeuaExcepcio {
+    private void assignarCodiListeners() {
         Model modelo=this.model;
 
         DefaultTableModel model=this.model.getModel();
@@ -51,7 +105,7 @@ public class Controller {
                      * @param e the event to be processed
                      */
                     @Override
-                    public void actionPerformed(ActionEvent e) {
+                    public void actionPerformed(ActionEvent e){
 
 
                         //Comprovem que totes les caselles continguen informació
@@ -70,7 +124,11 @@ public class Controller {
                                 campPes.setText("75");
                                 campNom.requestFocus();         //intentem que el foco vaigue al camp del nom
                             }catch(ParseException ex){
-                                JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
+                                //6. Enlloc de llançar l'excepció (no ho puc fer!!), canviem el valor de la propietat lligada usant el setter
+                                setExcepcio(new LaMeuaExcepcio(1,"Has d'introduir un pes correcte (>=1 i <=800!!"));
+
+                                //throw new LaMeuaExcepcio(1,"Has d'introduir un pes correcte (>=1 i <=800!!");
+                                //JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
                                 campPes.setSelectionStart(0);
                                 campPes.setSelectionEnd(campPes.getText().length());
                                 campPes.requestFocus();
@@ -224,4 +282,6 @@ public class Controller {
 
 
     }
+
+
 }

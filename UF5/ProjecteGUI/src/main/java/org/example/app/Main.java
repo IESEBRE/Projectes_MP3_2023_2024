@@ -16,13 +16,10 @@ public class Main {
 
                 //Definim la cultura de la nostra aplicació
                 Locale.setDefault(new Locale("ca","ES"));
-                try {
+
                     new Controller(new Model(), new Vista());
 
-                }catch(LaMeuaExcepcio e){
 
-                    JOptionPane.showMessageDialog(null, "Hem tingut un error!!");
-                }
 
 
             }
