@@ -13,6 +13,7 @@ import java.beans.PropertyChangeSupport;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.Locale;
+import java.util.regex.Pattern;
 
 public class Controller implements PropertyChangeListener { //1. Implementació de interfície PropertyChangeListener
 
@@ -53,9 +54,18 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
             switch(evt.getPropertyName()){
                 case PROP_EXCEPCIO:
 
-                    if(rebuda.getCodi()==1){
-                        JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                    switch(rebuda.getCodi()){
+                        case 1:
+                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                            break;
+                        case 2:
+                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                            //this.view.getCampNom().setText(rebuda.getMissatge());
+                            this.view.getCampNom().setSelectionStart(0);
+                            this.view.getCampNom().setSelectionEnd(this.view.getCampNom().getText().length());
+                            this.view.getCampNom().requestFocus();
 
+                            break;
                     }
 
 
@@ -265,6 +275,24 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
             }
         });
 
+        campNom.addFocusListener(new FocusAdapter() {
+            /**
+             * Invoked when a component loses the keyboard focus.
+             *
+             * @param e
+             */
+            @Override
+            public void focusLost(FocusEvent e) {
+                super.focusLost(e);
+                String regex1="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$",
+                        regex2="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+(\\s*,\\s*)[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$";;
+                //String regex="[À-ú]";
+                //Pattern pattern = Pattern.compile(regex);
+                if(campNom.getText().isBlank() || (!campNom.getText().matches(regex1) && !campNom.getText().matches(regex2))){
+                    setExcepcio(new LaMeuaExcepcio(2,"El nom ha de ser..."));
+                }
+            }
+        });
         //throw new LaMeuaExcepcio(1,"Ha petat la base de dades");
 
     }

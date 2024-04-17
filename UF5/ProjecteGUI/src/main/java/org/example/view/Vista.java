@@ -56,6 +56,7 @@ public class Vista extends JFrame{
         this.pack();
         this.setVisible(true);
 
+
     }
 
 
