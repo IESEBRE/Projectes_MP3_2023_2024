@@ -1,24 +1,84 @@
 package org.example.controller;
 
+import org.example.app.LaMeuaExcepcio;
 import org.example.model.Alumne;
 import org.example.model.Alumne.Matricula;
+import org.example.model.Fitxers;
 import org.example.model.Model;
 import org.example.view.MatriculaView;
 import org.example.view.Vista;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
+import java.beans.PropertyChangeEvent;
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.text.NumberFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.TreeSet;
+import java.util.regex.Pattern;
 
-public class Controller {
+public class Controller implements PropertyChangeListener { //1. Implementació de interfície PropertyChangeListener
+
+    //2. Propietat lligada per controlar quan genero una excepció
+    public static final String PROP_EXCEPCIO="excepcio";
+    private LaMeuaExcepcio excepcio;
+
+    public LaMeuaExcepcio getExcepcio() {
+        return excepcio;
+    }
+
+    public void setExcepcio(LaMeuaExcepcio excepcio) {
+        LaMeuaExcepcio valorVell=this.excepcio;
+        this.excepcio = excepcio;
+        canvis.firePropertyChange(PROP_EXCEPCIO, valorVell,excepcio);
+    }
+
+
+    //3. Propietat PropertyChangesupport necessària per poder controlar les propietats lligades
+    PropertyChangeSupport canvis=new PropertyChangeSupport(this);
+
+
+    //4. Mètode on posarem el codi de tractament de les excepcions --> generat per la interfície PropertyChangeListener
+    /**
+     * This method gets called when a bound property is changed.
+     *
+     * @param evt A PropertyChangeEvent object describing the event source
+     *            and the property that has changed.
+     */
+    @Override
+    public void propertyChange(PropertyChangeEvent evt) {
+        LaMeuaExcepcio rebuda=(LaMeuaExcepcio)evt.getNewValue();
+
+        try {
+            throw rebuda;
+        } catch (LaMeuaExcepcio e) {
+            //Aquí farem ele tractament de les excepcions de l'aplicació
+            switch(evt.getPropertyName()){
+                case PROP_EXCEPCIO:
+
+                    switch(rebuda.getCodi()){
+                        case 1:
+                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                            break;
+                        case 2:
+                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                            //this.view.getCampNom().setText(rebuda.getMissatge());
+                            this.view.getCampNom().setSelectionStart(0);
+                            this.view.getCampNom().setSelectionEnd(this.view.getCampNom().getText().length());
+                            this.view.getCampNom().requestFocus();
+
+                            break;
+                    }
+
+
+            }
+        }
+    }
+
 
     private Model model;
     private MatriculaView view;
@@ -28,10 +88,14 @@ public class Controller {
         this.view = view;
 
         lligaVistaModel();
+
+        afegirListeners();
     }
 
     private void lligaVistaModel() {
 
+        Fitxers.llegirDades(this.model.getModel());
+        
         //Fixem el model de la taula dels alumnes
         JTable taula = view.getTaula();
         taula.setModel(this.model.getModel());
@@ -44,16 +108,8 @@ public class Controller {
         JTable taulaMat = view.getTaulaMat();
         taulaMat.setModel(this.model.getModelMat());
 
-        //Desactivem pestanyes del panel
-        view.getPestanyes().setEnabledAt(1, false);
-        view.getPestanyes().setTitleAt(1, "Matrícula de ...");
-
-        //Forcem a que només se pugue seleccionar una fila de la taula
-        taula.getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-
-        //Afegim listeners als objectes
-        afegirListeners();
-
+        //5. Necessari per a que Controller reaccione davant de canvis a les propietats lligades
+        canvis.addPropertyChangeListener(this);
     }
 
     private void afegirListeners() {
@@ -96,13 +152,14 @@ public class Controller {
                                     if (pes < 1 || pes > 800) throw new ParseException("", 0);
                                     Alumne al = new Alumne(campNom.getText(), pes, caixaAlumne.isSelected(), new TreeSet<Matricula>());
                                     model.addRow(new Object[]{campNom.getText(), pes, caixaAlumne.isSelected(), al});
-                                    campNom.setText("Pepito");
+                                    campNom.setText("Pepe Gotera Ibáñez");
                                     campNom.setSelectionStart(0);
                                     campNom.setSelectionEnd(campNom.getText().length());
                                     campPes.setText("75");
                                     campNom.requestFocus();         //intentem que el foco vaigue al camp del nom
                                 } catch (ParseException ex) {
-                                    JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
+                                    setExcepcio(new LaMeuaExcepcio(3,"Has d'introduir un pes correcte (>=1 i <=800!!"));
+//                                    JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
                                     campPes.setSelectionStart(0);
                                     campPes.setSelectionEnd(campPes.getText().length());
                                     campPes.requestFocus();
@@ -160,7 +217,29 @@ public class Controller {
                 }
             }
         });
+
+        campNom.addFocusListener(new FocusAdapter() {
+            /**
+             * Invoked when a component loses the keyboard focus.
+             *
+             * @param e
+             */
+            @Override
+            public void focusLost(FocusEvent e) {
+                super.focusLost(e);
+                String regex1="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$",
+                        regex2="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+(\\s*,\\s*)[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$";;
+                //String regex="[À-ú]";
+                //Pattern pattern = Pattern.compile(regex);
+                if(campNom.getText().isBlank() || (!campNom.getText().matches(regex1) && !campNom.getText().matches(regex2))){
+                    setExcepcio(new LaMeuaExcepcio(2,"El nom ha de ser..."));
+                }
+            }
+        });
+        //throw new LaMeuaExcepcio(1,"Ha petat la base de dades");
     }
+
+
 
     private static void ompliMatricula(Alumne al,DefaultTableModel modelMat) {
         //Omplim el model de la taula de matrícula de l'alumne seleccionat
