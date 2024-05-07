@@ -6,7 +6,6 @@ import org.example.model.Alumne.Matricula;
 import org.example.model.Fitxers;
 import org.example.model.Model;
 import org.example.view.MatriculaView;
-import org.example.view.Vista;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -16,10 +15,8 @@ import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 import java.text.NumberFormat;
 import java.text.ParseException;
-import java.util.ArrayList;
 import java.util.Locale;
 import java.util.TreeSet;
-import java.util.regex.Pattern;
 
 public class Controller implements PropertyChangeListener { //1. Implementació de interfície PropertyChangeListener
 
@@ -108,6 +105,13 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
         JTable taulaMat = view.getTaulaMat();
         taulaMat.setModel(this.model.getModelMat());
 
+        //Posem valor a el combo d'MPs
+        view.getComboMP().setModel(model.getComboBoxModel());
+
+        //Desactivem la pestanya de la matrícula
+        view.getPestanyes().setEnabledAt(1, false);
+        view.getPestanyes().setTitleAt(1, "Matrícula de ...");
+
         //5. Necessari per a que Controller reaccione davant de canvis a les propietats lligades
         canvis.addPropertyChangeListener(this);
     }
@@ -190,7 +194,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
 
-                //Al seleccionar la taula omplim els camps de text en els valors de la fila seleccionada
+                //Obtenim el número de la fila seleccionada
                 int filaSel = taula.getSelectedRow();
 
                 if (filaSel != -1) {        //Tenim una fila seleccionada
@@ -204,7 +208,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
                     view.getPestanyes().setTitleAt(1, "Matrícula de " + campNom.getText());
 
                     //Posem valor a el combo d'MPs
-                    view.getComboMP().setModel(modelo.getComboBoxModel());
+                    //view.getComboMP().setModel(modelo.getComboBoxModel());
                     ompliMatricula((Alumne) model.getValueAt(filaSel, 3),modelMat);
                 } else {                  //Hem deseleccionat una fila
                     //Posem els camps de text en blanc
