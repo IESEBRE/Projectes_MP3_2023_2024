@@ -179,14 +179,6 @@
               </component>
             </children>
           </grid>
-          <grid id="74e4e" layout-manager="GridBagLayout">
-            <constraints>
-              <tabbedpane title="Untitled"/>
-            </constraints>
-            <properties/>
-            <border type="none"/>
-            <children/>
-          </grid>
         </children>
       </tabbedpane>
       <component id="9ede4" class="javax.swing.JButton" binding="modificarButton" default-binding="true">

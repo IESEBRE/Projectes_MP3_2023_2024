@@ -21,7 +21,7 @@ import java.util.TreeSet;
 public class Controller implements PropertyChangeListener { //1. Implementació de interfície PropertyChangeListener
 
     //2. Propietat lligada per controlar quan genero una excepció
-    public static final String PROP_EXCEPCIO="excepcio";
+    public static final String PROP_EXCEPCIO = "excepcio";
     private LaMeuaExcepcio excepcio;
 
     public LaMeuaExcepcio getExcepcio() {
@@ -29,17 +29,18 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
     }
 
     public void setExcepcio(LaMeuaExcepcio excepcio) {
-        LaMeuaExcepcio valorVell=this.excepcio;
+        LaMeuaExcepcio valorVell = this.excepcio;
         this.excepcio = excepcio;
-        canvis.firePropertyChange(PROP_EXCEPCIO, valorVell,excepcio);
+        canvis.firePropertyChange(PROP_EXCEPCIO, valorVell, excepcio);
     }
 
 
     //3. Propietat PropertyChangesupport necessària per poder controlar les propietats lligades
-    PropertyChangeSupport canvis=new PropertyChangeSupport(this);
+    PropertyChangeSupport canvis = new PropertyChangeSupport(this);
 
 
     //4. Mètode on posarem el codi de tractament de les excepcions --> generat per la interfície PropertyChangeListener
+
     /**
      * This method gets called when a bound property is changed.
      *
@@ -48,32 +49,29 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
      */
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
-        LaMeuaExcepcio rebuda=(LaMeuaExcepcio)evt.getNewValue();
+        LaMeuaExcepcio rebuda = (LaMeuaExcepcio) evt.getNewValue();
 
-        try {
-            throw rebuda;
-        } catch (LaMeuaExcepcio e) {
-            //Aquí farem ele tractament de les excepcions de l'aplicació
-            switch(evt.getPropertyName()){
-                case PROP_EXCEPCIO:
+        //Aquí farem el tractament de les excepcions de l'aplicació
+        switch (evt.getPropertyName()) {
+            case PROP_EXCEPCIO:
 
-                    switch(rebuda.getCodi()){
-                        case 1:
-                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
-                            break;
-                        case 2:
-                            JOptionPane.showMessageDialog(null, rebuda.getMissatge());
-                            //this.view.getCampNom().setText(rebuda.getMissatge());
-                            this.view.getCampNom().setSelectionStart(0);
-                            this.view.getCampNom().setSelectionEnd(this.view.getCampNom().getText().length());
-                            this.view.getCampNom().requestFocus();
+                switch (rebuda.getCodi()) {
+                    case 1:
+                        JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                        break;
+                    case 2:
+                        JOptionPane.showMessageDialog(null, rebuda.getMissatge());
+                        //this.view.getCampNom().setText(rebuda.getMissatge());
+                        this.view.getCampNom().setSelectionStart(0);
+                        this.view.getCampNom().setSelectionEnd(this.view.getCampNom().getText().length());
+                        this.view.getCampNom().requestFocus();
 
-                            break;
-                    }
+                        break;
+                }
 
 
-            }
         }
+
     }
 
 
@@ -92,7 +90,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
     private void lligaVistaModel() {
 
         Fitxers.llegirDades(this.model.getModel());
-        
+
         //Fixem el model de la taula dels alumnes
         JTable taula = view.getTaula();
         taula.setModel(this.model.getModel());
@@ -162,7 +160,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
                                     campPes.setText("75");
                                     campNom.requestFocus();         //intentem que el foco vaigue al camp del nom
                                 } catch (ParseException ex) {
-                                    setExcepcio(new LaMeuaExcepcio(3,"Has d'introduir un pes correcte (>=1 i <=800!!"));
+                                    setExcepcio(new LaMeuaExcepcio(3, "Has d'introduir un pes correcte (>=1 i <=800!!"));
 //                                    JOptionPane.showMessageDialog(null, "Has d'introduir un pes correcte (>=1 i <=800!!");
                                     campPes.setSelectionStart(0);
                                     campPes.setSelectionEnd(campPes.getText().length());
@@ -209,7 +207,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
 
                     //Posem valor a el combo d'MPs
                     //view.getComboMP().setModel(modelo.getComboBoxModel());
-                    ompliMatricula((Alumne) model.getValueAt(filaSel, 3),modelMat);
+                    ompliMatricula((Alumne) model.getValueAt(filaSel, 3), modelMat);
                 } else {                  //Hem deseleccionat una fila
                     //Posem els camps de text en blanc
                     campNom.setText("");
@@ -231,12 +229,13 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
             @Override
             public void focusLost(FocusEvent e) {
                 super.focusLost(e);
-                String regex1="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$",
-                        regex2="^[A-ZÀ-ÚÑÇ][a-zà-úñç]+(\\s*,\\s*)[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$";;
+                String regex1 = "^[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$",
+                        regex2 = "^[A-ZÀ-ÚÑÇ][a-zà-úñç]+(\\s*,\\s*)[A-ZÀ-ÚÑÇ][a-zà-úñç]+\\s+[A-ZÀ-ÚÑÇ][a-zà-úñç]+$";
+                ;
                 //String regex="[À-ú]";
                 //Pattern pattern = Pattern.compile(regex);
-                if(campNom.getText().isBlank() || (!campNom.getText().matches(regex1) && !campNom.getText().matches(regex2))){
-                    setExcepcio(new LaMeuaExcepcio(2,"El nom ha de ser..."));
+                if (campNom.getText().isBlank() || (!campNom.getText().matches(regex1) && !campNom.getText().matches(regex2))) {
+                    setExcepcio(new LaMeuaExcepcio(2, "El nom ha de ser..."));
                 }
             }
         });
@@ -244,8 +243,7 @@ public class Controller implements PropertyChangeListener { //1. Implementació 
     }
 
 
-
-    private static void ompliMatricula(Alumne al,DefaultTableModel modelMat) {
+    private static void ompliMatricula(Alumne al, DefaultTableModel modelMat) {
         //Omplim el model de la taula de matrícula de l'alumne seleccionat
         modelMat.setRowCount(0);
         // Fill the table model with data from the collection
